@@ -1,0 +1,495 @@
+/*Спецификация*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+@font-face {
+	font-family: 'Nirmala UI';
+	src: url('../fonts/NirmalaUI.eot');
+	src: url('../fonts/NirmalaUI.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/NirmalaUI.woff2') format('woff2'),
+	url('../fonts/NirmalaUI.woff') format('woff'),
+	url('../fonts/NirmalaUI.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+.container{
+	max-width: 2000px;
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+.btn{
+	text-transform: uppercase;
+	border: none;
+	border-radius: 30px;
+	background-color: #00ecf4;
+	box-shadow: 0px 10px 30px 0px rgba(20, 108, 113, 0.15);
+	color: #fff;
+	text-align: center;
+	width: 196px;
+	height: 50px;
+	font-size: 14px;
+	padding-top: 3px;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.btn:hover{
+	background-color: #00e0f4;
+}
+
+a{
+	text-decoration: none;
+}
+
+/*Спецификация*/
+
+
+/*header*/
+
+header{
+	background-image: url(../img/header-background.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.navigation{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 90px;
+}
+
+.icofont-brand-nike{
+	font-size: 80px;
+	color: #fff;
+}
+
+
+.navigation-menu{
+    width: 200px;
+    position: relative;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+#check-menu{
+    display: none;
+}
+
+label{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 40px;
+}
+
+.burger-line{
+    position: absolute;
+    top: 8px;
+    right: 50px;
+    width: 35px;
+    height: 3px;
+    background-color: #fff;
+    transition: .5s all;
+}
+
+.second, .third{
+    top: 18px;
+}
+
+.fourth{
+    top: 28px;
+}
+
+.main-menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 32px;	
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: .5s all;
+    z-index: 1;
+}
+
+.main-menu__items{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-top: 1px solid rgba(255,255,255,.3);
+    background-color: #00a7b4;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+.main-menu__items:hover{
+    background-color: #06bac8;
+    box-shadow: 0px 10px 30px 0px rgba(20, 108, 113, 0.15);
+}
+
+#check-menu:checked ~ .main-menu{
+    max-height: 500px;
+    font-size: 16px;
+}
+
+#check-menu:checked ~ .first{
+    display: none;
+}
+
+#check-menu:checked ~ .second{
+    transform: rotate(45deg);
+}
+
+#check-menu:checked ~ .third{
+    transform: rotate(-45deg);
+}
+
+#check-menu:checked ~ .fourth{
+    display: none;
+}
+
+.goes-here{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	padding: 10% 0% 0% 5%;
+	margin: 0 auto;
+	width: 90%;
+	position: relative;
+
+}
+
+.lines{
+	width: 405px;
+}
+
+.lines__title{
+	font-weight: 700;
+	color: #00fffc;
+	font-size: 40px;
+	line-height: 1.4em;
+	margin-bottom: 80px;
+}
+
+.buttons-header{
+	width: 405px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons-header__btn{
+	text-transform: uppercase;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	background: none;
+	color: #fff;
+	text-align: center;
+	width: 196px;
+	height: 50px;
+	font-size: 14px;
+	padding-top: 1%;
+	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	margin-bottom: 80%;
+}
+
+.buttons-header__btn:hover{
+	box-shadow: 0px 10px 30px 0px rgba(20, 108, 113, 0.15);
+}
+
+.main-shoe__img{
+	max-width: 1200px;
+	width: 70%;
+	position: absolute;
+	top: 0;
+	left: 35%;
+}
+
+/*header*/
+
+/*you-like*/
+.you-like{
+	height: 1200px;
+	position: relative;
+	z-index: 0;
+}
+
+.you-like-background__img{
+	z-index: -1;
+	width: 100%;
+	height: 2500px;
+	position: absolute;
+	top: -20%;
+	left: 0px;
+}
+
+.awesome-shoe{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.awesome-shoe__shoe{
+	width: 70%;
+	position: relative;
+}
+
+.awesome-text{
+	color: #00dfee;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+.left{
+	position: absolute;	
+	top: 150px;
+	left: 12%;
+}
+
+.top{
+	position: absolute;
+	top: 25px;
+	right: 25%;
+}
+
+.down{
+	position: absolute;
+	top: 230px;
+	right: 15%;
+}
+
+.awesome-shoe__button{
+	position: absolute;
+	bottom: 55%;
+	left: 15%;
+}
+
+.way{
+	padding-top: 150px;
+	position: relative;
+	height: 100%;
+}
+
+.way-shoe__img{
+	width: 80%;
+	position: absolute;
+	top: 285px;
+	left: -30px;
+}
+
+.way-information{
+	text-align: center;
+	float: right;
+}
+
+.way__title{
+	font-size: 60px;
+	font-weight: 700;
+	color: #263238;
+}
+
+.way__text{
+	font-size: 20px;
+	font-weight: 400;
+	color: #71777a;
+	line-height: 1.5em;
+	width: 570px;
+	margin-bottom: 70px;
+}
+
+/*you-like*/
+
+
+/*buy-now*/
+.buy-now{
+	position: relative;
+}
+
+.hypervenom-shoe{
+	padding-top: 300px;
+	width: 100%;
+	text-align: center;
+}
+
+.hypervenom-shoe__img{
+	margin-bottom: 150px;
+	width: 90%;
+}
+
+.hypervenom{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.buy-hypervenom__title{
+	font-size: 35px;
+	font-weight: 700;
+	color: #263238;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+
+.buy-hypervenom__text{
+	font-size: 20px;
+	font-weight: 300;
+	color: #263238;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.price{
+	width: 237px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.price__number{
+	font-size: 35px;
+	font-weight: 700;
+	color: #f50057;
+	text-transform: uppercase;
+}
+
+.price__btn{
+	width: 130px;
+	height: 45px;
+}
+
+.hypervenom-reviews{
+	padding-top: 100px;
+}
+
+.hypervenom-star{
+	padding-top: 17px;
+	width: 280px;
+	height: 55px;
+	background-color: #fff;
+	box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06);
+	border-radius: 35px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.hypervenom-star__img{
+	font-size: 20px;
+	color: #00ecf4;
+	margin-right: 30px;
+}
+
+.end{
+	margin-right: 0;
+}
+
+.hypervenom-reviews__subtitle{
+	font-size: 18px;
+	font-weight: 700;
+	color: #00ecf4;
+	float: right;
+}
+
+/*buy-now*/
+
+/*footer*/
+
+.footer{
+	z-index: 0;
+	background-color: #1e3336;
+	padding-top: 200px;
+	height: 100%;
+	width: 100%;
+}
+
+.footer-box{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.logo-footer{
+	padding-top: 35px;
+}
+
+.footer-contant{
+	width: 610px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-us{
+	width: 80px;
+}
+
+.contact-us__element{
+	font-size: 14px;
+	font-family: 'Nirmala UI';
+	color: #3d848f;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.footer-social{
+	padding-top: 60px;
+}
+
+.social-icons{
+	color: #62797d;
+	font-size: 20px;
+	margin-right: 35px;
+}
+
+/*footer*/

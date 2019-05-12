@@ -1,0 +1,112 @@
+
+/*Media < 1600px*/
+@media screen and (min-width: 1600px) {
+
+	.awesome-shoe__shoe {
+		width: 60%;
+	}
+
+	.way-shoe__img{
+		top: 250px;
+
+	}
+
+	.awesome-text{
+		font-size: 25px;
+	}
+
+	.way__text{
+		font-size: 23px;
+	}
+
+	.contact-us{
+		width: 100px;
+	}
+
+	.contact-us__element{
+		font-size: 16px;
+	}
+
+	.buy-hypervenom__text{
+		font-size: 25px;
+	}
+}
+
+/*Media < 1900*/
+@media screen and (min-width: 1900px) {
+
+	.way{
+		padding-top: 70px;
+	}
+
+	.way-shoe__img{
+		width: 70%;
+	}
+
+	.way-shoe__img{
+		top: 170px;
+	}
+}
+
+/*Media > 1300*/
+@media screen and (max-width: 1300px){
+
+	.you-like-background__img{
+		height: 2300px;
+	}
+
+	.awesome-shoe__button{
+		bottom: 66%;
+	}
+
+	.left{
+		top: 120px;
+		left: 8%;
+	}
+
+	.top{
+		top: 20px;
+		right: 22%;
+	}
+
+	.down{
+		top: 165px;
+		right: 10%;
+	}
+
+	.way{
+		padding-top: 130px;
+	}
+
+	.buy-now{
+		margin-bottom: 80px;
+	}
+
+	.way-shoe__img{
+		top: 350px;
+		left: -70px;
+	}
+
+	.hypervenom-shoe{
+		padding-top: 200px;
+	}
+
+	.footer{
+		padding-top: 80px;
+	}
+
+	.social-icons{
+		margin-right: 20px;
+	}
+}
+
+/*Media > 1100*/
+@media screen and (max-width: 1100px){
+	.way{
+		padding-top: 200px;
+	}
+
+	.way-shoe__img{
+		top: 400px;
+	}
+}
