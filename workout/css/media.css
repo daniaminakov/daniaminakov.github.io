@@ -1,0 +1,380 @@
+
+/*Media < 1600*/
+@media screen and (min-width: 1600px) {
+	.container{
+		width: 1100px;
+	}
+
+	.tools{
+		width: 1100px;
+	}
+
+	.product{
+		width: 1000px;
+	}
+}
+
+/*Media > 1100*/
+@media screen and (max-width: 1300px) {
+	.call__number{
+		width: 100%;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+
+	.modal{
+		padding-top: 5%;
+	}
+
+	.container{
+		width: 95%;
+	}
+
+	.logo__title{
+		font-size: 18px;
+	}
+
+	.call{
+		text-align: center;
+	}
+
+	.call__number{
+		font-size: 22px;
+	}
+
+	.call__number:before{
+		display: none;
+	}
+
+	.horizontal-bar img:last-child{
+		display: none;
+	}
+
+	.header-main__contant{
+		justify-content: space-around;
+	}
+
+	.tools{
+		justify-content: space-around;
+		width: 90%;
+	}
+
+	.specifications-box{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.specifications-photo{
+		margin: 0 auto;
+	}
+
+	.specifications-information__main ul{
+		margin: 0 auto;
+	}
+
+	.specifications-information__title{
+		margin-top: 30px;
+	}
+
+	.order-bottom{
+		display: none;
+	}
+
+	.specifications-information__main{
+		margin-bottom: 20px;
+	}
+
+	.specifications-information div:last-child{
+		display: none;
+	}
+
+	.description__text1, .description__text2{
+		width: 100%;
+	}
+
+	.product{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.product-photo, .product-specification{
+		margin: 0 auto;
+	}
+
+	.product-photo__img{
+		margin-bottom: 20px;
+	}
+
+	.video-elements{
+		text-align: center;
+	}
+
+	.video__img img{
+		display: none;
+	}
+
+	.video-play {
+		margin: 0 auto;
+	}
+
+	.video-src{
+		width: 300; 
+		height: 160;
+	}
+
+	.owl-dots{
+		margin-bottom: 35px;
+	}
+
+	.progress-box {
+		flex-direction: column;
+	}
+
+	.progress-photo{
+		margin: 0 auto;
+		margin-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.logo__title{
+		width: 100%;
+		font-size: 17px;
+	}
+
+	.header-top {
+		width: 80%;
+		margin: 0 auto;	
+	}
+
+	.logo img{
+		margin-right: 10px;
+	}
+
+	.call{
+		display: none;
+	}
+
+	.horizontal-bar{
+		display: none;
+	}
+
+	.specifications-price {
+		width: 95%;
+		margin: 0 auto;
+	}
+
+	.description{
+		display: none;
+	}
+
+	.product-specification{
+		width: 100%;
+	}
+
+	.video-src{
+		margin: 0 auto;
+		width: 95%; 
+		height: 200px;
+	}
+
+	.video-play__text{
+		font-size: 20px;
+	}
+
+	.video{
+		padding-top: 20px;
+	}
+
+	.progress-photo__img img{
+		width: 85%;
+	}
+
+	.progress-photo__before{
+		width: 153px;
+	}
+
+	.progress-photo__after{
+		width: 153px;
+	}
+
+	.progress-photo{
+		height: 220px;
+	}
+
+	.big{
+		height: 350px;
+	}
+
+	.modal-box{
+		width: 75%;
+		height: 95%;
+		max-height: 430px;
+	}
+
+	.modal-have-time{
+		font-size: 16px;
+		width: 100%;
+		height: 20%;
+	}
+
+	.modal-have-time span{
+		font-size: 25px;
+		padding-top: 25px;
+	}
+
+	.modal-main-form{
+		text-align: center;
+	}
+
+	.modal-main-form input{
+		width: 86%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+		height: 55px;
+	}
+
+	.modal-order-buy {
+		height: 50px;
+		width: 80%;
+		margin-left: 0;
+	}
+
+	.modal-main-form{
+		width: 100%;
+	}
+
+	.modal-have-time p{
+		display: none;
+	}
+
+	.close{
+		top: -20px;
+		right: 10px;
+	}
+}
+
+@media screen and (max-width: 424px) {
+	
+	.order{
+		width: 100%;
+	}
+
+	.discount-time{
+		display: none;
+	}
+
+	.action__discount{
+		display: none;
+	}
+
+	.specifications-photo{
+		width: 100%;
+	}
+
+	.specifications__title, .products__title, .video__title, .reviews__title, .progress__title{
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+
+	.reviews{
+		display: none;
+	}
+
+	.specifications-price{
+		height: 80px;
+	}
+
+	.specifications-price__span2{
+		display: block;
+	}
+
+	.specifications-price__number {
+		margin: 0 auto;
+	}
+
+	.specifications-discount{
+		display: none;
+	}
+
+	.specifications__img{
+		width: 95%;
+	}
+
+	.specifications-small {
+		width: 100%;
+	}
+
+	.specifications-small__img:last-child{
+		display: none;
+	}
+
+	.specifications-photo {
+		height: 350px;
+	}
+
+	.specifications-information__main ul{
+		width: 95%;
+	}
+
+	.products{
+		padding-top: 10px;
+	}
+
+	.progress-photo{
+		width: 100%;
+	}
+
+	.progress-box {
+		width: 95%;
+		text-align: center;
+	}
+
+	.progress-photo__after{
+		margin-top: 25px;
+		width: 43%;
+		
+	}
+
+	.progress-photo__before{
+		margin-top: 25px;
+		width: 43%;
+		
+	}
+
+	.progress-photo {
+		height: 20%;
+	}
+
+	.before-after{
+		left: 7%;
+		width: 100%;
+	}
+
+	.big{
+		height: 50%;
+	}
+
+	.specifications, .progress{
+		padding-top: 20px;
+	}
+
+	.specifications-information__main{
+		margin-top: 40px;
+	}
+
+	.main-form input {
+		height: 50px;
+	}
+}
+
+@media screen and (max-width: 381px) {
+	.modal-have-time{
+		height: 25%;
+	}
+}
+
+
+
