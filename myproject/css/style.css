@@ -1,0 +1,443 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body{
+	font-family: 'Roboto', serif;
+	font-weight: 600;
+	width: 100%;
+	height: 100%;
+	background: #330033;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Italic.eot');
+	src: url('../fonts/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Roboto-Italic.woff2') format('woff2'),
+	url('../fonts/Roboto-Italic.woff') format('woff'),
+	url('../fonts/Roboto-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Roboto-Regular.woff2') format('woff2'),
+	url('../fonts/Roboto-Regular.woff') format('woff'),
+	url('../fonts/Roboto-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Bold.eot');
+	src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Roboto-Bold.woff2') format('woff2'),
+	url('../fonts/Roboto-Bold.woff') format('woff'),
+	url('../fonts/Roboto-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+a{	
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+.menu{
+	height: 100px;
+	position: fixed;
+	width: 100%;
+	background: #1a1e20;
+	-webkit-box-shadow: 0px 15px 10px -7px rgba(26,30,32,1);
+	-moz-box-shadow: 0px 15px 10px -7px rgba(26,30,32,1);
+	box-shadow: 0px 15px 10px -7px rgba(26,30,32,1);
+}
+
+.heading{
+	width: 100%;
+	height: 90px;
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.social a img{
+	width: 54px;
+	height: 54px;
+	margin-right: 12px;
+}
+
+.foundation{
+	width: 100%;
+	height: 100%;
+	background-image: url(../img/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.about{
+	display: flex;
+	font-size: 25px;
+	color: #fff;
+	height: 55px;
+}
+.about a{
+	font-weight: 600;
+}
+
+.about div{
+
+	padding-top: 15px;
+}
+
+.about div:last-child{
+	margin-left: 150px;
+}
+
+
+
+.about div:hover{
+	border-bottom: 3px solid #fff;
+}
+
+.frame{
+	text-transform: uppercase;
+	margin: 0 auto;
+	width: 500px;
+	height: 80px;
+	background: #0fb681;
+	border-radius: 10px;
+}
+
+.frame h1{
+	font-weight: 800;
+	padding: 13px;
+	text-align: center;
+	color: #fff;
+	font-size: 46px;
+}
+
+.text{
+	padding-top: 280px;
+	padding-bottom: 340px;
+}
+.porridge{
+	margin: 0 auto;
+	width: 800px;
+	padding-top: 50px;
+	text-align: center;
+	/*margin-bottom: 150px;*/
+}
+
+
+.porridge__item1 button:first-child{
+
+	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	margin-right: 100px;
+	margin-bottom: 70px;
+	background-color: transparent;
+	font: inherit;
+	color: #fff;
+	font-size: 43px;
+	width: 285px;
+	height: 160px;
+	border-radius: 25px;
+	background-image: url(../img/grechka.png);
+	border: none;
+	cursor: pointer;
+}
+
+.porridge__item2 button:hover{
+	border: 3px solid #000;
+}
+
+.porridge__item3 button:hover{
+	border: 3px solid #000;
+}
+
+.porridge__item1 button:last-child{
+	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	font: inherit;
+	color: #fff;
+	font-size: 43px;
+	width: 285px;
+	border-radius: 25px;
+	height: 160px;
+	background-image: url(../img/ris.png);
+	border: none;
+	cursor: pointer;
+}
+
+.porridge__item2 button:first-child{
+	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	margin-right: 100px;
+	margin-bottom: 70px;
+	background-color: transparent;
+	font: inherit;
+	color: #fff;
+	font-size: 43px;
+	border-radius: 25px;
+	width: 285px;
+	height: 160px;
+	background-image: url(../img/ovsianka.png);
+	border: none;
+	cursor: pointer;
+}
+
+.porridge__item2 button:last-child{
+	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	font: inherit;
+	color: #fff;
+	font-size: 43px;
+	width: 285px;
+	border-radius: 25px;
+	height: 160px;
+	background-image: url(../img/psheno.png);
+	border: none;
+	cursor: pointer;
+}
+
+.porridge__item3 button:first-child{
+	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	margin-right: 100px;
+	margin-bottom: 70px;
+	background-color: transparent;
+	font: inherit;
+	color: #fff;
+	font-size: 43px;
+	width: 285px;
+	border-radius: 25px;
+	height: 160px;
+	background-image: url(../img/tvorog.png);
+	border: none;
+	cursor: pointer;
+}
+
+.porridge__item3 button:last-child{
+	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+	background-color: transparent;
+	font: inherit;
+	color: #fff;
+	font-size: 43px;
+	width: 285px;
+	border-radius: 25px;
+	height: 160px;
+	background-image: url(../img/makaronu.png);
+	border: none;
+	cursor: pointer;
+}
+
+.bag{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 13px;
+	text-align: center;
+	margin: 0 35px;
+	width: 220px;
+	height: 75px;
+	background: #3a5f7d;
+	border-radius: 10px;
+}
+
+#myModal{
+	/*border: 3px solid red;*/
+	padding-top: 10%;
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0; 
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: rgba(1,1,1,0.75)
+}
+
+
+.calculator{
+	position: relative;
+	margin: 0 auto;
+	width: 700px;
+	height: 800px;
+	background: #1a1e24;
+}
+
+.base{
+	/*border: 1px solid red;*/
+	padding-top: 50px; 
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#close{
+	color: #fff;
+	position: absolute;
+	font-size: 60px;
+	cursor: pointer;
+	font-weight: bold;
+	right: 0;
+	top: 0;
+	padding-right: 25px;
+}
+
+.name{
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 63px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	width: 325px;
+	height: 100px;
+	background: #0fb681;
+	margin-bottom: 40px;
+}
+
+.base p{
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	margin-bottom: 20px;
+
+}
+.write input{ 
+	margin: 0 auto;
+	font-weight: bold;
+	height: 35px;
+	width: 370px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #000;
+	margin-left: 55px;
+	margin-bottom: 40px;
+
+}
+.write span{
+	padding-left: 10px;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.send{
+	padding-top: 15px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	width: 250px;
+	height: 65px;
+	background: #0fb681;
+	margin-bottom: 40px;
+	border: none;
+	cursor: pointer;
+}
+
+.result{
+	width: 620px;
+	display: flex;
+	margin: 0 auto;
+}
+
+.protein{
+	width: 170px;
+	height: 280px;
+	background: #39b54a;
+	padding-top: 40px;
+	
+}
+
+.fats{
+	width: 170px;
+	height: 280px;
+	background: #ee2323;
+	margin-left: 55px;
+	padding-top: 40px;
+
+}
+
+.calories{
+	width: 170px;
+	height: 280px;
+	background: #fdba37;
+	margin-left: 55px;
+	padding-top: 40px;	
+}
+
+.result__name{
+	text-align: center;
+	color: #fff;               
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	margin-bottom: 60px;
+
+}
+
+#result__protein{
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+
+}
+
+#result__fats{
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+#result__calories{
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}

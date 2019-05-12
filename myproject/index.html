@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Калькулятор БЖУ</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/media.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="js/main.js" defer></script>
+</head>
+<body>
+	<header>
+		<div class="foundation">
+			<div class="menu">
+				<div class="container">
+					<div class="heading">
+						<div class="logo">
+							<a href="">
+								<img src="img/logo.png" alt="logo">
+							</a>
+						</div>
+						<div class="about">
+							<div>
+								<a href="">Контакты</a>
+							</div>
+							<div>
+								<a href="">О нас</a>
+							</div>
+						</div>
+						<div class="social">
+							<a href="https://www.instagram.com/minakov_____/" target="blank">
+								<img src="img/instagram.png" alt="instagram">
+							</a>	
+							<a href="https://vk.com/minakovdanil" target="blank">
+								<img src="img/vk.png" alt="vk">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="text">
+					<div class="frame">
+						<h1>Калькулятор бжу</h1>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="section1">
+		<div class="container">
+			<div class="porridge">
+				<div class="porridge__item1">
+					<button onclick="grechkaBegin()">
+						<div class="bag">Гречка</div>
+					</button>
+					<button onclick="risBegin()">
+						<div class="bag">Рис</div>
+					</button>
+				</div>
+				<div class="porridge__item2">
+					<button onclick="ovsiankaBegin()">
+						<div class="bag">Овсянка</div>
+					</button>
+					<button onclick="pshenoBegin()">
+						<div class="bag">Пшено</div>
+					</button>
+				</div>
+				<div class="porridge__item3">
+					<button onclick="tvorogBegin()">
+						<div class="bag">Творог</div>
+					</button>
+					<button onclick="makaronuBegin()">
+						<div class="bag">Макароны</div>
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container" id="container">
+			
+		</div>
+	</section>
+</body>
+</html>
