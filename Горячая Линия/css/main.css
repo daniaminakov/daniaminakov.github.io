@@ -1,0 +1,210 @@
+/*+Specification*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* font-family: "MyriadProBold"; */
+@font-face {
+	font-family: "MyriadProBold";
+	src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+	src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+	url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+	font-family: "MyriadProSemiBold";
+	src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+	src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+	url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+body{
+	font-family: MyriadProBold;
+	color: #000;
+}
+
+.container{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1880px;
+}
+
+/*-Specification*/
+
+
+
+
+.box{
+	width: 100%;
+	border: 5px solid #0076a3;
+	border-radius: 15px;
+	margin-top: 15px;
+}
+
+.header{
+	padding-top: 23px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1515px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo img{
+	width: 269px;
+}
+
+.main-title{
+	padding-top: 70px;
+}
+
+.main-title h1{
+	text-transform: uppercase;
+	font-size: 45px;
+	line-height: 0.5;
+}
+
+.main-title p{
+	text-transform: uppercase;
+
+	font-size: 30px;
+	font-family: MyriadProSemiBold;
+}
+
+.letter{
+	width: 180px;
+	text-align: center;
+}
+
+.letter-img img{
+	width: 132px;
+}
+
+.letter-text{
+	font-size: 43px;
+	line-height: 0.938;
+	color: #e72222;
+}
+
+.line-information{
+	margin-top: 30px;
+	height: 115px;
+	width: 100%;
+	background-image: url(../img/line-background.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.line-information__text{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1490px;
+	font-size: 48px;
+	color: #fff;
+}
+
+.massage{
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 35px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.massage-img{
+	padding-top: 35px;
+}
+
+.massage-img img{
+	width: 371px;
+}
+
+.massage-send{
+	width: 990px;
+}
+
+.massage-send__title{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.form textarea{
+	padding: 15px;
+	width: 984px;
+	height: 390px;
+	background-color: #e0e6ef;
+	border: 3px solid #416297;
+	font-size: 35px;
+	resize: none;
+}
+
+.form input{
+	cursor: pointer;
+	width: 330px;
+	height: 78px;
+	background-image: url(../img/button-background.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-size: 41px;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.line-hr{
+	margin-top: 35px;
+	width: 96%;
+	height: 5px;
+	background-color: #6582b2;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer{
+	padding-top: 10px;
+	padding-right: 40px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 5px;
+}
+
+.footer-text{
+	width: 645px;
+	font-size: 36px;
+	text-align: right;
+	font-family: MyriadProSemiBold;
+}
+
+.footer-text span{
+	display: block;
+	font-size: 48px;
+	color: #1d6aa2;
+	font-family: MyriadProBold;
+}
