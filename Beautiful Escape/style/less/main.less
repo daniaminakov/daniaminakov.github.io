@@ -1,0 +1,1147 @@
+// +Specification
+@font-face {
+  font-family: 'League-Spartan';
+  src: url('../../fonts/league-spartan/League-Spartan-Bold.ttf.woff') format('woff'), url('../../fonts/league-spartan/League-Spartan-Bold.ttf.svg#League-Spartan-Bold') format('svg'), url('../../fonts/league-spartan/League-Spartan-Bold.ttf.eot'), url('../../fonts/league-spartan/League-Spartan-Bold.ttf.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+body {
+  background-image: url(../../img/bg/bg-lines.png);
+  background-repeat: repeat-y;
+  background-position: center;
+  font-family: 'League-Spartan';
+}
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media (min-width: 1254px){
+    width: 1224px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+.main-title {
+  font-size: 36px;
+  font-family: "Playfair Display";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1em;
+}
+@media (min-width: 1024px){
+ font-size: 42px;
+}
+
+// -Specification
+
+
+// +proleader
+
+.preloader {
+  --duration: 1s;
+  z-index: 9999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2F3C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+}
+
+.preloader_content {
+  position: relative;
+  width: 200px/2;
+  height: 200px/2;
+  @media (min-width: 768px){
+   width: 200px;
+   height: 200px;
+ }
+}
+
+.preloader_first,
+.preloader_second,
+.preloader_third {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: 1s linear infinite;
+}
+
+.preloader_first {
+  border-bottom: 3px solid #ec164f;
+  animation-name: first;
+}
+
+.preloader_second {
+  border-right: 3px solid #ffc952;
+  animation-name: second;
+}
+
+.preloader_third {
+  border-top: 3px solid #47b8e0;
+  animation-name: third;
+}
+
+@keyframes first {
+  0% { transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg); }
+  100% { transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg); }
+}
+
+@keyframes second {
+  0% { transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg); }
+  100% { transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg); }
+}
+
+@keyframes third {
+  0% { transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg); }
+  100% { transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg); }
+} 
+
+// -proleader
+
+
+// +header
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media (min-width: 1254px){
+   height: 128px;
+   flex-direction: row;
+ }
+}
+.logo-container {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  @media (min-width: 1254px){
+    width: auto;
+    margin-right: 150px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+.ul-wrapper {
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ @media (min-width: 768px){
+  width: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+}
+.ul-wrapper__item{
+  color: #3b3c3e;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'League-Spartan';
+  letter-spacing: 0.6em;
+  margin-right: 40px;
+}
+.ul-wrapper li{
+  margin-bottom: 7px;
+}
+.ul-wrapper li:last-child {
+  margin-right: 0px;
+}
+.ul-wrapper li a:hover {
+  transition: 0.3s ease 0.1s;
+  font-size: 10px;
+}
+.beautiful-escape {
+  background-color: #fff;
+  padding: 25px;
+  padding-bottom: 10px;
+  min-width: 260px;
+  max-width: 780px;
+  text-align: center;
+  margin: 0 auto;
+
+  @media (min-width: 1254px){
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    margin-top: 200px;
+    width: 500px;
+    position: relative;
+    text-align: left;
+
+  }
+}
+.beautiful-escape__img {
+  margin: 0 auto;
+  width: 100%;
+  z-index: -1;
+  -webkit-box-shadow: -15px 25px 65px 0px rgba(11, 12, 17, 0.21);
+  -moz-box-shadow: -15px 25px 65px 0px rgba(11, 12, 17, 0.21);
+  box-shadow: -15px 25px 65px 0px rgba(11, 12, 17, 0.21);
+  @media (min-width: 1254px){
+    position: absolute;
+    width: 1016px;
+    top: -200px;
+    left: 210px;
+    
+  }
+}
+.beautiful-escape__img img{
+  width: 100%;
+  @media (min-width: 1254px){
+    width: 1016px;
+    height: 572px;
+  }
+  
+}
+.main-span {
+  display: none;
+  color: #6db1f1;
+  font-size: 9px;
+  font-family: "League Spartan";
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  @media (min-width: 1254px){
+    margin-bottom: 0;
+    display: block;
+  }
+}
+.beautiful-escape__title {
+  color: #0b0c11;
+  font-size: 22px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  @media (min-width: 540px){
+    font-size: 32px;
+  }
+  @media (min-width: 920px){
+    font-size: 42px;
+  }
+  @media (min-width: 1254px){
+    font-size: 62px;
+  }
+}
+.beautiful-escape__text {
+  color: #8f8f8f;
+  font-size: 14px;
+  font-family: "Poppins Light";
+  line-height: 1.8em;
+  font-weight: 300;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+  @media (min-width: 1254px){
+    width: 390px;
+    margin: 0;
+  }
+}
+// -header
+
+// +media
+
+.media {
+  margin-top: 390px/7;
+  @media (min-width: 992px){
+   margin-top: 390px/3;
+ }
+ @media (min-width: 1254px){
+  margin-top: 390px;
+}
+}
+.quate {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  @media (min-width: 640px){
+   width: 610px;
+ }
+}
+.quate:after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100px/2;
+  background-color: #5da8ef;
+  left: 50%;
+  bottom: -58px/2;
+  transform: translate(-50%, 100%);
+  @media (min-width: 992px){
+    height: 100px;
+    bottom: -58px;
+  }
+}
+.quate-text {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  color: #535353;
+  font-weight: 400;
+  margin-bottom: 30px;
+  @media (min-width: 768px){
+   font-size: 26px;
+ }
+}
+.quate-autor {
+  margin-bottom: 220px/2;
+  display: block;
+  font-size: 9px;
+  font-family: "League Spartan";
+  font-weight: 700;
+  color: #3e3e3e;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  @media (min-width: 992px){
+    margin-bottom: 220px;
+  }
+}
+.media-content {
+  display: flex;
+}
+.media-content-information {
+  width: 60%;
+  // margin-bottom: 150px;
+  @media (min-width: 1254px){
+   width: 615px;
+   margin-bottom: 150px;
+ }
+}
+.media-content-information__img {
+  margin-bottom: 60px;
+  @media (min-width: 1254px){
+    margin-bottom: 60px;
+  }
+}
+.media-content-information__img img{
+  width: 100%;
+  @media (min-width: 1254px){
+    width: auto;
+  }
+}
+
+.media-content-information__text {
+  max-width: 400px;
+  margin-top: 90px;
+  font-size: 14px;
+  font-family: "Poppins Light";
+  color: #a2a2a2;
+  line-height: 1.7em;
+  @media (min-width: 540px){
+    margin-top: 100px;
+    max-width: 300px;
+  }
+  @media (min-width: 990px){
+    margin-top: 0px;
+    width: 340px;
+    margin-left: 50px;
+  } 
+  @media (min-width: 1254px){
+    margin-left: 120px;
+  }
+}
+.read-more {
+  width: 97px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 9px;
+  font-family: "League Spartan";
+  text-transform: uppercase;
+  color: #333333;
+  letter-spacing: 0.5em;
+  position: relative;
+  padding-bottom: 10px;
+  @media (min-width: 1254px){
+    margin-left: 120px;
+  }
+}
+.read-more:after {
+  position: absolute;
+  content: '';
+  width: 92px;
+  height: 2px;
+  background-color: #8cc1f3;
+  left: 0px;
+  bottom: 0px;
+}
+.read-more a {
+  color: #333333;
+}
+.media-content-video {
+  // height:auto ;
+  width: 65%;
+  height: 100%;
+  margin-top: 45px/2;
+  margin-left: -95px;
+  position: relative;
+  padding: 0;
+  @media (min-width: 1254px){
+    height: 547px;
+    margin-top: 45px;
+    -webkit-box-shadow: -15px 25px 65px 0px rgba(11, 12, 17, 0.21);
+    -moz-box-shadow: -15px 25px 65px 0px rgba(11, 12, 17, 0.21);
+    box-shadow: -15px 25px 65px 0px rgba(11, 12, 17, 0.21);
+  }
+}
+.media-content-video__img img{
+  width: 100%;
+  @media (min-width: 1254px){
+    width: auto;
+
+  }
+}
+.media-content-video__play {
+  width: 68px/2;
+  height: 68px/2;
+  border-radius: 50%;
+  background-color: #5da8ef;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  @media (min-width: 1254px){
+    width: 68px;
+    height: 68px;
+  }
+}
+.media-content-video__play:hover{
+  opacity: 0.9;
+}
+.media-content-video__play:before {
+  position: absolute;
+  content: '';
+  border: 6px solid transparent;
+  border-left: 10px solid  #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-25%, -50%);
+  @media (min-width: 1254px){
+    border: 8px solid transparent;
+    border-left: 14px solid  #fff;
+  }
+}
+
+// -media
+
+
+// +surfboards
+
+.surfboards {
+  width: 100%;
+  position: relative;
+}
+.surfboards:before {
+  content: '';
+  position: absolute;
+  top: -560px;
+  bottom: auto;
+  right: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 1335px;
+  background-image: url(../../img/bg/bg-water.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.shop {
+  text-align: center;
+  padding-top: 40px;
+}
+.surfboards-slider-wrapper{
+  height: 525px;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 0;
+  @media (min-width: 1254px){
+    height: 565px;
+  }
+}
+.surfboards-slider-special-holder{
+  position: absolute;
+  left: 0;
+  right: 0px;
+}
+.surfboards-slider {
+  margin-top: 0px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.surfboards-controls{
+  position: relative;
+  @media (min-width: 425px){
+    display: block;
+  }
+}
+.shopSlider-left{
+  bottom: calc(150px + 100px);
+  position: absolute;
+  width: 40px;
+  height: 48px;
+  padding: 15px;
+  left: -15px;
+  cursor: pointer;
+  @media (min-width: 425px){
+    left: 7%;
+    bottom: 150px;
+  }
+  @media (min-width: 768px){
+    left: 15%;
+  }
+  @media (min-width: 1024px){
+    left: 25%;
+  }
+  @media (min-width: 1200px){
+   left: 0px;
+   bottom: calc(100px + 100px);
+
+ }
+}
+.shopSlider-right{
+  bottom: calc(150px + 100px);
+  position: absolute;
+  width: 40px;
+  height: 48px;
+  padding: 15px;
+  right: -15px;
+  cursor: pointer;
+  @media (min-width: 425px){
+    right: 7%;
+    bottom: 150px;
+  }
+  @media (min-width: 768px){
+    right: 15%;
+  }
+  @media (min-width: 1024px){
+    right: 25%;
+  }
+  @media (min-width: 1200px){
+   right: 0px;
+   bottom: calc(100px + 100px);
+ }
+}
+.surfboards-cart {
+  display: flex;
+  position: relative;
+  width: 230px;
+  margin: 200px auto 0px auto;
+  @media (min-width: 425px){
+   width: 250px;
+ }
+ @media (min-width: 1254px){
+  margin-top: 200px;
+  margin-right: 80px;
+}
+}
+.surfboards-cart-background {
+  width: 230px;
+  height: 270px;
+  background-color: #e8e8e8;
+  position: relative;
+  @media (min-width: 425px){
+   height: 320px;
+ }
+}
+.surfboards-cart-background img{
+  width: 250px;
+  height: 480px;
+  margin-top: -220px;
+  @media (min-width: 425px){
+   height: 530px;
+ }
+}
+.surfboards-cart-information {
+ width: 190px;
+ position: absolute;
+ top: 75px;
+ left: 20%;
+ z-index: 2;
+ @media (min-width: 425px){
+  top: 85px;
+  left: 130px;
+}
+@media (min-width: 1230px){
+  left: 150px;
+}
+}
+.surfboards-cart-information__text {
+  font-size: 12px;
+  font-family: "Poppins Light";
+  text-transform: uppercase;
+  color: #979797;
+  letter-spacing: 0.2em;
+  line-height: 0.3;
+}
+.surfboards-cart-information__name {
+  font-size: 26px;
+  font-family: "Playfair Display";
+  color: #333333;
+  line-height: 0.5;
+  margin-bottom: 30px;
+  margin-left: -10px;
+  @media (min-width: 425px){
+    margin-left: 0px;
+  }
+}
+.surfboards-cart-information__price {
+  font-size: 20px;
+  font-family: "Poppins Light";
+  color: #ce60a8;
+  margin-left: 125px;
+  line-height: 2;
+  @media (min-width: 425px){
+    margin-left: 55px
+  }
+}
+.surfboards-cart-information__buy {
+  font-size: 9px;
+  font-family: "League Spartan";
+  text-transform: uppercase;
+  color: #333333;
+  letter-spacing: 0.5em;
+  margin-left: 140px;
+  @media (min-width: 425px){
+    margin-left: 60px
+  }
+}
+.show-all {
+  margin-bottom: 265px/2;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99px;
+  font-size: 9px;
+  font-family: "League Spartan";
+  text-transform: uppercase;
+  color: #333333;
+  letter-spacing: 0.5em;
+  padding-bottom: 10px;
+  position: relative;
+  @media (min-width: 1254px){
+    margin-bottom: 265px;
+  }
+}
+.show-all:after {
+  position: absolute;
+  content: '';
+  width: 86px;
+  height: 2px;
+  background-color: #8cc1f3;
+  left: 0px;
+  bottom: 0px;
+}
+
+// -surfboards
+
+// +surf
+
+.surf {
+  margin-bottom: 120px/2;
+  @media (min-width: 768px){
+    margin-bottom: 120px;
+  }
+}
+.surf-training {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 120px/2;
+  @media (min-width: 1200px){
+    margin-bottom: 120px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+.surf-training-information {
+  padding-top: 70px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  @media (min-width: 768px){
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (min-width: 1200px){
+    padding-top: 0;
+    margin-left: 70px;
+    text-align: auto;
+  }
+}
+.surf-training-information:before {
+  content: '01';
+  position: absolute;
+  top: 45px;
+  left: 30%;
+  font-size: 100px;
+  font-family: "League Spartan", sans-serif;
+  color: #f9f9f9;
+  line-height: 0.508;
+  z-index: -1;
+  letter-spacing: 0.1em;
+  @media (min-width: 1200px){
+   top: -33px;
+   font-size: 130px;
+   left: 0;
+ }
+}
+.surf-training-information:after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 1px;
+  background-color: #5da8ef;
+  left: 10%;
+  top: 115px;
+  @media (min-width: 425px){
+    left: 35%;
+  }
+  @media (min-width: 768px){
+    left: 35%;
+  }
+  @media (min-width: 1200px){
+    width: 23px;
+    height: 2px;
+    top: 60px;
+    left: 0;
+  }
+
+}
+.surf-training-information__text {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px/2;
+  width: 100%;
+  max-width: 700px;
+  font-size: 14px;
+  font-family: "Poppins Light";
+  line-height: 1.714;
+  color: #a3a3a3;
+  @media (min-width: 1200px){
+    margin-top: 45px;
+    width: 340px;
+  }
+}
+.margin-left {
+  margin-left: 0;
+}
+.surf-training__img {
+  text-align: center;
+  margin-top: -90px;
+  position: relative;
+  @media (min-width: 1200px){
+   -webkit-box-shadow: -15px 25px 65px 0px rgba(11, 12, 17, 0.21);
+   -moz-box-shadow: -15px 25px 65px 0px rgba(11, 12, 17, 0.21);
+   box-shadow: -15px 25px 65px 0px rgba(11, 12, 17, 0.21);
+ }
+}
+.surf-training__img img{
+  max-width: 700px;
+  width: 95%;
+  @media (min-width: 768px){
+    width: 90%;
+  }
+  @media (min-width: 1200px){
+    width: auto;
+  }
+}
+.point-break {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  @media (min-width: 1200px){
+    width: 910px;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+.point-break:after {
+ content: '';
+ position: absolute;
+ width: 2px;
+ height: 70px;
+ background-color: #5da8ef;
+ left: 50%;
+ bottom: -58px/2;
+ transform: translate(-50%, 100%);
+ @media (min-width: 1200px){
+  height: 100px;
+  bottom: -58px;
+}
+}
+.point-break__img {
+  text-align: center;
+  position: relative;
+  @media (min-width: 1200px){
+    margin-left: 60px;
+  }
+}
+.point-break__img img{
+  width: 90%;
+  max-width: 400px;
+  @media (min-width: 1200px){
+    width: auto;
+  }
+}
+.point-break__img:before {
+  display: none;
+  @media (min-width: 1200px){
+    display: block;
+    content: 'Surf Camps';
+    font-size: 9px;
+    font-family: "League Spartan";
+    text-transform: uppercase;
+    -moz-transform: matrix(0, -1, 1, 0, 0, 0);
+    -webkit-transform: matrix(0, -1, 1, 0, 0, 0);
+    -ms-transform: matrix(0, -1, 1, 0, 0, 0);
+    letter-spacing: 0.5em;
+    position: absolute;
+    top: 42px;
+    left: -75px;
+    color: #cececf;
+  }
+}
+.point-break-information {
+  padding-top: 70px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  @media (min-width: 1200px){
+    width: 350px;
+    margin-top: 90px;
+    margin-left: 80px;
+    padding-top: 0;
+  }
+}
+.point-break-information:before {
+  content: '02';
+  position: absolute;
+  font-size: 100px;
+  font-family: "League Spartan", sans-serif;
+  color: #f9f9f9;
+  line-height: 0.508;
+  z-index: -1;
+  letter-spacing: 0.1em;
+  top: 40px;
+  left: 30%;
+  @media (min-width: 1200px){
+   top: -33px;
+   left: 0;
+   font-size: 130px;
+ }
+
+}
+.point-break-information:after {
+  content: '';
+  position: absolute;
+  width: 18px;
+  height: 1px;
+  background-color: #5da8ef;
+  left: 10%;
+  top: 115px;
+  @media (min-width: 425px){
+    left: 38%;
+  }
+  @media (min-width: 768px){
+    left: 39%;
+  }
+  @media (min-width: 1200px){
+    width: 23px;
+    height: 2px;
+    top: 60px;
+    left: 0;
+  }
+
+}
+
+.point-break-information__text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  max-width: 700px;
+  margin-top: 45px/2;
+  font-size: 14px;
+  font-family: "Poppins Light";
+  line-height: 1.714;
+  color: #a3a3a3;
+  @media (min-width: 1200px){
+    margin-top: 45px;
+    width: 340px;
+  }
+}
+.wrapper-join-form {
+  position: relative;
+  width: 100%;
+}
+.wrapper-join-form:before {
+  content: '';
+  position: absolute;
+  bottom: auto;
+  right: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 1335px;
+  background-image: url(../../img/bg/bg-surfer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -560px;
+
+}
+.join-form {
+  margin-top: 275px/2;
+  text-align: center;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 1200px){
+    margin-top: 275px;
+  }
+}
+.join-form__text {
+  margin-top: 22px;
+  width: 95%;
+  font-size: 14px;
+  font-family: "Poppins Light";
+  line-height: 1.714;
+  color: #b1b1b1;
+  margin-left: 20px;
+  @media (min-width: 1200px){
+    width: 555px;
+  }
+}
+.join-form__input {
+  float: left;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #f5f5f5;
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.03);
+  width: 80%;
+  max-width: 535px;
+  height: 50px;
+  border: 1px solid #efefef;
+  padding: 22px 30px;
+  font-size: 12px;
+  font-family: "League Spartan";
+  line-height: 7.333;
+  color: #515151;
+  letter-spacing: 0.3em;
+  outline: none;
+  @media (min-width: 1200px){
+    width: 535px;
+  }
+}
+.join-form__input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 9px;
+  font-family: "League Spartan";
+  text-transform: uppercase;
+  line-height: 7.333;
+  color: #515151;
+  letter-spacing: 0.5em;
+}
+.join-form__input::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 9px;
+  font-family: "League Spartan";
+  text-transform: uppercase;
+  line-height: 7.333;
+  color: #515151;
+  letter-spacing: 0.5em;
+}
+.join-form__input:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 9px;
+  font-family: "League Spartan";
+  text-transform: uppercase;
+  line-height: 7.333;
+  color: #515151;
+  letter-spacing: 0.5em;
+}
+.join-form__input:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 9px;
+  font-family: "League Spartan";
+  text-transform: uppercase;
+  line-height: 7.333;
+  color: #515151;
+  letter-spacing: 0.5em;
+}
+.join-form__button {
+  background-color: #5da8ef;
+  background-image: url(../../img/controls/subscribe-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+  text-indent: -1000px;
+  transition: 0.2s ease-in;
+  @media (min-width: v1200px){
+    width: 50px;
+    height: 50px;
+  }
+}
+.join-form__button:hover,
+.join-form__button:focus {
+  background-color: #8bc1f4;
+}
+.join-form form {
+  display: flex;
+}
+
+// -surf
+
+.camp {
+  position: relative;
+  min-height: 475px;
+  margin-bottom: 100px/2;
+  @media (min-width: 768px){
+    margin-bottom: 100px;
+  }
+}
+.camp__img {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 50%;
+  height: 475px;
+  background-image: url(../../img/img/img-6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+.camp-information {
+  width: 50%;
+  padding-left: 20px;
+  @media (min-width: 768px){
+    padding-left: 44px;
+  }
+}
+.camp-information__label {
+  margin-top: 105px;
+  color: rgba(11, 12, 17, 0.27);
+  font-family: 'League-Spartan', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 0;
+  text-transform: uppercase;
+  letter-spacing: 5.58px;
+  margin-bottom: 60px;
+}
+.camp-information__adress {
+  font-size: 20px;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  line-height: 1.438;
+  color: #333333;
+  @media (min-width: 768px){
+    font-size: 32px;
+    margin-left: 44px;
+  }
+}
+.get-in-touch {
+  width: 130px;
+  color: #5da8ef;
+  margin-left: 0;
+}
+.get-in-touch:after {
+  width: 120px;
+}
+.footer {
+  margin-bottom: 50px;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.logo-wrapper {
+  margin-bottom: 30px;
+}
+.footer-ul {
+  display: flex;
+}
+.footer-ul li:last-child {
+  margin-right: 0px;
+}
+.footer-ul li a:hover {
+  transition: 0.3s ease 0.1s;
+  font-size: 10px;
+}
+.footer-ul__item {
+  color: #3b3c3e;
+  font-size: 9px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: 'League-Spartan';
+  letter-spacing: 0.6em;
+  margin-right: 25px;
+}
+.footer-social {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.footer-social__img {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.scrollup{
+  width:100px;
+  height:100px;
+  opacity:0.5;
+  position:fixed;
+  bottom:50px;
+  right: -20px;
+  display:none;
+  @media (min-width: 768px){
+    right:50px;
+    opacity:0.7;
+  }
+}
+.scrollup img{
+  width:70px;
+  height:70px;
+  @media (min-width: 768px){
+    width:100px;
+    height:100px;
+  }
+}
+
