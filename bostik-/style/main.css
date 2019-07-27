@@ -412,12 +412,11 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40px;
-  height: 30px;
   border: 1px solid #d7dde1;
   font-weight: 700;
 }
 .add-to-basket__quantity button {
+  width: 15px;
   cursor: pointer;
   font-weight: 700;
   color: #909090;
