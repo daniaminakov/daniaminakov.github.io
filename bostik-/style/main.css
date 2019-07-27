@@ -417,12 +417,13 @@ a {
 }
 .add-to-basket__quantity button {
   display: block;
-  width: 16px;
+  width: 15px;
   cursor: pointer;
   font-weight: 700;
   color: #909090;
   border: none;
   background-color: transparent;
+  padding: 0;
 }
 .product-cart__name {
   margin-left: 10px;
