@@ -326,7 +326,7 @@ details {
  */
 
 summary {
-  display: list-item;
+  display: block;
 }
 
 /* Misc
