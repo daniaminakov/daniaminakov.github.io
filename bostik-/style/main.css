@@ -362,7 +362,6 @@ a {
       flex-wrap: wrap;
 }
 .product-cart {
-  height: 270px;
   width: 220px;
   margin-right: 10px;
   margin-bottom: 13px;
@@ -433,6 +432,7 @@ a {
   text-transform: uppercase;
   line-height: 1.2;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 .product-cart__name-span {
   font-size: 11px;
