@@ -507,6 +507,7 @@ a {
   color: #fff;
   background-color: #002645;
   padding-top: 40px;
+   padding-bottom: 55px;
 }
 .footer-content {
   width: 1120px;
@@ -518,7 +519,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 55px;
 }
 .footer-content__social {
   padding-top: 70px;
