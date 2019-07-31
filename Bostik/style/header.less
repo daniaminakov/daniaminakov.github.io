@@ -1,0 +1,191 @@
+// +header
+.header{
+	background-color: @main-color;
+	color: #fff;
+	height: 100%;
+}
+
+.header-top{
+	width: 1115px;
+	height: 95px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-content{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-content__block{
+	margin-right: 13px;
+	display: flex;
+	width: 185px;
+	border-right: 1px solid #fff;
+	height: 46px;
+}
+
+.main-content__block-information__title{
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+
+.main-content__block-information__text{
+	width: 140px;
+	font-size: 10px;
+	font-family: 'PT Sans Caption', sans-serif;
+	line-height: 1.4;
+	margin-bottom: 15px;
+}
+
+.main-content__block-triangle{
+	cursor: pointer;
+	border: 8px solid transparent;
+	border-top: 14px solid #fdc400;
+	border-radius: 2px;
+	margin-left: 10px;
+}
+
+.content__block2{
+	width: 260px;
+}
+
+.content__block3{
+	margin-right: 0px;
+	width: 130px;
+	border-right: none;
+}
+
+.header-center{
+	background-image: url(../img/header-background.png);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+}
+
+.header-center-content{
+	padding-top: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	text-align: center;
+}
+
+.header-center-content__title{
+	line-height: 1;
+	margin: 0;
+	font-size: 62px;
+	font-weight: 700;
+}
+
+.content__title-span{
+	color: #fdc400;
+	font-size: 50px;
+	width: 100%;
+}
+.header-center-content__subtitle{
+	font-weight: 400;
+	font-size: 30px;
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.header-center-content__buttons{
+	margin-top: 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button-item{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 50px;
+	width: 280px;
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	cursor: pointer;
+}
+
+.buttons-item__span{
+	& img{
+		height: 30px;
+	}
+}
+
+.header-bottom-content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.basket-element{
+	width: 190px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.basket-element__img img{
+	width: 47px;
+	height: 45px;
+}
+
+.basket-element__text{
+	padding-top: 5px;
+	width: 130px;
+	font-weight: 400;
+}
+
+.header-bottom__search{
+	width: 645px;
+	height: 45px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-bottom__search-input{
+	margin-right: 30px;
+	display: flex;
+	border: 2px solid #fdc400;
+	& input{
+		padding: 10px;
+		width: 290px;
+		height: 41px;
+		border: none;
+		border-right: 2px solid #fdc400;
+		box-sizing: border-box;
+		font-family: 'PT Sans', sans-serif;
+	}
+	& button{
+		width: 120px;
+		height: 41px;
+		background-color: @main-color;
+		color: #fff;
+		border: none;
+		font-size: 18px;
+		font-family: 'PT Sans', sans-serif;
+		cursor: pointer;
+	}
+}
+
+.header-bottom__searc-logo img{
+	height: 50px;
+}
+
+
+// -header
