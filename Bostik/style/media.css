@@ -142,7 +142,7 @@
   }
   .header-bottom__search-input input {
     width: 200px;
-    height: 100%;
+    height: 27px;
   }
   .header-bottom__search-input button {
     width: 80px;
@@ -150,7 +150,7 @@
     font-size: 11px;
   }
   .header-bottom__search {
-    height: 100%;
+    height: 31px;
   }
   .header-bottom__searc-logo img {
     width: 80px;
@@ -470,7 +470,7 @@
         justify-content: space-around;
   }
   .header-bottom-content {
-    padding-bottom: 5px;
+    padding-bottom: 25px;
     padding-top: 10px;
   }
   .basket-element {
