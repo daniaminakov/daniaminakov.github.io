@@ -150,7 +150,7 @@
     font-size: 11px;
   }
   .header-bottom__search {
-    height: 31px;
+    height: 100%;
   }
   .header-bottom__searc-logo img {
     width: 80px;
