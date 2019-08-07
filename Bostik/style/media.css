@@ -291,7 +291,7 @@
     height: 4px;
   }
   .header-bottom-content {
-    padding-bottom: 5px;
+    padding-bottom: 30px;
   }
   .header-bottom__search {
     -webkit-box-orient: vertical;
@@ -470,7 +470,7 @@
         justify-content: space-around;
   }
   .header-bottom-content {
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     padding-top: 10px;
   }
   .basket-element {
