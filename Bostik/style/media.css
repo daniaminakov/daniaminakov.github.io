@@ -142,7 +142,7 @@
   }
   .header-bottom__search-input input {
     width: 200px;
-    height: 27px;
+    height: 100%;
   }
   .header-bottom__search-input button {
     width: 80px;
@@ -291,7 +291,7 @@
     height: 4px;
   }
   .header-bottom-content {
-    padding-bottom: 30px;
+    padding-bottom: 5px;
   }
   .header-bottom__search {
     -webkit-box-orient: vertical;
