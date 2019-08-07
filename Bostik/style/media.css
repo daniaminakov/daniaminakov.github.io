@@ -290,14 +290,12 @@
   .line {
     height: 4px;
   }
-  .header-bottom-content {
-    padding-bottom: 30px;
-  }
   .header-bottom__search {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 100%;
   }
   .header-bottom__searc-logo img {
     width: 70px;
@@ -470,7 +468,7 @@
         justify-content: space-around;
   }
   .header-bottom-content {
-    padding-bottom: 25px;
+    padding-bottom: 0px;
     padding-top: 10px;
   }
   .basket-element {
