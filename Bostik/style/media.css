@@ -353,6 +353,9 @@
     padding-left: 65px;
     padding-right: 25px;
   }
+  .header-bottom-content {
+    padding-bottom: 7px;
+  }
 }
 @media screen and (max-width: 555px) {
   .main-content {
