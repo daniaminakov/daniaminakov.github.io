@@ -77,19 +77,11 @@ button, input{
 	position: relative;
 }
 
-.bots:hover, active, focus{
-	color: #329AD6;
+.bots-active{
+	color: #329AD6
 }
 
-.bots:hover > .bots-block{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-}
-
-.bots:hover > .arrow1{
+.bots-active > .arrow1{
 	transform: rotate(90deg);
 	right: -20px;
 }
@@ -104,25 +96,38 @@ button, input{
 }
 
 .bots-block{
+	display: none;
+}
+
+.bots-block-active{
 	border-radius: 5px;
 	padding: 20px;
-	border: 1px solid #CCC;
 	display: none;
 	z-index: 9999;
 	position: absolute;
-	top: 15px;
-	right: -150px;
-	width: 150px;
-	height: 150px;
+	top: 28px;
+	right: -70px;
+	width: 130px;
+	height: 110px;
 	background-color: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border: solid 1px #bbb;
+	border-top: none;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+	border-radius: 0 0 4px 4px;
 }
 
 .bots-block a{
 	display: block;
-	font-size: 21px;
+	font-size: 16px;
 	margin-bottom: 10px;
+	font-weight: 400;
 }
 
 .bots-block a:hover{
@@ -131,17 +136,62 @@ button, input{
 
 .support{
 	cursor: pointer;
-	font-size: 13.5px;
 	position: relative;
+	font-size: 13.5px;
+}
+
+.support-active{
+	color: #329AD6;
+}
+
+.support-active > .arrow2{
+	transform: rotate(90deg);
+	right: -20px;
 }
 
 .arrow2{
 	position: absolute;
 	transform: rotate(-90deg);
-	top: -2px;
+	top: -4px;
 	right: -15px;
-	font-size: 18px;
+	font-size: 21px;
 	font-weight: 700;
+}
+
+.support-block{
+	display: none;
+}
+
+.support-block-active{
+	border-radius: 5px;
+	padding: 20px;
+	z-index: 9999;
+	position: absolute;
+	top: 40px;
+	right: 50px;
+	width: 140px;
+	height: 140px;
+	background-color: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: solid 1px #bbb;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+	border-radius: 0 0 4px 4px;
+	border-top: none;
+}
+
+.support-block a{
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+
+.support-block a:hover{
+	color: #329AD6;
 }
 
 /*end - header*/
@@ -347,11 +397,9 @@ button, input{
 	height: 40px;
 	background-color: #F7F7F7;
 	border-bottom: 1px solid #BEBFBF;
-	margin-bottom: 25px;
 }
 
 .table-item{
-	margin-left: 10px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -360,7 +408,7 @@ button, input{
 	justify-content: space-between;
 	align-items: center;
 	cursor: pointer;
-	width: 120px;
+	width: 100px;
 }
 
 .table-item span{
@@ -381,6 +429,7 @@ button, input{
 	display: -o-flex;
 	display: flex;
 	width: 350px;
+	display: none;
 }
 
 .add-table-using{
@@ -412,5 +461,54 @@ button, input{
 	color: #fff;
 }
 
+.table-strings{
+	border-bottom: 1px solid #CCC;
+	padding: 10px;
+	width: 100%;	
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 14px;
+}
+
+.table-strings-item{
+	overflow: hidden;
+	white-space:  nowrap;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;	
+	cursor: pointer;
+	width: 100px;
+}
+
+.location{
+	width: 320px;
+	overflow: hidden;
+}
+
+.name{
+	width:60px;
+}
+
+.table-strings .name{
+	color: #329ad6;
+}
+
+.database{
+	width: 80px;
+
+}
+
+.updated{
+	width: 150px;
+
+}
 
 /*end - content*/
