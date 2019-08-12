@@ -542,10 +542,27 @@ button, input{
 	justify-content: space-between;
 }
 
-.booktrip-up-content h2{
+.booktrip-up-content__title{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+}
+
+.booktrip-up-content__title h2{
 	font-size: 18px;
 	font-weight: 400;
 	color: #444;
+}
+
+.booktrip-up-content a img{
+	width: 28px;
+}
+
+.booktrip-up-content a img:hover{
+	opacity: 0.7;
 }
 
 .button-build{
@@ -657,6 +674,7 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 	color: #444;
 }
 
+
 .utterances, .lambda{
 	margin-top: 20px;
 	cursor: pointer;
@@ -705,8 +723,5 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 	margin-left: 20px;
 	margin-top: 20px;
 }
-
-
-
 
 /*end page - booktrip*/
