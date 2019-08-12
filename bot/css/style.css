@@ -624,6 +624,7 @@ input[name="tab"]:checked + label{
 .booktrip-sidebar{
 	width: 210px;
 	position: relative;
+	margin-top: 8px;
 }
 
 .booktrip-main-content{
