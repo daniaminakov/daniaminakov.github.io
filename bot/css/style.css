@@ -84,6 +84,7 @@ button, input{
 .bots-active > .arrow1{
 	transform: rotate(90deg);
 	right: -20px;
+	transition: all 0.3s ease; 
 }
 
 .arrow1{
@@ -93,6 +94,7 @@ button, input{
 	right: -15px;
 	font-size: 21px;
 	font-weight: 700;
+	transition: all 0.3s ease; 
 }
 
 .bots-block{
@@ -147,6 +149,7 @@ button, input{
 .support-active > .arrow2{
 	transform: rotate(90deg);
 	right: -20px;
+	transition: all 0.3s ease; 
 }
 
 .arrow2{
@@ -156,6 +159,7 @@ button, input{
 	right: -15px;
 	font-size: 21px;
 	font-weight: 700;
+	transition: all 0.3s ease; 
 }
 
 .support-block{
@@ -510,5 +514,199 @@ button, input{
 	width: 150px;
 
 }
-
 /*end - content*/
+
+
+
+/*start page - booktrip*/
+
+.booktrip{
+
+}
+
+.booktrip-up{
+	height: 100px;
+	background-color: #eee;
+	border-bottom: 1px solid #ccc;
+}
+
+.booktrip-up-content{
+	padding-top: 15px;
+	height: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.booktrip-up-content h2{
+	font-size: 18px;
+	font-weight: 400;
+	color: #444;
+}
+
+.button-build{
+	cursor: pointer;
+	width: 65px;
+	height: 35px;
+	background-color: #dedede;
+	background-image: linear-gradient(white,#dedede);
+	color: #444;
+	text-shadow: 0 1px 1px rgba(255,255,255,.75);
+	font-size: 14px;
+	border-radius: 4px;
+	font-weight: 700;
+}
+
+.button-publish{
+	cursor: pointer;
+	background-color: #16b;
+	background-image: linear-gradient(#2d8cec,#16b);
+	border: 1px solid #0b4075;
+	border-top-color: #16b;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.75);
+	width: 70px;
+	height: 35px;
+	font-size: 14px;
+	border-radius: 4px;
+	font-weight: 700;
+}
+
+.tabs{
+	margin-top: -26px;
+}
+
+.tab-item{
+	cursor: pointer;
+	padding: 7px 15px;
+	border: 1px solid #ccc;
+	margin-right: 3px;
+	border-radius: 4px 4px 0 0;
+	color: #444;
+	font-weight: 700;
+	background-color: #eee;
+	font-size: 14px;
+}
+
+input[name="tab"]{
+	display: none;
+}
+
+input[name="tab"]:checked + label{
+	border-top: 3px solid #329ad6;
+	background-color: #fff;
+	padding: 8px 15px;
+	overflow: hidden;
+	border-bottom: none;
+}
+
+.booktrip-sidebar{
+	width: 210px;
+	position: relative;
+}
+
+.booktrip-main-content{
+	width: 83%;
+}
+
+.sidebar__tab-1,
+.sidebar__tab-2,
+.sidebar__tab-3,
+.sidebar__tab-4,
+.main-content__tab-1,
+.main-content__tab-2,
+.main-content__tab-3,
+.main-content__tab-4{
+	display: none;
+}
+
+input[id="tab-1"]:checked ~ .box > .booktrip-sidebar > .sidebar__tab-1,
+input[id="tab-2"]:checked ~ .box > .booktrip-sidebar > .sidebar__tab-2,
+input[id="tab-3"]:checked ~ .box > .booktrip-sidebar > .sidebar__tab-3,
+input[id="tab-4"]:checked ~ .box > .booktrip-sidebar > .sidebar__tab-4,
+input[id="tab-1"]:checked ~ .box > .booktrip-main-content > .main-content__tab-1,
+input[id="tab-2"]:checked ~ .box > .booktrip-main-content > .main-content__tab-2,
+input[id="tab-3"]:checked ~ .box > .booktrip-main-content > .main-content__tab-3,
+input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4{
+	display: block;
+}
+
+.sidebar__tab-1{
+
+}
+
+.sidebar__tab-1 p{
+	color: #999;
+	font-size: 18px;
+}
+
+.booktrip-sidebar-section{
+	margin-top: 20px;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.content__tab-name{
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #444;
+}
+
+.utterances, .lambda{
+	margin-top: 20px;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+.utterances summary, .lambda summary{
+	outline: none;
+}
+
+.utterances > summary::-webkit-details-marker,
+.lambda > summary::-webkit-details-marker{
+  width: 7px;
+  height: 8px;
+}
+
+.utterances summary span,
+.lambda summary span{
+	font-size: 18px;
+	color: #444;
+}
+
+.utterances input{
+	display: block;
+	background-color: #eee;
+	color: #666;
+	width: 400px;
+	height: 30px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.lambda{
+	color: #444;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.lambda input{
+	height: 15px;
+	width: 15px;
+	margin-right: 10px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+
+
+
+/*end page - booktrip*/
