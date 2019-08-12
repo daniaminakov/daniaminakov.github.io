@@ -570,7 +570,7 @@ button, input{
 	width: 65px;
 	height: 35px;
 	background-color: #dedede;
-	background-image: linear-gradient(white,#dedede);
+	background-image: linear-gradient(#fff,#dedede);
 	color: #444;
 	text-shadow: 0 1px 1px rgba(255,255,255,.75);
 	font-size: 14px;
@@ -578,10 +578,22 @@ button, input{
 	font-weight: 700;
 }
 
+.button-build:hover{
+  background-image: -webkit-linear-gradient(#dedede, #dedede);
+  background-image: -o-linear-gradient(#dedede, #dedede);
+  background-image: linear-gradient(#dedede, #dedede);
+}
+
+.button-build:active{
+	background-image: linear-gradient(#dedede,#fff);
+}
+
 .button-publish{
 	cursor: pointer;
 	background-color: #16b;
-	background-image: linear-gradient(#2d8cec,#16b);
+	background-image: -webkit-linear-gradient(#2d8cec, #16b);
+	background-image: -o-linear-gradient(#2d8cec, #16b);
+	background-image: linear-gradient(#2d8cec, #16b);
 	border: 1px solid #0b4075;
 	border-top-color: #16b;
 	color: #fff;
@@ -591,6 +603,15 @@ button, input{
 	font-size: 14px;
 	border-radius: 4px;
 	font-weight: 700;
+}
+
+.button-publish:hover{
+	background-image: linear-gradient(#16b,#16b);
+}
+
+.button-publish:active{
+	background-color: #16b;
+	background-image: linear-gradient(#16b,#2d8cec);
 }
 
 .tabs{
@@ -607,6 +628,10 @@ button, input{
 	font-weight: 700;
 	background-color: #eee;
 	font-size: 14px;
+}
+
+.tab-item:hover{
+	background-color: #fff;
 }
 
 input[name="tab"]{
