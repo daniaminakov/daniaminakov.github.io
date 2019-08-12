@@ -662,9 +662,14 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 }
 
 .booktrip-sidebar-section{
+	cursor: pointer;
 	margin-top: 20px;
 	font-weight: 700;
 	font-size: 14px;
+}
+
+.booktrip-sidebar-section:hover{
+	color: #329ad6;
 }
 
 .content__tab-name{
@@ -673,6 +678,8 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 	font-weight: 400;
 	color: #444;
 }
+
+
 
 
 .utterances, .lambda{
