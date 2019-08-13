@@ -813,7 +813,7 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 	margin-bottom: 13px;
 }
 
-.sign-form__text a{
+.sign-form__text span{
 	cursor: text;
 	color: #999;
 	text-decoration: underline;
