@@ -121,8 +121,9 @@ button, input, summary{
 	align-items: center;
 	border: solid 1px #bbb;
 	border-top: none;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+	box-shadow: rgba(9,30,66,.25) 0 5px 10px;
 	border-radius: 0 0 4px 4px;
+
 }
 
 .bots-block a{
@@ -184,7 +185,7 @@ button, input, summary{
 	flex-direction: column;
 	align-items: center;
 	border: solid 1px #bbb;
-	box-shadow: 0 2px 2px 0 rgba(0,0,0,.2);
+	box-shadow: rgba(9,30,66,.25) 0 15px 20px;
 	border-radius: 0 0 4px 4px;
 	border-top: none;
 }
@@ -759,6 +760,168 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 
 /*end page - booktrip*/
 
+/*start page - sign*/
+
+.sign{
+	padding-top: 20px;
+	height: 100%;
+}
+
+.sign-container{
+	height: 500px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.sign-logo img{
+	width: 40px;
+}
+
+.sign__title{
+	margin-top: 25px;
+	font-size: 22px;
+	color: #444;
+	font-weight: 700;
+}
+
+.sign-box{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.sign-form{
+	width: 320px;
+}
+
+.sign-form__title{
+	font-size: 14px;
+	font-weight: 700;
+	color: #444;
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.sign-form__text{
+	font-size: 14px;
+	color: #999;
+	margin-bottom: 13px;
+}
+
+.sign-form__text a{
+	cursor: text;
+	color: #999;
+	text-decoration: underline;
+}
+
+.sign-form__input input{
+	width: 100%;
+	height: 30px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	color: #444;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.sign-form__input input:focus{
+	border: 1px solid #1C75CE;
+	-webkit-box-shadow: 0px 0px 21px -8px rgba(50,154,214,1);
+	-moz-box-shadow: 0px 0px 21px -8px rgba(50,154,214,1);
+	box-shadow: 0px 0px 21px -8px rgba(50,154,214,1);
+}
+
+.sign-next{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.sign-next button{
+	cursor: pointer;
+	width: 100%;
+	height: 30px;
+	background-color: #16b;
+	background-image: linear-gradient(#2d8cec,#16b);
+	border-color: #16b #0b4075 #0b4075;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 4px;
+	border: none;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.75);
+	font-size: 15px;
+}
+
+.sign-next button:hover{
+	background-image: linear-gradient(#16b,#16b);
+}
+
+
+.sign-form__subtext{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 15px;
+	color: #999;
+	margin-bottom: 20px;
+}
+
+.sign-form__subtext hr{
+	width: 30%;
+	background-color: #999;
+	opacity: 0.5;
+}
+
+.sign-create{
+
+}
+
+.sign-create button{
+	cursor: pointer;
+	border-radius: 4px;
+	width: 100%;
+	height: 33px;
+	background-color: #dedede;
+	background-image: linear-gradient(#fff,#dedede);
+	border: 1px solid #b8b8b8;
+	border-top-color: #dedede;
+	color: #444;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.sign-create button:hover{
+	background-image: linear-gradient(#dedede,#dedede);
+}
+
+.sign-img{
+	margin-top: -40px;
+}
+
+.sign-bottom__title{
+	font-weight: 700;
+	font-size: 12px;
+	color: #444;
+	margin-bottom: 5px;
+}
+
+.sign-bottom__text{
+	font-size: 12px;
+	color: #444;
+	line-height: 1.6;
+}
+
+/*end page - sign*/
+
 
 /*start page - console*/
 
@@ -1059,6 +1222,6 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 .solution-active{
 	height: 890px;
 	transition: all 0.8s ease;
-}
+	}
 
 /*end page - console*/
