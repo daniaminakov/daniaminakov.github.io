@@ -1026,4 +1026,21 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 	text-decoration: underline;
 }
 
+.explore{
+	flex-direction: column;
+	border-bottom: 1px solid #eaeded;
+	padding-bottom: 20px;
+}
+
+.explore__title{
+	margin-top: 10px;
+	font-weight: 700;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.explore__text{
+	width: 100%;
+}
+
 /*end page - console*/
