@@ -768,7 +768,6 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 }
 
 .sign-container{
-	height: 500px;
 	width: 950px;
 	margin-left: auto;
 	margin-right: auto;
@@ -881,9 +880,6 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 	opacity: 0.5;
 }
 
-.sign-create{
-
-}
 
 .sign-create button{
 	cursor: pointer;
