@@ -171,7 +171,8 @@ function actionPage(){
 				card.parentNode.style.display = '';
 			}
 		});
-	})
+		search.value = '';
+	});
 
 
 };
