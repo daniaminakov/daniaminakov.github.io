@@ -679,11 +679,10 @@ input[id="tab-4"]:checked ~ .box > .booktrip-main-content > .main-content__tab-4
 	display: block;
 }
 
-.sidebar__tab-1{
-
-}
-
-.sidebar__tab-1 p{
+.sidebar__tab-1 p,
+.sidebar__tab-2 p,
+.sidebar__tab-3 p,
+.sidebar__tab-4 p{
 	color: #999;
 	font-size: 18px;
 }
