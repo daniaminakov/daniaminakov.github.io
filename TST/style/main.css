@@ -1101,6 +1101,9 @@ li {
       -ms-flex-align: center;
           align-items: center;
 }
+.cartaTovara-sub-img__item img {
+  height: 80px;
+}
 .cartaTovara-wrapper__information {
   width: 660px;
 }
