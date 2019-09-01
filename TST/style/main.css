@@ -2543,6 +2543,9 @@ li {
   color: #395b91;
   font-weight: bold;
 }
+.relative {
+  position: relative;
+}
 .missing-box {
   position: relative;
   margin-left: auto;
@@ -2552,7 +2555,7 @@ li {
 }
 .missing-img {
   top: 70px;
-  left: 0;
+  left: 0px;
   position: absolute;
   z-index: 0;
 }
