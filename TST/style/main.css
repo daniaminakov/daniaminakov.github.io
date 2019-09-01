@@ -2595,3 +2595,120 @@ li {
   font-size: 15px;
   text-decoration: underline;
 }
+.modal {
+  display: none;
+  text-transform: none;
+  color: #4f525a;
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(2, 9, 11, 0.5);
+}
+.modal-block {
+  margin-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 840px;
+  height: 530px;
+  background-color: #fff;
+}
+.modal-close {
+  color: #919397;
+  padding: 30px 40px 0px 0px;
+  cursor: pointer;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.modal-content {
+  width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.modal-content__title {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+.modal-content__text {
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+.modal-content__inp {
+  width: 330px;
+  height: 30px;
+  border: 1px solid #cfcfcf;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.modal-content__inp::-webkit-input-placeholder {
+  color: #cfcfcf;
+}
+.modal-content__inp:-ms-input-placeholder {
+  color: #cfcfcf;
+}
+.modal-content__inp::-ms-input-placeholder {
+  color: #cfcfcf;
+}
+.modal-content__inp::placeholder {
+  color: #cfcfcf;
+}
+.modal-inp__text {
+  padding-left: 10px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
+  font-size: 14px;
+  width: 340px;
+}
+.modal-inp__text a {
+  color: #2581c2;
+}
+.modal-content__registration {
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 21px;
+  color: #2581c2;
+  text-decoration: underline;
+  margin-bottom: 45px;
+}
+.modal-content__btn {
+  font-weight: bold;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  height: 34px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-gradient(linear, left top, right top, from(#256399), color-stop(62%, #2da3d6), to(#2da3d6));
+  background: linear-gradient(to right, #256399 0%, #2da3d6 62%, #2da3d6 100%);
+  background: -webkit-linear-gradient(to right, #256399 0%, #2da3d6 62%, #2da3d6 100%);
+  position: relative;
+}
+.modal-content__btn:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: -59px;
+  border: 34px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 34px solid transparent;
+  border-right: 25px solid #256299;
+}
+.modal-content__btn:after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: -59px;
+  border: 34px solid transparent;
+  border-top: 0px solid transparent;
+  border-right: 34px solid transparent;
+  border-left: 25px solid #2da2d6;
+  z-index: 1;
+}
