@@ -9,7 +9,7 @@ body{
 	padding-top: 45px;
 	background-color: #000;
 	color: #fff;
-	font-family: "ArialRegular";
+	font-family: "Arial, sans-serif";
 }
 
 .container{
@@ -56,7 +56,7 @@ input, button{
 
 
 /* font-family: "ArialRegular"; */
-@font-face {
+/* @font-face {
 	font-family: "ArialRegular";
 	src: url("../fonts/ArialRegular/ArialRegular.eot");
 	src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix")format("embedded-opentype"),
@@ -64,20 +64,20 @@ input, button{
 	url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
-}
+} */
 
 /* font-family: "ArialLight"; */
-@font-face {
+/* @font-face {
 	font-family: "ArialLight";
 	src: url("../fonts/ArialLight/Arial-Normal.eot"),
 	url("../fonts/ArialLight/Arial-Normal.woff") format("woff"),
 	url("../fonts/ArialLight/Arial-Normal.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
-}
+} */
 
 /* font-family: "ArialBold"; */
-@font-face {
+/* @font-face {
 	font-family: "ArialBold";
 	src: url("../fonts/ArialBold/ArialBold.eot");
 	src: url("../fonts/ArialBold/ArialBold.eot?#iefix")format("embedded-opentype"),
@@ -85,7 +85,7 @@ input, button{
 	url("../fonts/ArialBold/ArialBold.ttf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
-}
+} */
 
 
     /*specification-end*/
@@ -129,12 +129,12 @@ input, button{
     	padding-top: 10px;
     	width: 220px;
     	font-size: 26px;
-    	font-family: ArialBold, sans-serif;
+    	font-weight: 700;
     }
 
     .logo-title span{
     	font-size: 38px;
-    	font-family: ArialBold, sans-serif;
+    	font-weight: 700;
     	text-transform: uppercase;
     }
 
@@ -181,7 +181,7 @@ input, button{
 
     .menu-item__block a{
     	text-transform: uppercase;
-    	font-family: ArialLight, sans-serif;
+    	font-weight: 300;
     	color: #888888;
     	font-size: 13px;
     }
@@ -228,7 +228,7 @@ input, button{
     	height: 100px;
     	width: 100%;
     	text-transform: uppercase;
-    	font-family: ArialLight, sans-serif;
+    	font-weight: 300;
     	color: #888888;
     	font-size: 13px;
     }
@@ -332,7 +332,7 @@ input, button{
     	font-size: 18px;
     	margin-bottom: 20px;
     	text-transform: uppercase;
-    	font-family: ArialBold, sans-serif;
+    	font-weight: 700;
     }
 
     .search input{
@@ -423,7 +423,7 @@ input, button{
     }
 
     .page-content__title{
-    	font-family: ArialBold, sans-serif;
+    	font-weight: 700;
     	font-size: 14px;
     	color: #ff0000;
     	text-transform: uppercase;
@@ -437,7 +437,7 @@ input, button{
     }
 
     .page-content__title2{
-    	font-family: "ArialRegular";
+    	font-weight: 400;
     }
 
     .page-content__text{
@@ -461,7 +461,7 @@ input, button{
 
     .page-content__text3 span{
     	display: block;
-    	font-family: ArialBold, sans-serif;
+    	font-weight: 700;
     }
 
     .page-content__text-bold{
@@ -514,7 +514,7 @@ input, button{
 
     .map-information__text span{
     	display: block;
-    	font-family: ArialBold, sans-serif;
+    	font-weight: 700;
     	margin-bottom: 10px;
     }
 
