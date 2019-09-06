@@ -3041,11 +3041,6 @@ li {
     border: 5px solid transparent;
     border-top: 5px solid #9f9fa0;
   }
-  .header-bottom__catalog:after {
-    right: -24.5px;
-    border: 15px solid transparent;
-    border-left: 10px solid #2da4d9;
-  }
   .header-bottom__catalog2:after {
     right: -24.5px;
     border: 15px solid transparent;
