@@ -3047,6 +3047,8 @@ li {
     border-left: 10px solid #2da4d9;
   }
   .header-bottom__catalog2:after {
+    right: -24.5px;
+    border: 15px solid transparent;
     border-left: 10px solid #237fbc;
   }
   .header-bottom:after {
@@ -3309,8 +3311,8 @@ li {
     height: 65px;
   }
   .right-block:before {
-    left: -88px;
-    border: 51px solid transparent;
+    left: -87px;
+    border: 50px solid transparent;
     border-right: 37px solid #23b5e8;
   }
   .footer-bottom-content:after {
