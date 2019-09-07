@@ -3113,7 +3113,7 @@ li {
   }
   .content-screen__back:after {
     bottom: 0px;
-    right: -16.5px;
+    right: -17px;
     border: 22px solid transparent;
     border-top: 0px solid transparent;
     border-right: 0px solid transparent;
