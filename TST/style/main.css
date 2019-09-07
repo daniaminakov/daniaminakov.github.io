@@ -3042,11 +3042,15 @@ li {
     border-top: 5px solid #9f9fa0;
   }
   .header-bottom__catalog:after {
+    top: 0;
     right: -25px;
     border: 15px solid transparent;
     border-left: 10px solid #2da4d9;
   }
   .header-bottom__catalog2:after {
+    top: 0;
+    right: -25px;
+    border: 15px solid transparent;
     border-left: 10px solid #237fbc;
   }
   .header-bottom:after {
