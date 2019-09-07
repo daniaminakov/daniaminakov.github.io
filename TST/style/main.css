@@ -3318,11 +3318,11 @@ li {
     border-right: 37px solid #23b5e8;
   }
   .footer-bottom-content:after {
-    right: -30px;
+    right: -33px;
     border: 44px solid transparent;
     border-bottom: 0px solid transparent;
     border-right: 0px solid transparent;
-    border-left: 30px solid #333463;
+    border-left: 33px solid #333463;
   }
   .area-icon1__prompt,
   .area-icon2__prompt,
@@ -3633,11 +3633,11 @@ li {
     font-size: 10px;
   }
   .footer-bottom-content:after {
-    right: -30px;
+    right: -33px;
     border: 40px solid transparent;
     border-bottom: 0px solid transparent;
     border-right: 0px solid transparent;
-    border-left: 30px solid #333463;
+    border-left: 33px solid #333463;
   }
   .bottom-search__inp input {
     width: 100%;
