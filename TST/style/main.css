@@ -2690,6 +2690,13 @@ li {
 .status-product__information-discount p {
   width: 120px;
 }
+.mob-specifications__name,
+.mob-delivery__text {
+  display: none;
+}
+.order-item__delivery {
+  text-align: center;
+}
 .page-missing {
   height: 100vh;
   width: 100vw;
@@ -4345,5 +4352,397 @@ li {
   }
   .catalog-screen__logo {
     display: none;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .search {
+    padding: 15px 25px;
+  }
+  .search-found {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .search-found span {
+    font-size: 14px;
+  }
+  .search-found__text {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .search {
+    padding: 5px 10px;
+  }
+  .search-found {
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+  .search-found span {
+    font-size: 12px;
+  }
+  .search-found__text {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .private-cabinet {
+    width: 78%;
+  }
+  .offers-item__img img {
+    width: 95%;
+  }
+  .status-product__container {
+    width: 70%;
+  }
+  .status-product__item {
+    width: 100%;
+  }
+  .status-order {
+    padding: 25px 20px 35px 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .private-cabinet {
+    width: 77%;
+  }
+  .history-order {
+    padding: 15px 0px 15px 15px;
+  }
+  .message {
+    padding: 15px 0px 15px 15px;
+  }
+  .offers {
+    padding: 20px;
+  }
+  .message-item {
+    padding: 0px 20px 0px 10px;
+  }
+  .history-order__specifications {
+    padding: 5px 70px 7px 30px;
+  }
+  .order-item__number {
+    margin-left: -30px;
+  }
+  .status-item__number {
+    margin-left: 0 !important;
+  }
+  .status-product__img {
+    margin-right: 30px;
+  }
+  .status-item__block-price {
+    margin-right: 25px;
+  }
+  .status-product__item-name p {
+    font-size: 12px;
+  }
+  .status-product__container {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 996px) {
+  .private-cabinet {
+    width: 78%;
+  }
+  .history-order,
+  .message,
+  .offers {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .basket-prompt {
+    font-size: 10px;
+    padding: 7px 20px;
+    margin-bottom: 5px;
+  }
+  .history-order__specifications {
+    padding: 5px 30px 7px 25px;
+  }
+  .history-order {
+    margin-top: 0;
+  }
+  .history-order__title,
+  .order-item__date,
+  .order-specifications__name,
+  .order-item__quantity,
+  .order-item__price,
+  .order-discount__number,
+  .order-item__delivery,
+  .message-specifications,
+  .message-item__date,
+  .message-item__text {
+    font-size: 10px;
+  }
+  .order-item__number {
+    font-size: 12.5px;
+  }
+  .order-item__number {
+    padding: 2px 5px;
+    width: 65px;
+    margin-left: -10px;
+  }
+  .order-item__discount {
+    width: 65px;
+  }
+  .history-order__item {
+    padding: 5px;
+  }
+  .history-order__bottom-text {
+    font-size: 10px;
+    width: 390px;
+  }
+  .history-order__bottom {
+    margin-top: 20px;
+  }
+  .message-specifications-text {
+    width: 300px;
+  }
+  .message-item__text {
+    width: 320px;
+  }
+  .message-specifications {
+    padding: 7px 10px;
+  }
+  .message-bottom {
+    padding: 0 10px;
+  }
+  .message-bottom__delete {
+    font-size: 8px;
+  }
+  .offers-item__text {
+    font-size: 9px;
+  }
+  .filter__checkbox:checked ~ .filter__label:before {
+    left: 4px;
+  }
+  .status-product__item-name p {
+    font-size: 10px;
+  }
+  .status-item__block-price p {
+    width: 35px;
+    font-size: 10px;
+  }
+  .status-item__block-price span {
+    width: 60px;
+    font-size: 10px;
+  }
+  .status-product__img img {
+    height: 40px;
+  }
+  .status-product__img {
+    width: 40px;
+  }
+  .status-item__block-price {
+    height: 20px;
+  }
+  .specification-data__item,
+  .data-item__btn,
+  .specification-data__text,
+  .status-specification__number p,
+  .status-information__text {
+    font-size: 8px;
+  }
+  .data-item__btn {
+    width: 65px;
+    height: 20px;
+  }
+  .status-specification__data,
+  .status-product__information {
+    width: 140px;
+  }
+  .status-product__information-block,
+  .status-product__information-discount {
+    font-size: 10px;
+  }
+  .status-information-block__main {
+    font-size: 12.5px;
+  }
+  .status-product__information-discount p {
+    width: 70px;
+  }
+  .status-product__information-discount {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .specification-data__text {
+    margin-bottom: 10px;
+  }
+  .status-product__information {
+    margin-top: 10px;
+  }
+  .status-product__information-block {
+    margin-bottom: 10px;
+    padding: 15px 10px 10px 10px;
+  }
+  .status-product__information-discount {
+    margin-bottom: 0;
+  }
+  .status-order {
+    padding: 15px 10px 25px 20px;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 755px) {
+  .private-cabinet {
+    width: 75%;
+  }
+  .status-order__product {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .specification-data__item {
+    margin-bottom: 10px;
+  }
+  .status-product__container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .status-product__information {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .status-product__information-discount p {
+    width: auto;
+  }
+  .status-product__information-discount {
+    width: 200px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 665px) {
+  .private-cabinet {
+    width: 71%;
+  }
+  .history-order {
+    padding: 10px 5px;
+  }
+  .history-order__title {
+    padding-left: 15px;
+  }
+  .history-order__specifications {
+    padding: 5px 15px;
+  }
+  .mob-delete {
+    display: none;
+  }
+  .mob-specifications__name,
+  .mob-delivery__text {
+    display: block;
+  }
+  .order-item__discount {
+    width: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+  }
+  .order-delivery__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .history-order__item {
+    padding: 3px;
+  }
+  .history-order__specifications {
+    margin-bottom: 5px;
+  }
+  .history-order__bottom > .page-number {
+    display: none;
+  }
+  .history-order__bottom-text {
+    width: 100%;
+  }
+  .history-order__bottom {
+    padding-right: 0;
+  }
+  .message {
+    padding: 5px;
+  }
+  .message-item__text {
+    width: 225px;
+  }
+  .message-specifications-text {
+    width: 210px;
+  }
+  .offers-box {
+    width: 100%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .offers-item__img {
+    width: 145px;
+  }
+  .offers-item__text {
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .offers {
+    padding: 10px 10px 5px 10px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .private-cabinet {
+    width: 100%;
+  }
+  .history-order__bottom {
+    margin-top: 10px;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .history-order__specifications {
+    width: 100%;
+    padding: 5px;
+    padding-left: 15px;
+  }
+  .history-order {
+    padding: 10px 5px;
+  }
+  .order-item__number {
+    width: 60px;
+    padding: 1px;
+    margin-left: 0;
+  }
+  .history-order__item {
+    padding: 2px;
+  }
+  .history-order__item {
+    margin-right: 0;
+  }
+  .history-order__bottom-text {
+    font-size: 9px;
+  }
+  .message-item__text {
+    width: 170px;
+    font-size: 8px;
+  }
+  .message-specifications-text {
+    width: 160px;
+  }
+  .status-product__img {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .status-order {
+    padding: 15px 5px 15px 5px;
+  }
+  .status-product__item-name {
+    width: 150px;
+  }
+  .status-product__item-name p {
+    font-size: 9px;
   }
 }
