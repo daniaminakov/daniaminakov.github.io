@@ -5415,6 +5415,9 @@ li {
     width: 80%;
     padding: 10px;
   }
+  .modal-content__title {
+    margin-top: 0;
+  }
   .modal-content__title,
   .modal-content__registration {
     font-size: 12.5px;
@@ -5434,7 +5437,7 @@ li {
   }
   .modal-content__btn {
     font-size: 12.5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
   .modal-content__btn {
     width: 70%;
