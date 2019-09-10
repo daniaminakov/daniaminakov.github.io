@@ -2756,6 +2756,7 @@ li {
   text-decoration: underline;
 }
 .modal {
+  display: none;
   text-transform: none;
   color: #4f525a;
   position: fixed;
