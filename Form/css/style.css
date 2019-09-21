@@ -63,6 +63,21 @@ textarea{
 	resize: none;
 }
 
+details > summary:after{
+	content: '+';
+	top: 0;
+	right: 0;
+	font-size: 16px;
+}
+
+
+details[open] > summary:after{
+	content: '-';
+	top: 0;
+	right: 0;
+	font-size: 16px;
+} 
+
 /*specefication - end*/
 
 
