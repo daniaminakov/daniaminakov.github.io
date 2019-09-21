@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="main-content" id="main-content">
+		<div class="container">
+			<div class="main-box">
+				<div class="main-content__left">				
+					<div class="contact-date">
+						<details open>
+							<summary>
+								Контактные данные
+							</summary>
+							<div class="contact-date-content">
+								<div class="contact-date-content__item">
+									ФИО: <input type="text">
+								</div>
+								<div class="contact-date-content__item">
+									Номер телефона: <input type="number">
+								</div>								
+								<div class="contact-date-content__item">
+									Електронная почта: <input type="email">
+								</div>
+							</div>						
+						</details>						
+					</div>
+					<div class="list-option">
+						<details open>
+							<summary>
+								Параметры списка
+							</summary>
+							<div class="list-option-content">
+								<div class="option-content__item">
+									Субъект Российской Федерации: 
+									<select>
+										<option value=""></option>
+										<option value="">Да</option>
+										<option value="">Нет</option>
+									</select>
+								</div>
+								<div class="option-content__item">
+									Населенный пункт: 
+									<select>
+										<option value=""></option>
+										<option value="">1</option>
+										<option value="">2</option>
+									</select>
+								</div>
+								<div class="option-content__item">
+									Район: 
+									<select>
+										<option value=""></option>
+										<option value="">1</option>
+										<option value="">2</option>
+									</select>
+								</div>
+								<div class="option-content__item">
+									Улица: 
+									<select>
+										<option value=""></option>
+										<option value="">1</option>
+										<option value="">2</option>
+									</select>
+								</div>
+								Параметры полиса:
+								<div class="option-polis">
+									<div class="option-polis__block1">
+										Количество строк: <input type="text"> 
+									</div>
+									<div class="option-polis__block2">
+										Период действия полиса с <input type="date" value="2019-09-19">
+										по <input type="date" value="2019-09-19">
+									</div>
+								</div>	
+							</div>
+						</details>	
+					</div>
+					<div class="check">
+						<details open>
+							<summary>
+								Проверка КБМ
+							</summary>
+							<div class="check-content">
+								<div class="check-content__up">							
+									<div class="check-content__up-block">
+										ФИО:
+										<input type="text">	
+									</div>
+									<div class="check-content__up-block">
+										Дата рождения:										
+										<input type="date" value="2019-09-19">	
+									</div>
+								</div>
+								<div class="check-content-box">
+									<div class="check-content__block1">
+										<div class="check-content__block1-item">
+											Текущее ВУ: <input type="text">
+										</div>
+										<div class="check-content__block1-item">
+											Предыдущее ВУ(если было): <input type="text">
+										</div>
+										<div class="check-content__block1-item">
+											Дата проверки(не обезательно) : <input type="text">
+										</div>
+									</div>
+									<div class="check-content__block2">
+										<div class="check-content__block2-up">
+											Возраст собственика от <input type="number">
+											до <input type="number">
+										</div>
+										<button class="check-block2-button">
+											Проверить КБМ
+										</button>
+									</div>
+								</div>
+							</div>						
+						</details>	
+					</div>
+					<div class="polis">
+						<details open>
+							<summary>
+								Полис ОСАГО
+							</summary>
+							<div class="polis-content">
+								<div class="polis-content-box">
+									<div class="polis-content__block1">
+										Серия: 
+										<select>
+											<option value=""></option>
+											<option value="">1</option>
+											<option value="">2</option>
+										</select>
+									</div>
+									<div class="polis-content__block2">
+										Номер: <input type="number">
+									</div>
+								</div>
+							</div>				
+						</details>	
+					</div>
+					<div class="data-car">
+						<details open>
+							<summary>
+								Данные о машине
+							</summary>
+							<div class="data-car-content">
+								<div class="data-car-box">
+									<div class="data-car__block">
+										<div class="data-car__block-item">
+											Марка: 
+											<select>
+												<option value=""></option>
+												<option value="">Lada</option>
+												<option value="">Ford</option>
+											</select>
+										</div>
+										<div class="data-car__block-item">
+											Модель: 
+											<select>
+												<option value=""></option>
+												<option value="">1</option>
+												<option value="">2</option>
+											</select>
+										</div>
+										<div class="data-car__block-item">
+											Год выпуска авто: <input type="number">		
+										</div>
+										<div class="data-car__block-item">
+											Номер кузова: <input type="number">		
+										</div>
+										<div class="data-car__block-item">
+											VIN: <input type="number">		
+										</div>									
+									</div>
+									<div class="data-car__block">
+										<div class="data-car__block-item">
+											Категория A/M: 
+											<select>
+												<option value=""></option>
+												<option value="">1</option>
+												<option value="">2</option>
+											</select>
+										</div>
+										<div class="data-car__block-item">
+											Гос. номер: 
+											<select>
+												<option value=""></option>
+												<option value="">1</option>
+												<option value="">2</option>
+											</select>
+										</div>
+										<div class="data-car__block-item">
+											Номер в/у: <input type="number">		
+										</div>
+										<div class="data-car__block-item">
+											Дата выдачи в/у: <input type="number">		
+										</div>
+										<div class="data-car__block-item">
+											Св-во о регистрации ТС: <input type="number">		
+										</div>									
+									</div>
+								</div>
+							</div>				
+						</details>
+					</div>
+				</div>
+				<div class="main-content__right">
+					<div class="company">
+						<details open>
+							<summary>
+								Страховая компания
+							</summary>
+							<div class="company-content">
+								<div class="company-box">
+									<div class="company-block">
+										<div class="company-block__up">
+											Поиск <input type="text">
+										</div>
+										<div class="company-block__main">
+											<textarea></textarea>
+										</div>
+									</div>
+									<div class="company-btns">
+										<button>Добавить</button>
+										<button>Удалить</button>
+									</div>
+									<div class="company-block">
+										<div class="company-block__up">
+											Выбранные компании
+										</div>
+										<div class="company-block__main">
+											<textarea></textarea>
+										</div>
+									</div>
+								</div>
+							</div>						
+						</details>						
+					</div>
+					<div class="additionally">
+						<details open>
+							<summary>
+								Дополнительные данные
+							</summary>
+							<div class="additionally-content">
+								<div class="additionally-content__box">
+									<div class="additionally-content__block1">
+										<div class="additionally-content__item">
+											<input type="checkbox"> Проверка PCA
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Проверка прологации в PCA
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Проверка в реестре залогов
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Проверка наличии лицензии такси
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Проверка в базе парковок
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Проверка регистационных действий
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Наличие соц.сетей по ФИО и году рождения
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Расчет КБМ с анализом на востановление 
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Подписка на социальные сети от имени Вашего аккаунта 
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Создание контактов g-mail с доступом к записной книжке
+										</div>
+									</div>
+									<div class="additionally-content__block2">
+										<div class="additionally-content__item">
+											<input type="checkbox"> Допущенные к управлению
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Рассылка в телеграмм
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Рассылка в смс
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Расчет КБМ on-line
+										</div>
+										<div class="additionally-content__item">
+											<input type="checkbox"> Страхователь
+										</div>
+									</div>
+								</div>					
+							</div>
+						</details>
+					</div>
+					<div class="additionally-comments">
+						<details open>
+							<summary>
+								Дополнительные комментарии
+							</summary>
+							<div class="additionally-comments-content">
+								<textarea></textarea>
+							</div>
+						</details>
+					</div>
+				</div>
+			</div>
+			<button type="submit" class="submit-btn">
+				Отправить запрос
+			</button>
+		</div>
+	</section>
+</body>
+</html>
