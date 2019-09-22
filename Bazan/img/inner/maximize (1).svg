@@ -1,0 +1,22 @@
+<svg id="maximize_1_" data-name="maximize (1)" xmlns="http://www.w3.org/2000/svg" width="20.036" height="20.036" viewBox="0 0 20.036 20.036">
+  <g id="Group_164" data-name="Group 164" transform="translate(12.278)">
+    <g id="Group_163" data-name="Group 163">
+      <path id="Path_262" data-name="Path 262" d="M320.706,0h-6.139a.809.809,0,1,0,0,1.619h5.33v5.33a.809.809,0,0,0,1.619,0V.809A.809.809,0,0,0,320.706,0Z" transform="translate(-313.757 0)" fill="#484848"/>
+    </g>
+  </g>
+  <g id="Group_166" data-name="Group 166" transform="translate(0 12.278)">
+    <g id="Group_165" data-name="Group 165">
+      <path id="Path_263" data-name="Path 263" d="M6.949,319.9H1.619v-5.33a.809.809,0,0,0-1.619,0v6.139a.809.809,0,0,0,.809.809H6.949a.809.809,0,0,0,0-1.619Z" transform="translate(0 -313.757)" fill="#484848"/>
+    </g>
+  </g>
+  <g id="Group_168" data-name="Group 168" transform="translate(11.255)">
+    <g id="Group_167" data-name="Group 167">
+      <path id="Path_264" data-name="Path 264" d="M296.156.237a.809.809,0,0,0-1.145,0L287.849,7.4a.809.809,0,0,0,1.145,1.145l7.162-7.162A.809.809,0,0,0,296.156.237Z" transform="translate(-287.612 0)" fill="#484848"/>
+    </g>
+  </g>
+  <g id="Group_170" data-name="Group 170" transform="translate(0 11.255)">
+    <g id="Group_169" data-name="Group 169">
+      <path id="Path_265" data-name="Path 265" d="M8.544,287.848a.809.809,0,0,0-1.145,0L.237,295.011a.809.809,0,1,0,1.145,1.145l7.162-7.162A.809.809,0,0,0,8.544,287.848Z" transform="translate(0 -287.611)" fill="#484848"/>
+    </g>
+  </g>
+</svg>

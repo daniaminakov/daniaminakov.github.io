@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.111" height="17.997" viewBox="0 0 18.111 17.997">
+    <defs>
+        <style>
+            .cls-1{fill:#0f85d6}
+        </style>
+    </defs>
+    <g id="download" transform="translate(-30)">
+        <g id="Group_52" data-name="Group 52">
+            <path id="Path_121" d="M28.357 341.4a.752.752 0 0 0-.754.754v3.637h-15.1v-3.637a.754.754 0 1 0-1.508 0v4.391a.752.752 0 0 0 .754.754h16.6a.752.752 0 0 0 .754-.754v-4.391a.752.752 0 0 0-.746-.754z" class="cls-1" data-name="Path 121" transform="translate(19 -329.302)"/>
+            <path id="Path_122" d="M122.81 27.092a.757.757 0 0 0 1.105 0l4.336-4.665a.755.755 0 1 0-1.105-1.028l-3.027 3.256v-9.8a.754.754 0 1 0-1.508 0v9.805l-3.027-3.26a.756.756 0 1 0-1.109 1.028z" class="cls-1" data-name="Path 122" transform="translate(-84.309 -14.1)"/>
+        </g>
+    </g>
+</svg>

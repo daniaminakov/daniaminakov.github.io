@@ -1,0 +1,24 @@
+  <svg>
+    <defs>
+      <style>
+        .cls-1 {
+        fill: none;
+        }
+
+        .cls-2 {
+        clip-path: url(#clip-path);
+        }
+
+        .cls-3 {
+        fill: #fff;
+        }
+      </style>
+      <clipPath id="clip-path">
+        <rect class="cls-1" width="18.111" height="17.997"/>
+      </clipPath>
+    </defs>
+    <g id="download" class="cls-2" transform="translate(0 0)">
+      <path id="Path_121" data-name="Path 121" class="cls-3" d="M28.357,341.4a.752.752,0,0,0-.754.754v3.637h-15.1v-3.637a.754.754,0,1,0-1.508,0v4.391a.752.752,0,0,0,.754.754h16.6a.752.752,0,0,0,.754-.754v-4.391A.752.752,0,0,0,28.357,341.4Z" transform="translate(-11 -329.302)"/>
+      <path id="Path_122" data-name="Path 122" class="cls-3" d="M122.81,27.092a.757.757,0,0,0,1.105,0l4.336-4.665a.755.755,0,1,0-1.105-1.028l-3.027,3.256v-9.8a.754.754,0,1,0-1.508,0V24.66L119.584,21.4a.756.756,0,1,0-1.109,1.028Z" transform="translate(-114.309 -14.1)"/>
+    </g>
+  </svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="23" viewBox="0 0 75 23">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #0f85d6;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="75" height="23"/>
+    </clipPath>
+  </defs>
+  <g id="Vector_Smart_Object" data-name="Vector Smart Object" class="cls-2">
+    <g id="Layer_1" data-name="Layer 1" transform="translate(-6.336 -8.878)">
+      <g id="Group_14" data-name="Group 14">
+        <g id="Group_13" data-name="Group 13">
+          <path id="Path_25" data-name="Path 25" class="cls-3" d="M13.923,31.878,6.336,20.519l8.694-4.144-3.794,7.981Z"/>
+        </g>
+      </g>
+    </g>
+    <g id="Layer_4" data-name="Layer 4" transform="translate(-6.336 -8.878)">
+      <g id="Group_15" data-name="Group 15">
+        <path id="Path_26" data-name="Path 26" class="cls-3" d="M14.24,8.878l7.588,11.356L13.134,24.38,16.928,16.4Z"/>
+      </g>
+    </g>
+    <g id="Layer_5" data-name="Layer 5" transform="translate(-6.336 -8.878)">
+      <path id="Path_27" data-name="Path 27" class="cls-3" d="M25.438,15.135l-2.328,3.51h4.219v8.248H30.95V18.645h2.729l2.345-3.51Z"/>
+      <path id="Path_28" data-name="Path 28" class="cls-3" d="M47.26,15.135l-3.2,4.317-3.428-4.317H36.022l6.2,7.845v3.913h3.62v-3.9l6.014-7.858Z"/>
+      <path id="Path_29" data-name="Path 29" class="cls-3" d="M58.218,23.4a2.563,2.563,0,0,1-1.8-.656,2.183,2.183,0,0,1-.7-1.691,2.311,2.311,0,0,1,.7-1.738,2.562,2.562,0,0,1,1.8-.671H63.21l2.328-3.51h-7.32a6.206,6.206,0,0,0-4.386,1.6,5.466,5.466,0,0,0-1.723,4.177,5.769,5.769,0,0,0,1.743,4.281,6.028,6.028,0,0,0,4.367,1.7h4.992l2.33-3.493H58.218Z"/>
+      <path id="Path_30" data-name="Path 30" class="cls-3" d="M79.615,16.735a6.21,6.21,0,0,0-4.388-1.6H72.338a6.283,6.283,0,0,0-4.4,1.6,5.477,5.477,0,0,0-1.721,4.177,5.764,5.764,0,0,0,1.744,4.281,6.039,6.039,0,0,0,4.378,1.7h2.889a6.043,6.043,0,0,0,4.38-1.713,5.74,5.74,0,0,0,1.729-4.266A5.467,5.467,0,0,0,79.615,16.735Zm-2.568,6.021a2.629,2.629,0,0,1-1.819.643H72.339a2.538,2.538,0,0,1-1.819-.66,2.162,2.162,0,0,1-.7-1.687,2.307,2.307,0,0,1,.705-1.741,2.484,2.484,0,0,1,1.811-.668h2.889a2.54,2.54,0,0,1,1.814.683,2.27,2.27,0,0,1,.7,1.726A2.232,2.232,0,0,1,77.047,22.757Z"/>
+    </g>
+  </g>
+</svg>

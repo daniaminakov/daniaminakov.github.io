@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="518.901" height="554.093" viewBox="0 0 518.901 554.093">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        opacity: 0.64;
+      }
+
+      .cls-4 {
+        fill: #5bd65b;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="518.901" height="554.093"/>
+    </clipPath>
+  </defs>
+  <g id="Group_135" data-name="Group 135" transform="translate(0 2.822)">
+    <g id="Component_14_1" data-name="Component 14 – 1" class="cls-2" transform="translate(0 -2.822)">
+      <g id="Group_84" data-name="Group 84" class="cls-3" transform="translate(17.847 2.822)">
+        <path id="Path_128" data-name="Path 128" class="cls-4" d="M2496.853,158.6h-338s-21.509-10.04-5.121,37.422,111.643,344.1,111.643,344.1,55.308,162.467-180.269,168.857h493.686s12.292-2.738,5.121-20.08-134.175-407.084-134.175-407.084S2409.792,212.455,2496.853,158.6Z" transform="translate(-2085.105 -157.717)"/>
+      </g>
+      <path id="Path_128-2" data-name="Path 128" class="cls-5" d="M2496.853,158.608h-338s-21.509-10.092-5.121,37.614,111.643,345.866,111.643,345.866,55.308,163.3-180.269,169.721h493.686s12.292-2.752,5.121-20.183-134.175-409.167-134.175-409.167S2409.792,212.735,2496.853,158.608Z" transform="translate(-2085.105 -157.717)"/>
+    </g>
+  </g>
+</svg>
