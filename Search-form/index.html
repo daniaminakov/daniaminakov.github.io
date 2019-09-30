@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Search-form</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section class="main">
+		<div class="container">
+			<div class="main-wrapper">
+				<div class="main-box">
+					<div class="box1">
+						<div class="title">
+							Основной поиск
+						</div>
+						<div class="information">
+							<div class="information-block">
+								Фамилия:
+								<input type="text">
+							</div>
+							<div class="information-block">
+								Имя:
+								<input type="text">
+							</div>
+							<div class="information-block">
+								Отчество:
+								<input type="text">
+							</div>
+							<div class="information-block">
+								Адрес:
+								<input type="text">
+							</div>
+							<div class="information-check">
+								<input type="checkbox" id="inf-check"> 
+								<label for="inf-check">точно</label>
+							</div>
+						</div>
+						<div class="date">
+							<div class="date-up">
+								Год рождения: <input type="number">
+							</div>
+							<div class="date-box">
+								<div class="date-box__block">
+									Дата рождения
+									<div class="date-block__content">
+										от: <input type="date">
+									</div>
+									<div class="date-block__content">
+										до: <input type="date">
+									</div>
+								</div>
+								<div class="date-box__block">
+									Возраст(лет):
+									<div class="date-block__content">
+										от: <input type="number">
+									</div>
+									<div class="date-block__content">
+										до: <input type="number">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="box2">
+						<div class="title">
+							Поиск по адресу
+						</div>
+						<div class="now-date">
+							Текущая дата: 
+							<span>27.09.2019</span>
+						</div>
+						<div class="inp-inn">
+							ИНН: <input type="text">
+						</div>
+						<div class="document">
+							<p class="document-title">
+								Документ
+							</p>
+							<div class="document-box">
+								<div class="document-block">
+									Серия: <input type="number">
+								</div>
+								<div class="document-block">
+									Номер: <input type="number">
+								</div>
+							</div>
+						</div>
+						<div class="search-surname">
+							<div class="search-surname__block">
+								Поиск по фамилии:
+								<div class="search-surname__choice">
+									<input type="radio" id="inp1" name="choice1" checked="checked">
+									<label for="inp1">По началу</label>
+								</div>
+								<div class="search-surname__choice">
+									<input type="radio" id="inp2" name="choice1">
+									<label for="inp2">Точное совпадение</label>
+								</div>
+							</div>
+							<div class="search-surname__block">
+								Поиск по имени и отчеству:
+								<div class="search-surname__choice">
+									<input type="radio" id="inp3" name="choice2" checked="checked">
+									<label for="inp3">Искать по инициалам</label>
+								</div>
+								<div class="search-surname__choice">
+									<input type="radio" id="inp4" name="choice2">
+									<label for="inp4">Искать по именам/отчествам</label>
+								</div>
+							</div>						
+							<div class="search-surname__block">
+								Поиск по дате рождения,возрасту:
+								<div class="search-surname__choice">
+									<input type="radio" id="inp5" name="choice3" checked="checked">
+									<label for="inp5">Искать среди пустых</label>
+								</div>
+								<div class="search-surname__choice">
+									<input type="radio" id="inp6" name="choice3">
+									<label for="inp6">Искать только в заполненых</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main-bottom">
+					<div class="main-bottom__block">
+						Поиск по номеру А/М:
+					</div>
+					<div class="main-bottom__block">
+						буква:
+						<input type="text">
+					</div>
+					<div class="main-bottom__block">
+						номер:
+						<input type="number">
+					</div>
+					<div class="main-bottom__block">
+						буквы:
+						<input type="text">
+					</div>
+					<div class="main-bottom__block">
+						регион:
+						<input type="text">
+					</div>
+				</div>
+			</div>
+			<div class="buttons">
+				<button>Искать</button>
+				<button>Очистить</button>
+				<button>Выход</button>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
