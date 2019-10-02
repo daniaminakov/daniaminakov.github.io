@@ -444,13 +444,30 @@ details[open] > summary:after{
 }
 
 .company-block__up input{
+	padding-left: 3px;
 	width: 170px;
 }
 
-.company-block__main textarea{
+.company-block__main, .company-block__selected{
 	padding: 5px;
 	height: 235px;
 	width: 100%;
+	background-color: #fff;
+	border: 1px solid #b3b3b3;
+   overflow-y: scroll;
+}
+
+.company-block__item{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 5px;
+}
+
+.company-block__item input{
+	margin-right: 5px;
 }
 
 .company-btns button{
