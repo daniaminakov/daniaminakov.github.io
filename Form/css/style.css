@@ -199,6 +199,7 @@ details[open] > summary:after{
 .option-polis__block1 input{
 	width: 100px;
 	height: 20px;
+	padding-left: 3px;
 }
 
 .option-polis__block2{
@@ -405,7 +406,8 @@ details[open] > summary:after{
 	margin-bottom: 5px;
 }
 
-.data-car__block-item input, .data-car__block-item select{
+.data-car__block-item input{
+	padding-left: 3px;
 	width: 155px;
 }
 
@@ -454,7 +456,7 @@ details[open] > summary:after{
 	width: 100%;
 	background-color: #fff;
 	border: 1px solid #b3b3b3;
-   	overflow-y: scroll;
+   overflow-y: scroll;
 }
 
 .company-block__item{
@@ -572,11 +574,12 @@ details[open] > summary:after{
 		width: 65%;
 	}
 
-	.option-content__item select {
+	.option-content__item input {
+		padding-left: 3px;
 		width: 65%;
 	}
 
-	.option-content__item:first-child select {
+	.option-content__item:first-child input {
 		width: 55%;
 	}
 
