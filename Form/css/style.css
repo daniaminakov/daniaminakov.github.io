@@ -454,7 +454,7 @@ details[open] > summary:after{
 	width: 100%;
 	background-color: #fff;
 	border: 1px solid #b3b3b3;
-   overflow-y: scroll;
+   	overflow-y: scroll;
 }
 
 .company-block__item{
