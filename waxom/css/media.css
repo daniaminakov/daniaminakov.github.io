@@ -77,7 +77,11 @@
 	}
 
 	.dribbble-widget{
-		display: none;
+		width: 275px;
+	}
+
+	.about-us__box{
+		flex-wrap: wrap;
 	}
 }
 
@@ -173,14 +177,6 @@
 		display: none;
 	}
 
-	.partners{
-		display: none;
-	}
-
-	.about-us{
-		display: none;
-	}
-
 	.footer-text{
 		margin: 0 auto;
 	}
@@ -210,6 +206,14 @@
 
 	.video__text{
 		width: 90%;
+	}
+
+	.video{
+		padding-bottom: 141px;
+	}
+
+	.video-presentation{
+		padding-top: 100px;
 	}
 
 	.carts{
@@ -255,16 +259,21 @@
 		margin-bottom: 3%;
 	}
 	.content__text{
-		display: none;
+		font-size: 14px;
+		width: 80%;
 	}
 
 	.content__title{
 		font-size: 35px;
-		margin-bottom: 15%;
+		margin-bottom: 15px;
 	}
 
 	.content__btn{
 		margin-bottom: 30%;
+	}
+
+	.about-us{
+		display: none;
 	}
 
 }
@@ -286,7 +295,10 @@
 
 	.content__title {
 		font-size: 24px;
-		margin-bottom: 15%;
+	}
+
+	.content__text {
+		width: 95%;
 	}
 
 	.tools{
@@ -313,14 +325,6 @@
 		margin-bottom: 20%;
 	}
 
-	.wrapper__title{
-		font-size: 20px;
-	}
-
-	.wrapper__text{
-		display: none;	
-	}
-
 	.multipurpose__title{
 		font-size: 18px;
 		width: 100%;
@@ -336,7 +340,7 @@
 	}
 
 	.projects__img{
-		width: 80%;
+		width: 100%;
 	}
 	
 	.projects-information{
@@ -361,11 +365,7 @@
 	}
 
 	.video__text{
-		display: none;	
-	}
-
-	.mobile-devices{
-		display: none;
+		font-size: 14px;	
 	}
 
 	.video-presentation{
@@ -379,7 +379,7 @@
 	}
 
 	.video{
-		margin-bottom: 20%;
+		padding-bottom: 100px;
 	}
 
 	.video__title{
@@ -398,19 +398,34 @@
 		font-size: 30px
 	}
 
-	.recent-posts{
-		display: none;
-	}
-
 	.ideas{
-		display: none;
+		padding-top: 40px;
 	}
 
 	.footer-text li:nth-child(2){
 		display: none;
 	}
 
-	.latest__button{
-		display: none;
+	.post{
+		width: 100%;
 	}
+
+	.post__img, .post__information, .post__subtitle{
+		width: 100%;
+	}
+
+	.multipurpose__title span {
+		margin-right: 20px;
+	}
+
+	.partners{
+		padding-top: 50px;
+	}
+
+	.logos__img{
+		width: 30%;
+		margin-bottom: 50px;
+	}
+
+
 }
