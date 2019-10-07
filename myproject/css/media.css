@@ -401,4 +401,11 @@
 	#close{
 		padding-top: 7px;
 	}
+	
+}
+
+@media screen and (max-width: 350px) {
+	.calculator{
+		width: 95%;	
+	}
 }
