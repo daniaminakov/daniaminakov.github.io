@@ -164,6 +164,9 @@ a{
 	height: 160px;
 	border-radius: 25px;
 	background-image: url(../img/grechka.png);
+	background-size: cover;
+   	background-repeat: no-repeat;
+    	background-position: center;
 	border: none;
 	cursor: pointer;
 }
@@ -187,6 +190,9 @@ a{
 	border-radius: 25px;
 	height: 160px;
 	background-image: url(../img/ris.png);
+	background-size: cover;
+   	background-repeat: no-repeat;
+    	background-position: center;
 	border: none;
 	cursor: pointer;
 }
@@ -205,6 +211,9 @@ a{
 	width: 285px;
 	height: 160px;
 	background-image: url(../img/ovsianka.png);
+	background-size: cover;
+   	background-repeat: no-repeat;
+    	background-position: center;
 	border: none;
 	cursor: pointer;
 }
@@ -220,6 +229,9 @@ a{
 	border-radius: 25px;
 	height: 160px;
 	background-image: url(../img/psheno.png);
+	background-size: cover;
+   	background-repeat: no-repeat;
+    	background-position: center;
 	border: none;
 	cursor: pointer;
 }
@@ -238,6 +250,9 @@ a{
 	border-radius: 25px;
 	height: 160px;
 	background-image: url(../img/tvorog.png);
+	background-size: cover;
+   	background-repeat: no-repeat;
+    	background-position: center;
 	border: none;
 	cursor: pointer;
 }
@@ -254,6 +269,9 @@ a{
 	border-radius: 25px;
 	height: 160px;
 	background-image: url(../img/makaronu.png);
+	background-size: cover;
+   	background-repeat: no-repeat;
+    	background-position: center;
 	border: none;
 	cursor: pointer;
 }
