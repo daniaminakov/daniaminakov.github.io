@@ -871,7 +871,7 @@ header{
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
 }
 
 .footer-text{
