@@ -23,7 +23,7 @@ font-family: 'Roboto', sans-serif;*/
 	margin-left: auto;
 	margin-right: auto;
 	width: 345px;
-	height: 460px;
+	height: 470px;
 }
 
 .banner-wrapper{
@@ -86,7 +86,9 @@ font-family: 'Roboto', sans-serif;*/
 	color: #f9f8ff;
 	line-height: 0.5;
 	letter-spacing: 0.05rem;
+	margin: 0;
 	margin-bottom: 7px;
+	padding-bottom: 0 !important;
 }
 
 .wrapper-stars{
