@@ -24,8 +24,13 @@ $('.owl-carousel').owlCarousel({
 
 
 // maskedinput
+$("#phone").mask('000 000 00 00');
 
-$("#phone").mask("000 00 00");
-    
-    
+
+// Submit-form
+
+
+
+
+
 });
