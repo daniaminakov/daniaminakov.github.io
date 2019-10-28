@@ -185,29 +185,29 @@ font-family: 'Roboto', sans-serif;*/
 
 .wrapper-stars__item:first-child img{
 	animation: starPulse linear infinite;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 	animation-delay: 1s; 
 }
 
 .wrapper-stars__item:nth-child(2) img{
 	animation: starPulse linear infinite;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 	animation-delay: 1.3s; 
 }
 .wrapper-stars__item:nth-child(3) img{
 	animation: starPulse linear infinite;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 	animation-delay: 1.6s; 
 }
 
 .wrapper-stars__item:nth-child(4) img{
 	animation: starPulse linear infinite;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 	animation-delay: 1.9s; 
 }
 .wrapper-stars__item:last-child img{
 	animation: starPulse linear infinite;
-	animation-duration: 2s;
+	animation-duration: 1.5s;
 	animation-delay: 2.2s; 
 }
 
