@@ -1,3 +1,4 @@
+$(document).ready(function(){
 
 // Owl-carousel
 $('.owl-carousel').owlCarousel({
@@ -19,4 +20,16 @@ $('.owl-carousel').owlCarousel({
             items:1
         }
     }
-})
+});
+
+
+// maskedinput
+
+$("#phone").mask("999 99 99").on('click', function () {
+    if ($(this).val() === '___ __ __') {
+        $(this).get(0).setSelectionRange(0, 0);
+    }
+});
+
+
+});
