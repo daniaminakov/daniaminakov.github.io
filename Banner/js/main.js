@@ -25,11 +25,7 @@ $('.owl-carousel').owlCarousel({
 
 // maskedinput
 
-$("#phone").mask("999 99 99").on('click', function () {
-    if ($(this).val() === '___ __ __') {
-        $(this).get(0).setSelectionRange(0, 0);
-    }
-});
-
-
+$("#phone").mask("000 00 00");
+    
+    
 });
