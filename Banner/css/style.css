@@ -131,12 +131,15 @@ font-family: 'Roboto', sans-serif;*/
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	margin-bottom: 24px;
 }
 
 .wrapper-stars__item{
 	margin-left: 3px;
 	width: 20px;
+	position: relative;
 }
+
 
 .wrapper-stars__item:first-child{
 	margin-left: 0px;
@@ -172,9 +175,54 @@ font-family: 'Roboto', sans-serif;*/
 	}
 }
 
-
 .wrapper-stars__item img{
+	position: absolute;
+	top: 4px;
+	left: 0;
 	width: 100%;
+	max-height: none !important;
+}
+
+.wrapper-stars__item:first-child img{
+	animation: starPulse linear infinite;
+	animation-duration: 2s;
+	animation-delay: 1s; 
+}
+
+.wrapper-stars__item:nth-child(2) img{
+	animation: starPulse linear infinite;
+	animation-duration: 2s;
+	animation-delay: 1.3s; 
+}
+.wrapper-stars__item:nth-child(3) img{
+	animation: starPulse linear infinite;
+	animation-duration: 2s;
+	animation-delay: 1.6s; 
+}
+
+.wrapper-stars__item:nth-child(4) img{
+	animation: starPulse linear infinite;
+	animation-duration: 2s;
+	animation-delay: 1.9s; 
+}
+.wrapper-stars__item:last-child img{
+	animation: starPulse linear infinite;
+	animation-duration: 2s;
+	animation-delay: 2.2s; 
+}
+
+@keyframes starPulse {
+	0%{	
+		top: 4px;
+	}
+
+	50%{
+		top: -4px;
+	}
+
+	100%{
+		top: 4px;
+	}
 }
 
 .banner-text{
@@ -348,6 +396,10 @@ font-family: 'Roboto', sans-serif;*/
 	font-weight: 700 !important;
 }
 
+.banner-form__number:active, .banner-form__number:focus{
+	color: #929292 !important;
+}
+
 .banner-form__number::placeholder{
 	color: #c0c0c0;
 }
@@ -363,3 +415,5 @@ font-family: 'Roboto', sans-serif;*/
 	font-family: 'PT Sans Caption', sans-serif;
 	font-weight: 700;
 }
+
+
