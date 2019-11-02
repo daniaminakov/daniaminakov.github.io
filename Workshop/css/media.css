@@ -70,6 +70,31 @@
 	}
 }
 
+@media screen and (max-width: 1145px) {
+	.modal-form{
+		flex-direction: column;	
+	}
+
+	.modal-block {
+		width: 100%;
+		padding: 70px 0px 90px 90px;
+	}
+
+	.modal-close{
+		top: 63px;
+		right: 45px;
+	}
+
+	.modal-form .form-inp{
+		margin-right: 0;
+		margin-left: 35px;
+	}
+
+	.modal-safe {
+		bottom: 5px;
+	}
+}
+
 @media screen and (max-width: 1025px) {
 	.video-play {
 		top: 26%;
@@ -230,6 +255,30 @@
 	.seminars-wrapper__title{
 		background-color: #FCFCFC;
 	}
+
+	.modal-subtitle{
+		width: 520px;
+		font-weight: 300;
+	}
+
+	.modal-title{
+		font-size: 36px;
+	}
+
+	.modal-subtitle{
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+
+	.modal-text{
+		font-size: 18px;
+		padding-left: 0;
+	}
+
+	.red-elipse:before{
+		top: -3px;
+		left: -15px;
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -243,7 +292,20 @@
 	.seminars-title1{
 		width: 520px;
 	}
-	
+
+	.modal-close{
+		top: 55px;
+		right: 14px;
+	}
+
+	.modal-block {
+		padding: 70px 0px 90px 40px;
+	}
+
+	.modal-subtitle {
+		width: 390px;
+	}
+
 }
 
 
@@ -438,12 +500,72 @@
 
 }
 
+@media screen and (max-width: 580px) {
+	.modal-close img{
+		content: url(../img/black-close.png);
+		height: 20px;
+		width: 20px;
+	}
+
+	.modal-block{
+		background-position: center left 35%;
+		text-align: center;
+		padding: 70px 0px 90px 0px
+	}
+
+	.modal-subtitle{
+		width: 100%;
+	}
+
+	.red-elipse:before{
+		display: none;
+	}
+
+	.modal-form .form-inp{
+		width: 315px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.modal-safe{
+		right: 20px;
+		bottom: 5px;
+	}
+}
+
 
 @media screen and (max-width: 535px) {
 	.video-play{
 		top: 27%;
 		left: 39%;
 	}
+
+	.modal-title {
+		font-size: 24px;
+		margin-bottom: 15px;
+	}
+
+	.modal-subtitle{
+		width: 95%;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 18px;
+	}
+
+	.modal-text{
+		width: 98%;
+	}
+
+	.modal-form {
+		margin-top: 20px;
+	}
+
+	.modal-form .form-submit input{
+		width: 270px;
+		padding: 15px;
+	}
+
+
 }
 
 
@@ -488,7 +610,7 @@
 	}
 
 	.form-inp input{
-		padding: 18px 10px 18px 45px;
+		padding: 18px 10px 16px 45px;
 	}
 
 	.inp-name:before {
@@ -569,7 +691,29 @@
 		text-align: center;
 		margin-bottom: 5px;
 	}
-	
+
+	.modal-subtitle {
+		font-size: 16px;
+	}
+
+	.modal-text{
+		line-height: 1.4rem;
+		font-size: 14px;
+	}
+
+	.modal-close img{
+		width: 15px;
+		height: 15px;
+	}
+
+	.text-safe{
+		font-size: 13px;
+	}
+
+	.modal-block{
+		padding: 50px 0px 75px 0px;
+	}
+
 }
 
 @media screen and (max-width: 350px) {
@@ -598,5 +742,9 @@
 	.video-play{
 		top: 22%;
 		left: 36%;
+	}
+
+	.modal-form .form-inp input {
+		width: 92%;
 	}
 }
