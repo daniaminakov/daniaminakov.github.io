@@ -449,6 +449,10 @@
 
 @media screen and (max-width: 420px) {
 
+	.video-play{
+		top: 24%;
+	}
+
 	.video-play img {
 		width: 50%;
 	}
