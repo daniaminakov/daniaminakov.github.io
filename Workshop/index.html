@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>INSTITUT</title>
+	<!-- For Media -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Normalize -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Main CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Media CSS-->
+	<link rel="stylesheet" href="css/media.css">
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,700i|Roboto:100,300,400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="modal">
+		<div class="modal-block">
+			<div class="modal-title">
+				Постой, милая!
+			</div>
+			<p class="modal-subtitle">
+				Ты хочешь привлекать больше клиентов 
+				и <span>увеличить свой доход?</span>
+			</p>
+			<p class="modal-text red-elipse">
+				У нас есть для тебя ПОДАРОК! 
+			</p>
+			<p class="modal-text">
+				Это практическое занятие с Викторией Шуриной.
+			</p>
+			<form action="" class="modal-form" method="GET">
+				<div class="form-inp inp-name">
+					<input type="text" name="modal-name" placeholder="Ваше имя" required>
+				</div>
+				<div class="form-inp inp-email">
+					<input type="email" name="modal-email" placeholder="Ваш основной email*" required>
+				</div>
+				<div class="form-submit">
+					<input type="submit" value="Получить подарок">
+				</div>
+			</form>
+			<p class="text-safe modal-safe">
+				<span>
+					<img src="img/lock.png" alt="Lock">
+				</span>Мы храним ваши данные в безопасности
+			</p>
+			<div class="modal-close">
+				<img src="img/close.png" alt="close">
+			</div>
+		</div>
+	</div>
+	<div class="background-box">
+		<div class="container">
+			<!-- header-START -->
+			<header class="header" id="header">
+				<div class="logo">
+					<img src="img/logo.png" alt="LOGO">
+				</div>
+				<div class="header-center">
+					<p class="header-center__text">
+						Серия бесплатных семинаров для предпринимателей и творческих людей
+					</p>
+					<p class="header-center__date">
+						ХХ, ХХ и ХХ месяц 19:00 по МСК
+					</p>
+				</div>
+				<div class="header-call">
+					<div class="header-call__number">
+						+38 (063) 646-04-86
+					</div>
+					<div class="header-call__inp">
+						<input type="button" value="заказать звонок">
+					</div>
+				</div>
+			</header>
+			<!-- header-END -->
+
+			<!-- section-up-START -->
+			<section class="main-section" id="main-section-up">
+				<div class="main-section-up">
+					<h1 class="section-up__title">
+						Как создать <span>поток клиентов</span>
+					</h1>
+					<p class="section-up__text">
+						Откройте для себя истинную силу продаж,
+						чтобы преуспевать и достигать большего в делах
+					</p>
+					<p class="section-up__subtitle">
+						*Об этом не пишут в книгах!
+					</p>
+				</div>
+				<div class="main-section-box">
+					<div class="section-box-left">
+						<div class="video">
+							<div class="video-img">
+								<img src="img/video.png" alt="video">
+							</div>
+							<div class="video-play">
+								<img src="img/play.png" alt="play">
+							</div>
+							<p class="video-text mt-20">Длительность: <span>2 часа 52 минуты</span></p>
+							<p class="video-text">Ценность: $ 950</p>
+						</div>
+						<p class="box-left-text">
+							Бронируя участие в семинаре, 
+							вы моментально получаете на почту запись урока: 
+						</p>
+						<div class="bottom-block">
+							<div class="bottom-block__text">
+								“Как сделать так, чтобы люди ждали<br>
+								ваше предложение и с удовольствием покупали” 
+							</div>
+						</div>
+						<div class="absolutely-free">
+							абсолютно<span>БЕСПЛАТНО</span>
+						</div>
+					</div>
+					<div class="section-box-right">
+						<form action="" class="form" method="GET">
+							<div class="form-wrapper">
+								<div class="form-wrapper-container">
+									<h3 class="form-title">
+										БРОНИРУЙТЕ ВАШЕ УЧАСТИЕ 
+										В ОНЛАЙН-СЕМИНАРАХ СЕЙЧАС
+									</h3>
+									<p class="form-subtitle">
+										запись урока будет сразу отправлена 
+										вам на почту
+									</p>
+									<div class="form-inp inp-name">
+										<input type="text" name="name" placeholder="Ваше имя" required>
+									</div>
+									<div class="form-inp inp-email">
+										<input type="email" name="email" placeholder="Ваш основной email*" required>
+									</div>
+									<div class="form-inp__cheacked">
+										<input type="checkbox" id="remind" name="check">
+										<label for="remind" class="remind-checkbox">
+											<img src="img/check-mark.png" alt="Check Mark">
+										</label>
+										<label for="remind">Напомнить по смс</label>
+									</div>
+									<div class="form-submit">
+										<input type="submit" value="Принять участие">
+									</div>
+									<p class="text-safe">
+										<span><img src="img/lock.png" alt="Lock"></span>Мы храним ваши данные в безопасности
+									</p>
+								</div>
+							</div>
+						</form>
+						<div class="counter">
+							<div class="counter-title">
+								До старта осталось
+							</div>
+							<div class="timer" id="timer">
+								<div class="timer-item">
+									<div class="days"></div>
+									<span>Дней</span>
+								</div>
+								<div class="timer-item">
+									<div class="hours"></div>	
+									<span>Часов</span>
+								</div>
+								<div class="timer-item">
+									<div class="minutes"></div>
+									<span>Минут</span>
+								</div>
+								<div class="timer-item">
+									<div class="seconds"></div>
+									<span>Секунд</span>
+								</div>
+							</div>
+							<div class="counter-text">
+								* Количество мест ограничено
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section-up-END -->
+		</div>
+	</div>
+
+	<!-- television-START -->
+	<section class="television" id="television">
+		<div class="container">
+			<h2 class="main-title">
+				О Виктории говорят и пишут
+			</h2>
+			<div class="television-wrapper">
+				<div class="television-item">
+					<img src="img/television1.png" alt="Television">
+				</div>
+				<div class="television-item">
+					<img src="img/television2.png" alt="Television">
+				</div>
+				<div class="television-item">
+					<img src="img/television3.png" alt="Television">
+				</div>
+				<div class="television-item">
+					<img src="img/television4.png" alt="Television">
+				</div>
+				<div class="television-item">
+					<img src="img/television5.png" alt="Television">
+				</div>
+				<div class="television-item">
+					<img src="img/television6.png" alt="Television">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- television-END -->
+
+	<!-- seminars-START -->
+	<section class="seminars" id="seminars">
+		<div class="container">
+			<h2 class="main-title">
+				Что вы узнаете на семинарах
+			</h2>
+			<!-- 1 -->
+			<div class="seminars-wrapper">
+				<div class="seminars-wrapper-up seminars-up1">
+					Встреча №1
+					<div class="seminars-up__block">
+						ХХ месяц <span>19:00</span> по МСК
+					</div>
+				</div>
+				<div class="seminars-wrapper__title seminars-title1">
+					<div class="seminars-title__img">
+						<img src="img/geometry.png" alt="geometry">
+					</div>
+					Как сильно увеличить доход в  своем деле
+				</div>
+				<div class="seminars-wrapper-box seminars-wrapper1">
+					<ul class="seminars-content">
+						<li>
+							<div class="seminars-marker">
+								<img src="img/seminars-marker.png" alt="Seminars Marker">
+							</div>
+							Вы узнаете, почему у кого-то идут продажи, а у кого-то — нет.
+						</li>
+						<li>
+							<div class="seminars-marker">
+								<img src="img/seminars-marker.png" alt="Seminars Marker">
+							</div>
+							В чем на самом деле кроется причина отказов<br>
+							(даже в случаях, когда человек проявлял искренний интерес вашим продуктом или услугой).
+						</li>
+						<li>
+							<div class="seminars-marker">
+								<img src="img/seminars-marker.png" alt="Seminars Marker">
+							</div>
+							Пройдете практику для роста продаж и количества клиентов.
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- 2 -->
+			<div class="seminars-wrapper">
+				<div class="seminars-wrapper-up">
+					Встреча №2
+					<div class="seminars-up__block">
+						ХХ месяц <span>19:00</span> по МСК
+					</div>
+				</div>
+				<div class="seminars-wrapper__title">
+					<div class="seminars-title__img">
+						<img src="img/geometry.png" alt="geometry">
+					</div>
+					Почему вы боитесь продавать и как это исправить
+				</div>
+				<div class="seminars-wrapper-box">
+					<ul class="seminars-content">
+						<li>
+							<div class="seminars-marker">
+								<img src="img/seminars-marker.png" alt="Seminars Marker">
+							</div>
+							Вместе мы проработаем самые распространенные и сильные блокирующие убеждения в продажах. 
+							<li>
+								<div class="seminars-marker">
+									<img src="img/seminars-marker.png" alt="Seminars Marker">
+								</div>
+								Вы избавитесь от страха назвать цену и уверенно повысите стоимость на свои услуги. 
+							</li>
+							<li>
+								<div class="seminars-marker">
+									<img src="img/seminars-marker.png" alt="Seminars Marker">
+								</div>
+							После практики вы осознаете, что ваше дело стоит дорого и люди готовы столько платить.						</li>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- 3 -->
+			<div class="seminars-wrapper">
+				<div class="seminars-wrapper-up">
+					Встреча №3
+					<div class="seminars-up__block">
+						ХХ месяц <span>19:00</span> по МСК
+					</div>
+				</div>
+				<div class="seminars-wrapper__title">
+					<div class="seminars-title__img">
+						<img src="img/geometry.png" alt="geometry">
+					</div>
+					Приемы моментальных продаж, о которых никто не знает
+				</div>
+				<div class="seminars-wrapper-box">
+					<ul class="seminars-content">
+						<li>
+							<div class="seminars-marker">
+								<img src="img/seminars-marker.png" alt="Seminars Marker">
+							</div>
+							Просто представьте, что как только в пространстве человека появляется информация о вас, он уже подсознательно готов покупать. 
+							Он чувствует вашу дорогу ю энергию и хочет стать ее частью. 
+							Причем вам не обязательно быть в этот момент рядом с человеком вживую. Такой эффект создают, например, ваш пост в соцсетях или просто ожившее воспоминание. Хотите так? Разберем все тонкости на третьем семинаре.
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- seminars-END -->
+
+<!-- Participate-START -->
+	<section class="participate" id="participate">
+		<div class="container">
+			<div class="form-submit participate-inp">
+				<input type="submit" value="Принять участие">
+			</div>
+		</div>
+	</section>
+<!-- Participate-END -->
+
+<!-- Footer-START -->
+	<footer class="footer" id="footer">
+		<div class="container">
+			<div class="footer-up">
+				<div class="footer-number">
+					<p class="footer-number-item">
+						+38 (093) 170 15 74
+					</p>
+					<p class="footer-number-item">
+						+7 (499) 677 48 62
+					</p>
+				</div>
+				<div class="footer-logo">
+					<img src="img/logo.png" alt="LOGO">
+				</div>
+				<div class="footer-social">
+					<a href="#">
+						<div class="footer-social__img">
+							<img src="img/facebook-icon.png" alt="facebook">
+						</div>
+					</a>
+					<a href="#">
+						<div class="footer-social__img">
+							<img src="img/telegram-icon.png" alt="telegram">
+						</div>
+					</a>
+					<a href="#">
+						<div class="footer-social__img">
+							<img src="img/youtube-icon.png" alt="youtube">
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="rights">
+				© Виктория Шурина. Все права защищены. 
+				Любое копирование материалов разрешено только с согласия правообладателей.
+			</div>
+			<div class="rights-box">
+				<a href="#" class="rights-box__item">
+					Условия оферты
+				</a>
+				<a href="#" class="rights-box__item">
+					Политика конфиденциальности
+				</a>
+			</div>
+		</div>
+	</footer>
+<!-- Footer-END -->
+
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>
