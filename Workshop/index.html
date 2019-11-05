@@ -5,6 +5,10 @@
 	<title>INSTITUT</title>
 	<!-- For Media -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 	<!-- Normalize -->
 	<link rel="stylesheet" href="css/normalize.css">
 	<!-- Main CSS -->
@@ -15,6 +19,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,700i|Roboto:100,300,400,700&display=swap" rel="stylesheet">
 </head>
 <body>
+
+	<!-- modal-START -->
 	<div class="modal">
 		<div class="modal-block">
 			<div class="modal-title">
@@ -51,6 +57,21 @@
 			</div>
 		</div>
 	</div>
+	<!-- modal-END -->
+
+	<!-- modalVideo-START -->
+	<div class="modal-video">
+		<div class="modal-video__block">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/uNX16nYipiw" 
+			frameborder="0" allow="accelerometer; autoplay; encrypted-media; 
+			gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<div class="video-close">
+				<img src="img/black-close.png" alt="Close">
+			</div>
+		</div>
+	</div>
+	<!-- modalVideo-END -->
+
 	<div class="background-box">
 		<div class="container">
 			<!-- header-START -->
@@ -225,7 +246,7 @@
 				<div class="seminars-wrapper-up seminars-up1">
 					Встреча №1
 					<div class="seminars-up__block">
-						ХХ месяц <span>19:00</span> по МСК
+						ХХ месяц <span>20:00</span> по МСК <span>19:00</span> по Киеву
 					</div>
 				</div>
 				<div class="seminars-wrapper__title seminars-title1">
@@ -264,7 +285,7 @@
 				<div class="seminars-wrapper-up">
 					Встреча №2
 					<div class="seminars-up__block">
-						ХХ месяц <span>19:00</span> по МСК
+						ХХ месяц <span>20:00</span> по МСК <span>19:00</span> по Киеву
 					</div>
 				</div>
 				<div class="seminars-wrapper__title">
@@ -301,7 +322,7 @@
 				<div class="seminars-wrapper-up">
 					Встреча №3
 					<div class="seminars-up__block">
-						ХХ месяц <span>19:00</span> по МСК
+						ХХ месяц <span>20:00</span> по МСК <span>19:00</span> по Киеву
 					</div>
 				</div>
 				<div class="seminars-wrapper__title">
@@ -327,7 +348,7 @@
 	</section>
 	<!-- seminars-END -->
 
-<!-- Participate-START -->
+	<!-- Participate-START -->
 	<section class="participate" id="participate">
 		<div class="container">
 			<div class="form-submit participate-inp">
@@ -335,9 +356,9 @@
 			</div>
 		</div>
 	</section>
-<!-- Participate-END -->
+	<!-- Participate-END -->
 
-<!-- Footer-START -->
+	<!-- Footer-START -->
 	<footer class="footer" id="footer">
 		<div class="container">
 			<div class="footer-up">
@@ -355,17 +376,22 @@
 				<div class="footer-social">
 					<a href="#">
 						<div class="footer-social__img">
-							<img src="img/facebook-icon.png" alt="facebook">
+							<img src="img/facebook-icon.png" alt="facebook" title="Facebook">
 						</div>
 					</a>
 					<a href="#">
 						<div class="footer-social__img">
-							<img src="img/telegram-icon.png" alt="telegram">
+							<img src="img/instagram-icon.png" alt="instagram" title="Instagram">
 						</div>
 					</a>
 					<a href="#">
 						<div class="footer-social__img">
-							<img src="img/youtube-icon.png" alt="youtube">
+							<img src="img/telegram-icon.png" alt="telegram" title="Telegram">
+						</div>
+					</a>
+					<a href="#">
+						<div class="footer-social__img">
+							<img src="img/youtube-icon.png" alt="youtube" title="Youtube">
 						</div>
 					</a>
 				</div>
@@ -384,8 +410,10 @@
 			</div>
 		</div>
 	</footer>
-<!-- Footer-END -->
+	<!-- Footer-END -->
 
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 </body>
