@@ -34,18 +34,39 @@ var countDownFunction = setInterval(function(){
 // Modal-START
 
 var modal = document.querySelector(".modal");
-var play = document.querySelector(".video-play");
 var close = document.querySelector(".modal-close");
+
 // Open-modal
-play.addEventListener('click', function(){
+$(document).mouseleave(function(){
 	modal.style.display = 'flex';
 });
+
+
 // Close-modal
 close.addEventListener('click', function(){
 	modal.style.display = 'none';
 });
 
 // Modal-END
+
+
+// ModalVideo-START
+
+var videoPlay = document.querySelector(".video-play");
+var modalVideo = document.querySelector(".modal-video");
+var closeVideo = document.querySelector(".video-close");
+
+// Open-modalVideo
+videoPlay.addEventListener('click', function(){
+	modalVideo.style.display = 'flex';
+});
+
+// Close-modal
+closeVideo.addEventListener('click', function(){
+	modalVideo.style.display = 'none';
+});
+
+// ModalVideo-END
 
 
 
