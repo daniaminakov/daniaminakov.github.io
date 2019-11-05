@@ -154,6 +154,20 @@ li{
 	position: absolute;
 	top: 165px;
 	left: 230px;
+	animation: animated 2s linear infinite;
+}
+
+@keyframes animated {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
 }
 
 .video-text{
@@ -546,10 +560,17 @@ li{
 }
 
 .seminars-up__block:before{
-	content: url(../img/seminars-background.png);
+	content: '';
+	background-image: url(../img/seminars.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 40px;
+	border-radius: 15px;
 	position: absolute;
-	top: -8px;
-	left: -30px;
+	top: -6px;
+	left: -15px;
 	z-index: -1;
 }
 
@@ -686,10 +707,11 @@ li{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	align-items: center;
 }
 
 .footer-social a{
-	margin-right: 20px;
+	margin-right: 15px;
 }
 
 .footer-social a:last-child{
@@ -825,3 +847,50 @@ li{
 }
 
 /*modal-END*/
+
+
+/*modalVideo-START*/
+.modal-video{
+	display: none;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(255, 255, 255, 0.9);
+	opacity: 1;
+	position: fixed;
+	z-index: 999;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-video__block{
+	width: 90%;
+	height: 70%;
+	max-width: 1400px;
+	max-height: 1000px;
+	position: relative;
+}
+
+.modal-video__block iframe{
+	width: 100%;
+	height: 100%;
+}
+
+.video-close{
+	position: absolute;
+	top: -50px;
+	right: 0px;
+	width: 25px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.video-close img{
+	width: 100%;
+}
+
+.video-close:hover{
+	transform: rotate(180deg);
+	transition: 0.5s;
+}
+
+/*modalVideo-END*/
