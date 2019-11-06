@@ -551,31 +551,23 @@ li{
 }
 
 .seminars-up__block{
+	padding: px 12px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-style: italic;
 	margin-left: 60px;
 	position: relative;
 	z-index: 1;
-}
-
-.seminars-up__block span{
-	font-weight: 600;
-}
-
-.seminars-up__block:before{
-	content: '';
 	background-image: url(../img/seminars.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	width: 420px;
-	height: 40px;
 	border-radius: 15px;
-	position: absolute;
-	top: -6px;
-	left: -15px;
-	z-index: -1;
+	margin-top: -10px;
+}
+
+.seminars-up__block span{
+	font-weight: 600;
 }
 
 .seminars-wrapper__title{
