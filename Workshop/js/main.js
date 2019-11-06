@@ -63,10 +63,12 @@ videoPlay.addEventListener('click', function(){
 });
 
 // Close-modalVideo
+
 closeVideo.addEventListener('click', function(){
 	modalVideo.style.display = 'none';
-	$(".modal-video__block iframe").each(function() {
-		$(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
+	jQuery(".modal-video__block iframe").each(function() {
+		jQuery(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
 });
+
 
 // ModalVideo-END
