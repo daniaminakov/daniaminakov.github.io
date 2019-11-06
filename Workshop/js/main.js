@@ -65,7 +65,7 @@ videoPlay.addEventListener('click', function(){
 // Close-modalVideo
 closeVideo.addEventListener('click', function(){
 	modalVideo.style.display = 'none';
-	$(".modal-iframe").each(function() {
+	$(".modal-video__block iframe").each(function() {
 		$(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
 });
 
