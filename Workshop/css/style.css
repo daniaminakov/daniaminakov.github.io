@@ -22,6 +22,10 @@ li{
 	list-style-type: none;
 }
 
+.color-red{
+	color: #D38277;
+}
+
 /*font-family: 'Open Sans', sans-serif;*/
 /*font-family: 'Roboto', sans-serif;*/
 
@@ -565,7 +569,7 @@ li{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	width: 400px;
+	width: 420px;
 	height: 40px;
 	border-radius: 15px;
 	position: absolute;
