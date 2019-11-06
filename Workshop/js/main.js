@@ -37,6 +37,7 @@ var modal = document.querySelector(".modal");
 var close = document.querySelector(".modal-close");
 
 // Open-modal
+
 $(document).mouseleave(function(){
 	modal.style.display = 'flex';
 });
@@ -61,12 +62,20 @@ videoPlay.addEventListener('click', function(){
 	modalVideo.style.display = 'flex';
 });
 
-// Close-modal
+// Close-modalVideo
 closeVideo.addEventListener('click', function(){
 	modalVideo.style.display = 'none';
+	$(".modal-video__block iframe").each(function() {
+		$(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
 });
 
 // ModalVideo-END
 
 
 
+$(window).resize (function () {
+ $("iframe").each(function() {
+ var width = $(this).width ();
+ $(this).css("height", width / 1.7777 + "px");
+ });
+});
