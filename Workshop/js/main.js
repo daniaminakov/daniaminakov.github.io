@@ -65,17 +65,8 @@ videoPlay.addEventListener('click', function(){
 // Close-modalVideo
 closeVideo.addEventListener('click', function(){
 	modalVideo.style.display = 'none';
-	$(".modal-video__block iframe").each(function() {
+	$(".modal-iframe").each(function() {
 		$(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
 });
 
 // ModalVideo-END
-
-
-
-$(window).resize (function () {
- $("iframe").each(function() {
- var width = $(this).width ();
- $(this).css("height", width / 1.7777 + "px");
- });
-});
