@@ -339,12 +339,16 @@
 		height: 31%;
 	}
 
-
-
 }
 
 
 @media screen and (max-width: 635px) {
+
+	.modal-close img{
+		content: url(../img/black-close.png);
+		height: 20px;
+		width: 20px;
+	}
 
 	.section-box-right {
 		width: 80%;
@@ -519,11 +523,6 @@
 }
 
 @media screen and (max-width: 580px) {
-	.modal-close img{
-		content: url(../img/black-close.png);
-		height: 20px;
-		width: 20px;
-	}
 
 	.modal-block{
 		background-position: center left 35%;
