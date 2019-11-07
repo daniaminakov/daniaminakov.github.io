@@ -595,6 +595,15 @@
 		width: 18px;
 		top: -30px;
 	}
+
+	.clock{
+		width: 120px;
+		height: 120px;
+	}
+
+	.clock:before, .clock:after{
+		margin-left: 55px;
+	}
 	
 }
 
