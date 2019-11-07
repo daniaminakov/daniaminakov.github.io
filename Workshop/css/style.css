@@ -890,3 +890,82 @@ li{
 }
 
 /*modalVideo-END*/
+
+
+
+/*preloader-START*/
+
+.preloader{
+	overflow: hidden;
+	--duration: 1s;
+	z-index: 9999;
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(246,190,106,1);
+	background: -moz-linear-gradient(45deg, rgba(246,190,106,1) 0%, rgba(230,145,112,1) 62%, rgba(223,126,115,1) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(246,190,106,1)), color-stop(62%, rgba(230,145,112,1)), color-stop(100%, rgba(223,126,115,1)));
+	background: -webkit-linear-gradient(45deg, rgba(246,190,106,1) 0%, rgba(230,145,112,1) 62%, rgba(223,126,115,1) 100%);
+	background: -o-linear-gradient(45deg, rgba(246,190,106,1) 0%, rgba(230,145,112,1) 62%, rgba(223,126,115,1) 100%);
+	background: -ms-linear-gradient(45deg, rgba(246,190,106,1) 0%, rgba(230,145,112,1) 62%, rgba(223,126,115,1) 100%);
+	background: linear-gradient(45deg, rgba(246,190,106,1) 0%, rgba(230,145,112,1) 62%, rgba(223,126,115,1) 100%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 1.5s;
+}
+
+.clock {
+	border: 2px solid #222;
+	box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.1), inset 0px 0px 2.5px black, inset -5px -7px 0px 0px rgba(255, 255, 255, 0.6);
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background: #CCEAEA;
+	position: relative;
+}
+.clock:before, .clock:after {
+	position: absolute;
+	content: '';
+	top: 50%;
+	width: 2px;
+	background: black;
+	border-radius: 0 0 100% 100%;
+	transform-origin: top;
+	margin-left: 75px;
+}
+@-moz-keyframes tick {
+	100% {
+		-moz-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes tick {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+@keyframes tick {
+	100% {
+		-moz-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+	}
+}
+.clock:before {
+	height: 35%;
+	background: black;
+	-moz-animation: tick 7.5s linear infinite;
+	-webkit-animation: tick 7.5s linear infinite;
+	animation: tick 7.5s linear infinite;
+}
+.clock:after {
+	height: 40%;
+	-moz-animation: tick 3s linear infinite;
+	-webkit-animation: tick 3s linear infinite;
+	animation: tick 3s linear infinite;
+}
+
+/*preloader-END*/
