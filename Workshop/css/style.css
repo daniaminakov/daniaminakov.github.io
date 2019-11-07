@@ -386,7 +386,7 @@ li{
 	width: 100%;
 	cursor: pointer;
 	text-transform: uppercase;
-	background-image: url(../img/submit-background.png);
+	background: rgba(228,140,113,1) url(../img/submit-background.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
