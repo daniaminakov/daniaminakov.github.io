@@ -867,6 +867,7 @@ li{
 }
 
 .modal-video__block iframe{
+	display: none;
 	width: 100%;
 	height: 100%;
 }
