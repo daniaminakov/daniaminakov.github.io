@@ -969,3 +969,7 @@ li{
 }
 
 /*preloader-END*/
+
+.logo-mobile{
+	display: none;
+}
