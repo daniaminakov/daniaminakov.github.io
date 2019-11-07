@@ -124,14 +124,25 @@
 	.main-title {
 		font-size: 32px;
 	}
-
-	/*.modal-video__block{
-		height: 52%;
-	}*/
 }
 
 
 @media screen and (max-width: 990px) {
+
+	.logo{
+		display: none;
+	}
+
+	.logo-mobile{
+		width: 120px;
+		display: block;
+		margin-bottom: 15px;
+	}
+
+	.logo-mobile img{
+		width: 100%;
+	}
+
 	.header{
 		flex-direction: column;
 	}
