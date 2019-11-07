@@ -73,12 +73,14 @@ close.addEventListener('click', function(){
 
 var videoPlay = document.querySelector(".video-play");
 var modalVideo = document.querySelector(".modal-video");
+var modalVideoIframe = document.querySelector(".modal-video iframe");
 var closeVideo = document.querySelector(".video-close");
 var pastIframe = document.querySelector(".modal-video__block");
 
 // Open-modalVideo
 videoPlay.addEventListener('click', function(){
 	modalVideo.style.display = 'flex';
+	modalVideoIframe.style.display = 'block';
 	pastIframe.insertAdjacentHTML("afterBegin", "<iframe src='https://www.youtube.com/embed/uNX16nYipiw?enablejsapi=1' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
 });
 
