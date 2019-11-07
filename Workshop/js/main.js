@@ -81,7 +81,6 @@ var pastIframe = document.querySelector(".modal-video__block");
 videoPlay.addEventListener('click', function(){
 	modalVideo.style.display = 'flex';
 	modalVideoIframe.style.display = 'block';
-	pastIframe.insertAdjacentHTML("afterBegin", "<iframe src='https://www.youtube.com/embed/uNX16nYipiw?enablejsapi=1' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
 });
 
 // Close-modalVideo
