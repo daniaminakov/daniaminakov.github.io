@@ -1,5 +1,19 @@
 $(document).ready(function(){
 
+	// Proleaers-START
+	window.onload = function preloader() {
+		jQuery(() => {
+			setInterval(() => {
+				var preloader = jQuery('.preloader');
+				preloader.css('opacity', 0);
+				setInterval(() => { 
+					preloader.remove()
+				}, 1000);
+			}, 1000);
+		});
+	}
+// Proleaer-END
+
 // Counter-START
 var countDownDate = new Date("Jan 14, 2020 00:00:00").getTime();
 var countDownFunction = setInterval(function(){
@@ -60,10 +74,12 @@ close.addEventListener('click', function(){
 var videoPlay = document.querySelector(".video-play");
 var modalVideo = document.querySelector(".modal-video");
 var closeVideo = document.querySelector(".video-close");
+var pastIframe = document.querySelector(".modal-video__block");
 
 // Open-modalVideo
 videoPlay.addEventListener('click', function(){
 	modalVideo.style.display = 'flex';
+	pastIframe.insertAdjacentHTML("afterBegin", "<iframe src='https://www.youtube.com/embed/uNX16nYipiw?enablejsapi=1' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
 });
 
 // Close-modalVideo
@@ -77,20 +93,6 @@ closeVideo.addEventListener('click', function(){
 
 // ModalVideo-END
 
-
-// Proleaers-START
-window.onload = function preloader() {
-	jQuery(() => {
-		setInterval(() => {
-			var preloader = jQuery('.preloader');
-			preloader.css('opacity', 0);
-			setInterval(() => { 
-				preloader.remove()
-			}, 1000);
-		}, 1000);
-	});
-}
-// Proleaer-END
 
 
 });
