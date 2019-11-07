@@ -1,6 +1,6 @@
 
 // Counter-START
-var countDownDate = new Date("Nov 07, 2019 00:00:00").getTime();
+var countDownDate = new Date("Feb 07, 2020 00:00:00").getTime();
 var countDownFunction = setInterval(function(){
 	var now = new Date().getTime();
 	var distance = countDownDate - now;
@@ -22,6 +22,13 @@ var countDownFunction = setInterval(function(){
 	if (seconds < 10) {
 		seconds = before + seconds;
 	}
+
+	if(countDownDate < now){
+		days = 0 + before;
+		hours = 0 + before;
+		minutes = 0 + before;
+		seconds = 0 + before;
+	}
 	
 	document.querySelector(".days").innerHTML = days;
 	document.querySelector(".hours").innerHTML = hours;
@@ -37,11 +44,6 @@ var modal = document.querySelector(".modal");
 var close = document.querySelector(".modal-close");
 
 // Open-modal
-
-$(document).mouseleave(function(){
-	modal.style.display = 'flex';
-});
-
 
 // Close-modal
 close.addEventListener('click', function(){
@@ -66,6 +68,7 @@ videoPlay.addEventListener('click', function(){
 
 closeVideo.addEventListener('click', function(){
 	modalVideo.style.display = 'none';
+	modal.style.display = 'flex';
 	jQuery(".modal-video__block iframe").each(function() {
 		jQuery(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
 });
