@@ -79,7 +79,7 @@ closeVideo.addEventListener('click', function(){
 
 
 // Proleaers-START
-function preloader() {
+window.onload = function preloader() {
 	jQuery(() => {
 		setInterval(() => {
 			var preloader = jQuery('.preloader');
@@ -90,8 +90,6 @@ function preloader() {
 		}, 1000);
 	});
 }
-
-preloader();
 // Proleaer-END
 
 
