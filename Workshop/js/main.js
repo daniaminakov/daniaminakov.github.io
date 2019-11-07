@@ -1,6 +1,7 @@
+$(document).ready(function(){
 
 // Counter-START
-var countDownDate = new Date("Feb 07, 2020 00:00:00").getTime();
+var countDownDate = new Date("Jan 14, 2020 00:00:00").getTime();
 var countDownFunction = setInterval(function(){
 	var now = new Date().getTime();
 	var distance = countDownDate - now;
@@ -40,20 +41,21 @@ var countDownFunction = setInterval(function(){
 
 // Modal-START
 
+
 var modal = document.querySelector(".modal");
 var close = document.querySelector(".modal-close");
-
-// Open-modal
 
 // Close-modal
 close.addEventListener('click', function(){
 	modal.style.display = 'none';
 });
 
+
 // Modal-END
 
 
 // ModalVideo-START
+
 
 var videoPlay = document.querySelector(".video-play");
 var modalVideo = document.querySelector(".modal-video");
@@ -65,7 +67,6 @@ videoPlay.addEventListener('click', function(){
 });
 
 // Close-modalVideo
-
 closeVideo.addEventListener('click', function(){
 	modalVideo.style.display = 'none';
 	modal.style.display = 'flex';
@@ -75,3 +76,23 @@ closeVideo.addEventListener('click', function(){
 
 
 // ModalVideo-END
+
+
+// Proleaers-START
+function preloader() {
+	jQuery(() => {
+		setInterval(() => {
+			var preloader = jQuery('.preloader');
+			preloader.css('opacity', 0);
+			setInterval(() => { 
+				preloader.remove()
+			}, 1000);
+		}, 1000);
+	});
+}
+
+preloader();
+// Proleaer-END
+
+
+});
