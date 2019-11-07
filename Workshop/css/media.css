@@ -615,6 +615,10 @@
 	.clock:before, .clock:after{
 		margin-left: 55px;
 	}
+
+	.video-play{
+		animation-name: none !important;
+	}
 	
 }
 
@@ -759,7 +763,6 @@
 	.modal-block{
 		padding: 50px 0px 75px 0px;
 	}
-
 }
 
 @media screen and (max-width: 350px) {
