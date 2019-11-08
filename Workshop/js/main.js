@@ -11,10 +11,6 @@ $(document).ready(function(){
 				}, 1000);
 			}, 1000);
 		});
-
-		var modalVideoBlock = document.querySelector(".modal-video__block");
-		var past = "<iframe src='https://www.youtube.com/embed/uNX16nYipiw?enablejsapi=1' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
-		modalVideoBlock.insertAdjacentHTML('afterBegin', past);
 	}
 
 // Proleaer-END
@@ -69,7 +65,6 @@ close.addEventListener('click', function(){
 	modal.style.display = 'none';
 });
 
-
 // Modal-END
 
 
@@ -77,10 +72,17 @@ close.addEventListener('click', function(){
 var videoPlay = document.querySelector(".video-play");
 var modalVideo = document.querySelector(".modal-video");
 var closeVideo = document.querySelector(".video-close");
+var VideoPlace = document.querySelector(".modal-video__block");
+var videoIframe = "<iframe src='https://www.youtube.com/embed/uNX16nYipiw?enablejsapi=1' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+var counterClick = 0;
 
 // Open-modalVideo
 videoPlay.addEventListener('click', function(){
 	modalVideo.style.display = 'flex';
+	if(counterClick == 0){
+		VideoPlace.insertAdjacentHTML('afterBegin', videoIframe);
+		counterClick++;
+	}	
 });
 
 // Close-modalVideo
@@ -90,6 +92,8 @@ closeVideo.addEventListener('click', function(){
 	jQuery(".modal-video__block iframe").each(function() {
 		jQuery(this)[0].contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')});
 });
+
+
 // ModalVideo-END
 
 
