@@ -9,7 +9,7 @@ $(document).ready(function(){
 				setInterval(() => { 
 					preloader.remove()
 				}, 1000);
-			}, 1000);
+			});
 		});
 	}
 
