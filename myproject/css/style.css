@@ -10,7 +10,12 @@ body{
 	font-weight: 600;
 	width: 100%;
 	height: 100%;
-	background: #330033;
+	/*background: #330033;*/
+	background-image: url(../img/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 @font-face {
@@ -45,8 +50,6 @@ body{
 	font-weight: bold;
 	font-style: normal;
 }
-
-
 
 a{	
 	color: #fff;
@@ -88,10 +91,10 @@ a{
 .foundation{
 	width: 100%;
 	height: 100%;
-	background-image: url(../img/background.png);
+	/*background-image: url(../img/background.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 }
 
 .about{
@@ -112,8 +115,6 @@ a{
 .about div:last-child{
 	margin-left: 150px;
 }
-
-
 
 .about div:hover{
 	border-bottom: 3px solid #fff;
@@ -137,67 +138,112 @@ a{
 }
 
 .text{
-	padding-top: 280px;
-	padding-bottom: 340px;
+	padding-top: 215px;
+	padding-bottom: 98px;
 }
+
+.section1{
+/*	background-image: url(../img/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;*/
+}
+
 .porridge{
 	margin: 0 auto;
 	width: 800px;
 	padding-top: 50px;
 	text-align: center;
-	/*margin-bottom: 150px;*/
 }
 
-
-.porridge__item1 button:first-child{
-
-	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
-	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+.porridge__item1 button{
 	margin-right: 100px;
 	margin-bottom: 70px;
-	background-color: transparent;
 	font: inherit;
 	color: #fff;
-	font-size: 43px;
+	font-size: 40px;
 	width: 285px;
 	height: 160px;
 	border-radius: 25px;
-	background-image: url(../img/grechka.png);
+	background-image: url(../img/grechka.jpeg);
 	background-size: cover;
-   	background-repeat: no-repeat;
-    	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.porridge__item1 button:hover{
+	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.25);
+	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.25);
+	transition: 0.5s ease;
+}
+
+.porridge__item1 button:last-child{
+	background-image: url(../img/ris.jpg);
+	margin-right: 0;
+}
+
+
+
+.porridge__item2 button{
+	margin-right: 100px;
+	margin-bottom: 70px;
+	font: inherit;
+	color: #fff;
+	font-size: 40px;
+	width: 285px;
+	height: 160px;
+	border-radius: 25px;
+	background-image: url(../img/ovsianka.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 	border: none;
 	cursor: pointer;
 }
 
 .porridge__item2 button:hover{
-	border: 3px solid #000;
+	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.25);
+	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.25);
+	transition: 0.5s ease;
 }
 
-.porridge__item3 button:hover{
-	border: 3px solid #000;
+.porridge__item2 button:last-child{
+	background-image: url(../img/psheno.jpg);
+	margin-right: 0;
 }
 
-.porridge__item1 button:last-child{
-	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
-	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
+.porridge__item3 button{
+	margin-right: 100px;
+	margin-bottom: 70px;
 	font: inherit;
 	color: #fff;
-	font-size: 43px;
+	font-size: 40px;
 	width: 285px;
-	border-radius: 25px;
 	height: 160px;
-	background-image: url(../img/ris.png);
+	border-radius: 25px;
+	background-image: url(../img/tvorog.jpg);
 	background-size: cover;
-   	background-repeat: no-repeat;
-    	background-position: center;
+	background-repeat: no-repeat;
 	border: none;
 	cursor: pointer;
 }
 
-.porridge__item2 button:first-child{
+.porridge__item3 button:hover{
+	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.25);
+	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.25);
+	transition: 0.5s ease;
+}
+
+.porridge__item3 button:last-child{
+	background-image: url(../img/makaronu.jpg);
+	margin-right: 0;
+}
+
+
+/*.porridge__item2 button:first-child{
 	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
 	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
@@ -211,9 +257,6 @@ a{
 	width: 285px;
 	height: 160px;
 	background-image: url(../img/ovsianka.png);
-	background-size: cover;
-   	background-repeat: no-repeat;
-    	background-position: center;
 	border: none;
 	cursor: pointer;
 }
@@ -229,14 +272,11 @@ a{
 	border-radius: 25px;
 	height: 160px;
 	background-image: url(../img/psheno.png);
-	background-size: cover;
-   	background-repeat: no-repeat;
-    	background-position: center;
 	border: none;
 	cursor: pointer;
-}
+}*/
 
-.porridge__item3 button:first-child{
+/*.porridge__item3 button:first-child{
 	-webkit-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
 	box-shadow: 0px 14px 24px 8px rgba(0,0,0,0.75);
@@ -250,9 +290,6 @@ a{
 	border-radius: 25px;
 	height: 160px;
 	background-image: url(../img/tvorog.png);
-	background-size: cover;
-   	background-repeat: no-repeat;
-    	background-position: center;
 	border: none;
 	cursor: pointer;
 }
@@ -269,12 +306,10 @@ a{
 	border-radius: 25px;
 	height: 160px;
 	background-image: url(../img/makaronu.png);
-	background-size: cover;
-   	background-repeat: no-repeat;
-    	background-position: center;
 	border: none;
 	cursor: pointer;
 }
+*/
 
 .bag{
 	font-family: 'Roboto', sans-serif;
@@ -283,13 +318,12 @@ a{
 	margin: 0 35px;
 	width: 220px;
 	height: 75px;
-	background: #3a5f7d;
+	background: #7F98AF;
 	border-radius: 10px;
 }
 
 #myModal{
-	/*border: 3px solid red;*/
-	padding-top: 10%;
+	/*padding-top: 10%;*/
 	display: none;
 	position: fixed;
 	z-index: 1;
@@ -306,7 +340,7 @@ a{
 	position: relative;
 	margin: 0 auto;
 	width: 700px;
-	height: 800px;
+	height: 730px;
 	background: #1a1e24;
 }
 
