@@ -75,17 +75,17 @@ $('.close-menu').on('click', function(){
     // модальные окна (несколько)
     $(document).ready(function () {
 
-        $(document).keydown(function(eventObject){
-            if (eventObject.which == 27)
-                $('.overlay').css('display', 'none');
-                $('.modal__div').css('display', 'none');
-        });
-
-
         var overlay = $('.overlay');
         var open_modal = $('.open_modal');
         var close = $('.modal__close, .overlay');
         var modal = $('.modal__div');
+
+        $(document).keydown(function(eventObject){
+            if (eventObject.which == 27){
+                overlay.css('display', 'none');
+                modal.css('display', 'none');
+            }
+        });
 
         open_modal.click(function (event) {
             event.preventDefault();
@@ -113,9 +113,6 @@ $('.close-menu').on('click', function(){
             }
             );
         });
-
-
-        
 
 
     });
