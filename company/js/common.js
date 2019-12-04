@@ -44,19 +44,22 @@ $(document).ready(function() {
         $('.close-menu').toggleClass('close-menu_open');
     });
 
-
 // swipe
-$('body').swipe({
-    swipe:function(event, direction) {
-      if( direction == 'left' ){
-        $('.nav').removeClass('open');
-        $('.close-menu').removeClass('close-menu_open');
-    }
-    if( direction == 'right' ){
-        $('.nav').addClass('open');
-        $('.close-menu').addClass('close-menu_open');
-    }
-}
+var hammertime = new Hammer(document.body, {
+    enable: true,
+    recognizers: [
+    [Hammer.Swipe, { direction: Hammer.DIRECTION_HORIZONTAL }]
+    ]
+});
+
+hammertime.on('swipeleft', function(ev) {
+    $('.nav').removeClass('open');
+    $('.close-menu').removeClass('close-menu_open');
+});
+
+hammertime.on('swiperight', function(ev) {
+    $('.nav').addClass('open');
+    $('.close-menu').addClass('close-menu_open');
 });
 
 // close-open
@@ -67,8 +70,18 @@ $('.close-menu').on('click', function(){
 });
 
 
+
+
     // модальные окна (несколько)
     $(document).ready(function () {
+
+        $(document).keydown(function(eventObject){
+            if (eventObject.which == 27)
+                $('.overlay').css('display', 'none');
+                $('.modal__div').css('display', 'none');
+        });
+
+
         var overlay = $('.overlay');
         var open_modal = $('.open_modal');
         var close = $('.modal__close, .overlay');
@@ -100,6 +113,11 @@ $('.close-menu').on('click', function(){
             }
             );
         });
+
+
+        
+
+
     });
 //end
 
