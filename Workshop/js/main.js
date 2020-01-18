@@ -16,7 +16,7 @@ $(document).ready(function(){
 // Proleaer-END
 
 // Counter-START
-var countDownDate = new Date("Jan 14, 2020 00:00:00").getTime();
+var countDownDate = new Date("Jan 14, 2021 00:00:00").getTime();
 var countDownFunction = setInterval(function(){
 	var now = new Date().getTime();
 	var distance = countDownDate - now;
