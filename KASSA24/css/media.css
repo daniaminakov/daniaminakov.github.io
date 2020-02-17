@@ -1,0 +1,1285 @@
+@media screen and (max-width: 1439px) {
+	.header-main__img{
+		right: 0;
+	}
+}
+
+@media screen and (max-width: 1330px) {
+	.container{
+		width: 1140px;
+	}
+
+	.menu-item {
+		padding: 10px 10px;
+	}
+
+	.header-main{
+		padding: 130px 0px 130px;
+	}
+
+	.header-main__img{
+		width: 450px;
+		top: -80px;
+	}
+
+	.header-main__img img{
+		width: 100%;
+	}
+
+	.header-yellow-content p:last-child:after {
+		right: -80px;
+	}
+
+	.choice-box-item{
+		width: 360px;
+	}
+
+	.equipment-block{
+		width: 560px;
+	}
+
+	.work-box__item{
+		width: 370px;
+	}
+
+	.terminal-slider .owl-carousel .owl-stage-outer .owl-stage .owl-item{
+		margin-right: 25px;
+	}
+
+	.terminal-content{
+		width: 460px;
+	}
+
+	.tariffs-item {
+		width: 210px;
+	}
+
+	.difference-top{
+		width: 560px;
+	}
+
+	.difference-box__item{
+		width: 560px;
+	}
+
+	.partnership-advantages__item {
+		width: 360px;
+		padding: 60px 90px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.container{
+		width: 970px;
+	}
+
+	.header-social{
+		margin-left: 15px;
+	}
+
+	.social{
+		width: 70px;
+	}
+
+	.btn{
+		font-size: 14px;
+	}
+
+	.header-main__content b{
+		font-size: 24px;
+	}
+
+	.header-main__content{
+		width: 500px;
+	}
+
+	.yellow-block__content{
+		font-size: 16px;
+	}
+
+	.header-yellow-content{
+		font-size: 15px;
+	}
+
+	.yellow-block__content p:first-child {
+		padding-right: 10px;
+		margin-right: 10px;
+	}
+
+	.yellow-block__content p:first-child:after {
+		height: 15px;
+		top: 5px;
+	}
+
+	.header-yellow-content p:last-child:after {
+		right: -75px !important;
+		top: 10px;
+	}
+
+	.choice, .opportunities, .equipment, .decision, .terminal, .get-programm{
+		padding-top: 70px;
+	}
+
+	.choice-box-item {
+		width: 310px;
+	}
+
+	.choice-box__text{
+		width: 180px
+		padding: 15px 0px;
+	}
+
+	.opportunities{
+		padding-bottom: 20px;
+	}
+
+	.terminal-wrapper{
+		margin-top: 50px;
+	}
+
+	.terminal-content__block p {
+		margin-bottom: 15px;
+	}
+
+	.title{
+		width: 690px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.equipment-block{
+		width: 470px;
+	}
+
+	.equipment-conteiner{
+		margin-top: 20px;
+		height: 240px;
+	}
+
+	.equipment-conteiner__content{
+		margin-left: 0;
+	}
+
+	.equipment-conteiner__icon img{
+		width: 70%;
+	}
+
+	.equipment-conteiner {
+		padding-left: 55px;
+	}
+
+	.yellow-block__content p:last-child:after{
+		right: -75px;
+	}
+
+	.decision-slider .owl-next{
+		width: 48px;
+		height: 48px;
+		top: 140px;
+		right: 0px;
+		opacity: 0.7;
+	}
+
+	.decision-slider__content{
+		width: 490px;
+	}
+
+	.tab-item{
+		padding-right: 15px;
+		margin-right: 15px;
+	}
+
+	.work-box__item h2{
+		font-size: 20px;
+	}
+
+	.work-box__item{
+		width: 300px;
+		padding: 45px 20px;
+	}
+
+	.terminal-slider{
+		width: 480px;
+	}
+
+	.terminal-slider .owl-carousel .owl-stage-outer .owl-stage .owl-item{
+		width: 480px;
+	}
+
+	.tariffs-item{
+		width: 175px;
+	}
+
+	.tariffs-order{
+		padding: 13px 40px;
+	}
+
+	.difference-box__item{
+		width: 470px;
+	}
+
+	.difference-top {
+		width: 100%;
+		font-size: 18px;
+	}
+
+	.difference-content p{
+		margin-bottom: 20px;
+	}
+
+	.partnership-advantages__item{
+		width: 305px;
+		padding: 60px 35px;
+	}
+
+	.opportunities-box {
+		width: 100%;
+	}
+
+	.opportunities-box__item{
+		text-align: center;
+		width: 310px;
+	}
+
+	.opportunities-item__text{
+		width: 100%;
+	}
+
+	.opportunities{
+		margin-bottom: 0px;
+	}
+
+	.get-programm-box__img{
+		width: 450px;
+	}
+
+	.get-programm-box__img img{
+		width: 100%;
+	}
+
+	.get-programm-content p {
+		margin-bottom: 15px;
+		font-size: 15px;
+	}
+
+	.get-programm-content p:last-child{
+		margin-top: 20px;
+	}
+
+	.footer-block-center h2, .footer-block h2{
+		font-size: 20px;
+	}
+
+	.footer-wrapper .footer-block:last-child p{
+		margin: 15px 0px 27px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.container{
+		width: 830px;
+	}
+
+	.header-top{
+		flex-direction: column;
+	}
+
+	.menu-item{
+		font-size: 14px;
+		padding: 7px 7px;
+	}
+
+	.navigation{
+		margin-top: 25px;
+		width: 100%;
+		justify-content: space-around;
+	}
+
+	.header-main{
+		padding: 90px 0px;
+	}
+
+	.header-main__content{
+		width: 400px;
+		padding: 10px 20px;
+	}
+
+	.header-main__content b{
+		font-size: 18px;
+	}
+
+	.header-main__content p {
+		font-size: 16px;
+	}
+
+	.header-main__img{
+		width: 375px;
+		top: -50px;
+	}
+
+	.header-yellow-content{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+		font-size: 14px;
+	}
+
+	.yellow-block__content p:first-child:after{
+		display: none;
+	}
+
+	.header-yellow-content p:last-child:after{
+		right: -120px !important;
+		top: -3px;
+	}
+
+	.yellow-block {
+		padding: 25px 0px;
+	}
+
+	.btn{
+		padding: 15px 35px;
+	}
+
+	.choice, .opportunities, .equipment, .decision, .terminal, .get-programm {
+		padding-top: 50px;
+	}
+
+	.choice-box-item {
+		width: 235px;
+		padding: 80px 0px;
+		margin-top: 20px;
+	}
+
+	.choice-box__text{
+		width: 165px;
+		padding: 15px 0px;
+		font-size: 15px;
+	}
+
+	.title{
+		width: 540px;
+		font-size: 20px;
+	}
+
+	.equipment-block {
+		width: 400px;
+	}
+
+	.equipment-conteiner__content p{
+		margin-top: 10px;
+	}
+
+	.equipment-conteiner {
+		padding-left: 15px;
+	}
+
+	.decision-top-title{
+		font-size: 18px;
+	}
+
+	.tab-item{
+		padding-right: 7px;
+		margin-right: 7px;
+		font-size: 16px;
+	}
+
+	.decision-top{
+		padding: 20px;
+	}
+
+	.decision-slider__content {
+		padding: 0px 0px 0px 25px;
+	}
+
+	.decision-slider__content p{
+		margin-top: 5px;
+		font-size: 14px;
+	}
+
+	.decision-slider .owl-next{
+		top: 175px;
+	}
+
+	.work{
+		padding: 50px 0px;
+	}
+
+	.work-box{
+		margin: 45px 0px 40px;
+	}
+
+	.work-box__item {
+		width: 265px;
+		padding: 40px 10px;
+	}
+
+	.work-box__item h2{
+		font-size: 16px;
+	}
+
+	.work-box__item p{
+		font-size: 14px;
+	}
+
+	.work-text {
+		width: 575px;
+	}
+
+	.line{
+		margin: 25px auto;
+	}
+
+	.terminal-wrapper{
+		padding: 10px 0px 40px;
+	}
+
+	.terminal-box{
+		flex-direction: column;
+	}
+
+	.terminal-content{
+		margin-top: 35px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.terminal-price {
+		width: 230px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.terminal-content__block p {
+		margin-bottom: 10px;
+	}
+
+	.terminal-content__block{
+		margin: 10px 0px;
+		padding: 15px 0px;
+	}
+
+	.complectation-top{
+		font-size: 16px;
+	}
+
+	.tariffs-item-top, .tariffs-item-top, .complectation-top, .complectation-properties p, .complectation-properties b{
+		font-size: 14px;
+	}
+
+	.tariffs-item{
+		width: 120px;
+	}
+
+	.tariffs-order{
+		padding: 13px 20px;
+	}
+
+	.tariffs-order{
+		font-size: 12px;
+	}
+
+	.tariffs-item__presence img{
+		width: 25px;
+		height: 26px;
+	}
+
+	.delivery-wrapper{
+		padding-top: 70px;
+		height: 650px;
+	}
+
+	.delivery-icon{
+		margin: 25px 0px 5px;
+	}
+
+	.delivery-text{
+		margin-bottom: 40px;
+	}
+
+	.difference-box__item{
+		width: 360px;
+	}
+
+	.difference-top{
+		font-size: 15px;
+	}
+
+	.difference-content p {
+		margin-bottom: 10px;
+		font-size: 15px;
+	}
+
+	.partnership{
+		padding-top: 60px;
+	}
+
+	.partnership-company__item{
+		width: 130px;
+	}
+
+	.partnership-company__item img{
+		width: 100%;
+	}
+
+	.partnership-company{
+		margin: 55px 0px;
+	}
+
+	.partnership-advantages__item {
+		width: 235px;
+		padding: 60px 15px;
+	}
+
+	.opportunities-item__text{
+		font-size: 14px;
+	}
+
+	.opportunities-yellow-block {
+		margin-top: 70px;
+	}
+
+	.request{
+		padding: 50px 0px;
+	}
+
+	.request-form{
+		width: 100%;
+	}
+
+	.get-programm{
+		padding: 30px 0px;
+	}
+
+	.get-programm-box{
+		margin-top: 50px;
+	}
+
+	.request-form__inputs{
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+		width: 400px;
+		margin-bottom: 20px;
+	}
+
+	.request-form__inputs input{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.footer-block-center h2, .footer-block h2{
+		font-size: 16px;
+	}
+
+	.footer-block-center p, .footer-block p{
+		font-size: 14px;
+	}
+
+	.footer-wrapper .footer-block:last-child p{
+		margin: 0px 0px 27px;
+	}
+
+	.footer-block-center p {
+		margin: 15px 0px 40px;
+	}
+
+	.footer-block p{
+		margin: 15px 0px 35px;
+	}
+
+	.scrollup{
+		bottom: 30px;
+		right: 30px;
+	}
+
+	.scrollup img{
+		width: 40px;
+		height: 40px;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.container{
+		width: 730px;
+	}
+
+	.equipment-block {
+		width: 355px;
+	}
+
+	.work-box__item {
+		width: 235px;
+	}
+}
+
+@media screen and (max-width: 755px) {
+	.container{
+		width: 620px;
+	}
+
+	.header-top {
+		padding: 30px 0px;
+	}
+
+	.navigation{
+		flex-direction: column;
+	}
+
+	.menu{
+		margin-bottom: 15px;
+	}
+
+	.header-main {
+		padding: 35px 0px 240px;
+	}
+
+	.header-main__img {
+		width: 300px;
+		top: 143px;
+		right: 160px;
+	}
+
+	.header-main__content{
+		width: 100%;
+	}
+
+	.yellow-block{
+		padding: 15px 0px;
+	}
+
+	.header .yellow-block-wrapper{
+		flex-direction: column;
+	}
+
+	.header-yellow-content p:last-child:after{
+		display: none;
+	}
+
+	.header-yellow-content{
+		margin-bottom: 10px;
+	}
+
+	.choice, .opportunities, .equipment, .decision, .terminal, .get-programm {
+		padding-top: 30px;
+	}
+
+	.subtitle{
+		width: 100%;
+		font-size: 14px;
+	}
+
+	.choice-box-item{
+		width: 290px;
+	}
+
+	.opportunities-box{
+		flex-direction: column;
+		margin-top: 25px;
+	}
+
+	.opportunities-box__item{
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	.equipment-wrapper {
+		margin: 35px 0px 30px;
+		flex-direction: column;
+	}
+
+	.equipment-block{
+		width: 100%;
+	}
+
+	.equipment-top{
+		margin-top: 30px;
+	}
+
+	.equipment-conteiner{
+		height: 200px;
+		margin-top: 10px;
+	}
+
+	.equipment-conteiner__icon{
+		width: 120px;
+	}
+
+	.decision{
+		padding-bottom: 30px;
+	}
+
+	.decision-wrapper {
+		margin-top: 40px;
+	}
+
+	.decision-top{
+		flex-direction: column;
+	}
+
+	.tab-item{
+		font-size: 15px;
+	}
+
+	.decision-top-title {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	.decision-tabs{
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.tab-item{
+		padding-right: 10px;
+		margin-right: 0;
+	}
+
+	.tab-item:after{
+		top: 4px;
+	}
+
+	.decision{
+		padding-bottom: 0;
+	}
+
+	.decision-slider .item{
+		flex-direction: column;
+	}
+
+	.decision-slider__img{
+		width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.decision-slider__content h3{
+		font-size: 16px;
+	}
+
+	.decision-slider__content ul {
+		margin-left: 20px;
+	}
+
+	.decision-slider__content li{
+		margin-top: 5px;
+		font-size: 13px;
+	}
+
+	.decision-slider__content{
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	.decision-slider__content p, .decision-slider__content li {
+		font-size: 15px;
+	}
+
+	.decision-slider .owl-next{
+		top: 255px;
+		width: 48px;
+		height: 48px;
+	}
+
+	.work{
+		padding: 35px 0px;
+	}
+
+	.work-box{
+		flex-direction: column;
+		margin: 45px 0px 10px;
+	}
+
+	.work-box__item {
+		width: 300px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 25px 10px;
+		margin-bottom: 15px;
+	}
+
+	.work-text{
+		width: 100%;
+		font-size: 14px;
+		margin-bottom: 25px;
+	}
+
+	.line{
+		margin: 15px auto;
+	}
+
+	.complectation-top{
+		padding: 15px 30px;
+	}
+
+	.buy{
+		padding: 25px 0px 40px;
+	}
+
+	.tariffs{
+		width: 365px;
+	}
+
+	.tariffs .owl-stage-outer .owl-stage .owl-item{
+		width: 174px !important;
+	}
+
+	.tariffs .owl-stage-outer .owl-stage{
+		min-width: 800px !important;
+	}
+
+	.tariffs-item {
+		width: 100%;
+	}
+
+	.tariffs-item__presence img{
+		width: 30px;
+		height: 30px;
+	}
+
+	.delivery-wrapper{
+		padding-top: 30px;
+		height: 550px;
+	}
+
+	.difference-box {
+		flex-direction: column;
+		margin-top: 30px;
+	}
+
+	.difference-box__item{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.difference{
+		margin-top: -70px;
+	}
+
+	.partnership{
+		padding-top: 40px;
+	}
+
+	.partnership-company {
+		margin: 30px 0px;
+		flex-direction: column;
+	}
+
+	.partnership-company__item{
+		width: 150px;
+		margin-bottom: 20px;
+	}
+
+	.partnership-advantages{
+		flex-direction: column;
+	}
+
+	.partnership-advantages__item{
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+	}
+
+	.subtitle{
+		width: 75%;
+	}
+
+	.yellow-block__content p:first-child{
+		font-size: 14px;
+	}
+
+	.opportunities-yellow-block{
+		margin-top: 30px;
+	}
+
+	.get-programm-box{
+		flex-direction: column;
+	}
+
+	.get-programm-box__img{
+		width: 100%;
+	}
+
+	.get-programm-content{
+		margin-top: 20px;
+	}
+
+	.request-form__inputs input {
+		font-size: 14px;
+	}
+
+	.footer{
+		padding-top: 30px;
+	}
+
+	.footer-wrapper{
+		flex-direction: column;
+	}
+
+	.footer-block, .footer-block-center{
+		width: 100%;
+	}
+
+	.footer-block .btn{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.footer-block p, .footer-block-center p{
+		margin: 10px 15px;
+	}
+
+	.footer-block-center{
+		margin: 35px 0px;
+	}
+
+	.footer-copyright {
+		margin-top: 20px;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.container{
+		width: 540px;
+	}
+
+	.header-main__img {
+		right: 120px;
+	}
+
+	.choice-box-item{
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 554px) {
+	.container{
+		width: 390px;
+	}
+
+	p{
+		line-height: 1.5em;
+	}
+
+	.header-top{
+		padding: 20px 0px;
+	}
+
+	.menu{
+		flex-direction: column;
+	}
+
+	.menu-item{
+		font-size: 16px;
+		text-align: center;
+		margin-right: 0;
+		margin-bottom: 5px;
+	}
+
+	.header-main{
+		padding: 35px 0px 270px;
+	}
+
+	.header-main__content{
+		padding: 10px 0px 10px 20px;
+	}
+
+	.header-main__img {
+		top: 190px;
+		right: 45px;
+	}
+
+	.choice-box-item{
+		padding: 70px 0px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.title{
+		width: 99%;
+	}
+
+	.equipment-wrapper{
+		margin: 10px 0px 30px;
+	}
+
+	.equipment-conteiner__content p {
+		font-size: 14px;
+	}
+
+	.equipment-conteiner{
+		height: 170px;
+	}
+
+	.equipment-conteiner__icon{
+		width: 90px;
+	}
+
+	.equipment-conteiner__icon img{
+		width: 65%;
+	}
+
+	.equipment-conteiner__content p {
+		margin-top: 7px;
+	}
+
+	.yellow-block-wrapper{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.yellow-block__content p:first-child {
+		margin-bottom: 10px;
+	}
+
+	.header-yellow-content p:first-child{
+		margin-bottom: 0 !important;
+	}
+
+	.decision .subtitle{
+		width: 100%;
+	}
+
+	.decision-tabs{
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
+	.tab-item:after{
+		display: none;
+	}
+
+	.tab-item {
+		padding-right: 33px;
+		margin-bottom: 15px;
+	}
+
+	.decision-top {
+		padding: 10px;
+		margin-bottom: 15px;
+	}
+
+	.decision-slider__img {
+		width: 100%;
+	}
+
+	.work-text{
+		margin-bottom: 15px;
+	}
+
+	.line{
+		width: 65%;
+		margin: 10px auto; 
+	}
+
+	.terminal-slider {
+		width: 100%;
+	}
+
+	.terminal-content h2 {
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+
+	.terminal-content__block p{
+		margin-bottom: 7px;
+	}
+
+	.terminal-price span {
+		font-size: 24px;
+	}
+
+	.tariffs{
+		width: 215px;
+	}
+
+	.tariffs .owl-stage-outer .owl-stage .owl-item{
+		width: 214px !important;
+	}
+
+	.blackout-text{
+		width: 100%;
+	}
+
+	.tariffs-item {
+		width: 94%;
+	}
+
+	.tariffs-order{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.partnership-advantages__item{
+		padding: 30px 15px;
+	}
+
+	.get-programm-box {
+		margin-top: 25px;
+	}
+
+	.get-programm-content{
+		margin-left: 0px;
+		width: 100%;
+	}
+
+	.get-programm-content p{
+		margin-bottom: 10px;
+	}
+
+	.request{
+		padding: 30px 0px;
+	}
+
+	.subtitle{
+		width: 100%;
+	}
+
+	.request-form__inputs{
+		width: 100%;
+	}
+
+	.request-form{
+		margin-top: 25px;
+	}
+
+	.tariffs-item__presence img{
+		height: 27px;
+	}
+
+	.tariffs-price{
+		margin: 25px 0px 15px;
+	}
+}
+
+@media screen and (max-width: 405px) {
+	.container{
+		width: 350px;
+	}
+
+	.header-main {
+		padding: 25px 0px 245px;
+	}
+	
+	.header-main__img {
+		top: 165px;
+		right: 25px;
+	}
+
+	.header-main__content p {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+
+	.header-main__content {
+		padding: 5px 0px 5px 15px;
+	}
+
+	.header-main__content:before {
+		width: 5px;
+	}
+
+	.choice-box-item{
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.decision-top{
+		display: none;
+	}
+
+	.decision-slider .owl-next{
+		right: 150px;
+		top: 200px;
+	}
+
+	.work-box__item {
+		padding: 15px 10px;
+	}
+
+	.title{
+		font-size: 18px;
+	}
+
+	.subtitle{
+		font-size: 13px;
+	}
+
+	.terminal-content{
+		font-size: 14px;
+	}
+
+	.tariffs{
+		width: 170px;
+	}
+
+	.tariffs .owl-stage-outer .owl-stage .owl-item{
+		width: 165px !important;
+	}
+
+	.difference-top {
+		font-size: 14px;
+	}
+
+	.partnership{
+		padding-top: 0;
+	}
+
+	.request-form{
+		width: 90%;
+	}
+
+	.request-form__inputs input{
+		padding: 15px 10px;
+	}
+
+	.request-form a{
+		font-size: 14px;
+	}
+
+	.footer-wrapper .footer-block:last-child p{
+		margin: 0px 0px 10px;
+	}
+
+	.footer-copyright{
+		font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 355px) {
+	.container{
+		width: 310px;
+	}
+
+	.header-main__img {
+		top: 185px;
+		right: 0px;
+	}
+
+	.decision-slider .owl-next {
+		right: 126px;
+		top: 185px;
+	}
+
+	.tariffs{
+		width: 130px;
+	}
+
+	.tariffs .owl-stage-outer .owl-stage .owl-item{
+		width: 125px !important;
+	}
+}
