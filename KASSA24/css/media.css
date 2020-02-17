@@ -627,7 +627,7 @@
 	}
 
 	.navigation{
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 
 	.menu{
@@ -978,7 +978,12 @@
 	}
 
 	.menu{
-		flex-direction: column;
+		display: none;
+	}
+
+	.small-menu-wrapper{
+		display: block;
+		margin-bottom: 10px;
 	}
 
 	.menu-item{
@@ -1281,5 +1286,13 @@
 
 	.tariffs .owl-stage-outer .owl-stage .owl-item{
 		width: 125px !important;
+	}
+
+	.small-menu-wrapper{
+		right: 15px;
+	}
+
+	.small-menu__box{
+		right: -10px;
 	}
 }
