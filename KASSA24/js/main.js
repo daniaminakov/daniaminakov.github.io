@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+// jQuery(document).ready(function($){
 
 // scrollup-START
 $(window).scroll(function(){
@@ -57,10 +57,6 @@ $('.decision-slider').owlCarousel({
     }
 })
 
-
-// // Находим контейнер слайдера
-var owlWpapper = $('.decision-slider .owl-stage');
-
 // // Находим все title табов
 var title1 = $('.decision-tabs label:nth-child(2)').text();
 var title2 = $('.decision-tabs label:nth-child(4)').text();
@@ -81,7 +77,7 @@ var tab6 = $('#tab-6');
 var placeTitle = $('.decision-top-title');
 
 // Очистка "checked" у всех input'ов
-function deleteChecked(){
+function clearChecked(){
     tab1.removeAttr('checked');
     tab2.removeAttr('checked');
     tab3.removeAttr('checked');
@@ -90,40 +86,48 @@ function deleteChecked(){
     tab6.removeAttr('checked');
 };
 
+// Находим каждый слайд и заносим его в переменую
+var waySlides = '.decision-slider .owl-stage-outer .owl-stage .owl-item:nth-child';
+var slide1 = $(waySlides + '(5)');
+var slide2 = $(waySlides + '(6)');
+var slide3 = $(waySlides + '(7)');
+var slide4 = $(waySlides + '(8)');
+var slide5 = $(waySlides + '(9)');
+var slide6 = $(waySlides + '(4)');
+
 // Находим кнопку "next" 
 var next = $('.decision-slider .owl-nav .owl-next');
 
 // При клике на кнопку "next"
-next.click(function(){
-    if(owlWpapper.prop("style")["transform"] == 'translate3d(-3900px, 0px, 0px)'){
-        deleteChecked();
-        tab1.attr('checked', 'checked');
-        placeTitle.text(title1);
-    }
-    else if(owlWpapper.prop("style")["transform"] == 'translate3d(-5200px, 0px, 0px)'){
-        deleteChecked();
+next.click(function() {
+    if(slide1.hasClass('active')){
+        clearChecked();
         tab2.attr('checked', 'checked');
         placeTitle.text(title2);
-    }
-    else if(owlWpapper.prop("style")["transform"] == 'translate3d(-6500px, 0px, 0px)'){
-        deleteChecked();
+    }else if(slide2.hasClass('active')){
+        clearChecked();
         tab3.attr('checked', 'checked');
         placeTitle.text(title3);
     }
-    else if(owlWpapper.prop("style")["transform"] == 'translate3d(-7800px, 0px, 0px)'){
-        deleteChecked();
+    else if(slide3.hasClass('active')){
+        clearChecked();
         tab4.attr('checked', 'checked');
         placeTitle.text(title4);
     }
-    else if(owlWpapper.prop("style")["transform"] == 'translate3d(-9100px, 0px, 0px)'){
-        deleteChecked();
+    else if(slide4.hasClass('active')){
+        clearChecked();
         tab5.attr('checked', 'checked');
         placeTitle.text(title5);
     }
-    else if(owlWpapper.prop("style")["transform"] == 'translate3d(-10400px, 0px, 0px)'){
-        deleteChecked();
+    else if(slide5.hasClass('active')){
+        clearChecked();
         tab6.attr('checked', 'checked');
         placeTitle.text(title6);
+    }
+    else if(slide6.hasClass('active')){
+        clearChecked();
+        tab1.attr('checked', 'checked');
+        placeTitle.text(title1);
     }
 });
 // decision-slider-END
@@ -143,7 +147,7 @@ function windowSize(){
                 0:{
                     items:1
                 },
-                554:{
+                555:{
                     items:2
                 },
                 600:{
@@ -155,19 +159,8 @@ function windowSize(){
             }
         })
     }
-}
+};
 
 windowSize();
 
-
-// $(window).on('resize', function () {
-//     if ($(window).width() < 576) {
-//         alert('<576');
-
-
-//     }
-// })
-// tariffs-carousel-END
-
-
-});
+// });
