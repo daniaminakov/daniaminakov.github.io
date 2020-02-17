@@ -221,7 +221,7 @@ p{
 	margin-right: 0px;
 }
 
-.menu-item__active{
+.menu-item:hover{
 	background: #FFE800;
 	border-radius: 26px;
 }
@@ -229,6 +229,114 @@ p{
 .menu-item a{
 	color: #000;
 }
+
+.small-menu-wrapper{
+	display: none;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	z-index: 3;
+}
+
+.small-menu{
+	width: 37px;
+	background-color: #000;
+	border: 1px solid #000;
+	position: relative;
+	color: white;
+	height: 40px;
+	border-radius: 5px;
+}
+
+#check-menu{
+	display: none;
+}
+
+.check-menu-label{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	z-index: 2;
+	line-height: 40px;
+	color: #000;
+	padding-left: 20px;
+}
+
+.burger-line{
+	position: absolute;
+	top: 8px;
+	right: 5px;
+	width: 25px;
+	height: 3px;
+	background-color: #fff;
+	transition: .5s all;
+}
+
+.second, .third{
+	top: 18px;
+	height: 2.5px;
+}
+
+.fourth{
+	top: 28px;
+}
+
+.small-menu__box{
+	display: block;
+	position: absolute;
+	z-index: 2;
+	width: 230px;
+	bottom: -5px;
+	right: -20px;
+	transform: translateY(100%);
+	max-width: 0;
+	overflow: hidden;
+	transition: 1s all;
+}
+
+.small-menu__box a{
+	text-align: center;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	color: #000;
+	text-decoration: none;
+	border-top: 1px solid rgba(255,255,255,.3);
+	background-color: rgba(255,255,255,.8);
+}
+
+.small-menu__box a:hover{
+	background-color: #FFDB06;
+}
+
+#check-menu:checked ~ .small-menu__box{
+	max-width: 500px;
+	font-size: 16px;
+	transition: 1s all;
+}
+
+#check-menu:checked ~ .first{
+	display: none;
+}
+
+#check-menu:checked ~ .second{
+	transform: rotate(45deg);
+}
+
+#check-menu:checked ~ .third{
+	transform: rotate(-45deg);
+}
+
+#check-menu:checked ~ .fourth{
+	display: none;
+}
+
+
+
 
 .header-main{
 	background: #F5F5F5;
