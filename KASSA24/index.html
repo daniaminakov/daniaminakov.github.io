@@ -4,11 +4,19 @@
 	<meta charset="UTF-8">
 	<title>KASSA 24</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Normalize -->
 	<link rel="stylesheet" href="css/normalize.css">
+	<!-- Owl-Carousel -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<!-- Owl-Theme-Default -->
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Animate -->
+	<link rel="stylesheet" href="css/animate.min.css">
+	<!-- Main css -->
 	<link rel="stylesheet" href="css/main.css">
+	<!-- Media css -->
 	<link rel="stylesheet" href="css/media.css">
+	<!-- Google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
@@ -17,12 +25,12 @@
 		<div class="header-wrapper">
 			<div class="container">
 				<div class="header-top">
-					<div class="logo">
+					<div class="logo wow bounceIn" data-wow-duration="2s" data-wow-delay="0.5s">
 						<img src="img/logo.svg" alt="Logo">
 					</div>
 					<div class="navigation">
 						<ul class="menu">
-							<li class="menu-item menu-item__active"><a href="#">Программа</a></li>
+							<li class="menu-item"><a href="#">Программа</a></li>
 							<li class="menu-item"><a href="#">Товары</a></li>
 							<li class="menu-item"><a href="#">Возможности</a></li>
 							<li class="menu-item"><a href="#">Цены</a></li>
@@ -30,6 +38,25 @@
 							<li class="menu-item"><a href="#">Сервис</a></li>
 							<li class="menu-item"><a href="#">Отзывы</a></li>
 						</ul>
+						<div class="small-menu-wrapper">
+							<div class="small-menu">
+								<input type="checkbox" id="check-menu">
+								<label for="check-menu" class="check-menu-label"></label>
+								<div class="burger-line first"></div>
+								<div class="burger-line second"></div>
+								<div class="burger-line third"></div>
+								<div class="burger-line fourth"></div>
+								<nav class="small-menu__box">
+									<a href="#">Программа</a>
+									<a href="#">Товары</a>
+									<a href="#">Возможности</a>
+									<a href="#">Цены</a>
+									<a href="#">Доставка</a>
+									<a href="#">Сервис</a>
+									<a href="#">Отзывы</a>
+								</nav>
+							</div>
+						</div>
 						<div class="social header-social">
 							<a href="#">
 								<img src="img/Facebook.svg" alt="Facebook">
@@ -44,7 +71,7 @@
 		</div>
 		<div class="header-main">
 			<div class="container">
-				<div class="header-main__content">
+				<div class="header-main__content wow fadeInLeft">
 					<p>
 						<b>Управляйте кассой</b>, как
 						смартфоном – одним пальцем и
@@ -54,7 +81,7 @@
 						<b>KASSA24 </b>– Cамая удобная кассовая программа
 					</p>
 				</div>
-				<div class="header-main__img">
+				<div class="header-main__img wow fadeInRight">
 					<img src="img/header-img.jpg" alt="Cashbox">
 				</div>
 			</div>
@@ -82,44 +109,44 @@
 	<!-- choice-START -->
 	<section class="choice">
 		<div class="container">
-			<h1 class="title">
+			<h1 class="title wow fadeInDown" data-wow-offset="100">
 				Программа кассового учета с простым управлением
 			</h1>
-			<p class="subtitle">
+			<p class="subtitle wow fadeInDown" data-wow-offset="100">
 				KASSA24 выбирают магазины, островки и торговые точки разных форматов:
 			</p>
 			<div class="choice-box">
-				<div class="choice-box-item">
+				<div class="choice-box-item wow zoomIn" data-wow-offset="100">
 					<div class="blackout"></div>
 					<p class="choice-box__text">
 						одежда
 					</p>
 				</div>
-				<div class="choice-box-item">
+				<div class="choice-box-item wow zoomIn" data-wow-offset="100">
 					<div class="blackout"></div>
 					<p class="choice-box__text">
 						обувь
 					</p>
 				</div>
-				<div class="choice-box-item">
+				<div class="choice-box-item wow zoomIn" data-wow-offset="100">
 					<div class="blackout"></div>
 					<p class="choice-box__text">
 						косметика
 					</p>
 				</div>
-				<div class="choice-box-item">
+				<div class="choice-box-item wow zoomIn" data-wow-offset="100">
 					<div class="blackout"></div>
 					<p class="choice-box__text">
 						зоотовары
 					</p>
 				</div>
-				<div class="choice-box-item">
+				<div class="choice-box-item wow zoomIn" data-wow-offset="100">
 					<div class="blackout"></div>
 					<p class="choice-box__text">
 						автозапчасти
 					</p>
 				</div>
-				<div class="choice-box-item">
+				<div class="choice-box-item wow zoomIn" data-wow-offset="100">
 					<div class="blackout"></div>
 					<p class="choice-box__text">
 						хозтовары
@@ -133,10 +160,10 @@
 	<!-- opportunities-START -->
 	<section class="opportunities">
 		<div class="container">
-			<h1 class="title">
+			<h1 class="title wow fadeInDown" data-wow-offset="100">
 				Продавайте любой товар со штрих-кодом
 			</h1>
-			<p class="subtitle">
+			<p class="subtitle wow fadeInDown" data-wow-offset="100">
 				Программа подходит для любого бизнеса, где есть товары со штрих-кодом. А если штрих-кода нет – вы можете создать его и напечатать в Kassa24.
 			</p>
 			<div class="opportunities-box barcode-box">
@@ -181,7 +208,7 @@
 	<!-- equipment-START -->
 	<section class="equipment">
 		<div class="container">
-			<h1 class="title">
+			<h1 class="title wow fadeInDown" data-wow-offset="100">
 				Сделайте рабочее место кассира
 				удобным и современным
 			</h1>
@@ -270,10 +297,10 @@
 	<!-- decision-START -->
 	<section class="decision">
 		<div class="container">
-			<h1 class="title">
+			<h1 class="title wow fadeInDown" data-wow-offset="100">
 				Комплексное решение без сложных функций
 			</h1>
-			<p class="subtitle">
+			<p class="subtitle wow fadeInDown" data-wow-offset="100">
 				В программе только самые необходимые кассиру опции:<br>
 				продажа и учет товаров, поставки, списания, возвраты, печать чеков и этикеток, статистика продаж
 			</p>
@@ -394,7 +421,7 @@
 	<section class="work">
 		<div class="blackout"></div>
 		<div class="container">
-			<h1 class="title work-title">
+			<h1 class="title work-title wow fadeInDown" data-wow-offset="100">
 				С KASSA24 разберётся каждый!
 			</h1>
 			<div class="work-box">
@@ -430,7 +457,7 @@
 	<!-- terminal-START -->
 	<section class="terminal">
 		<div class="container">
-			<h1 class="title terminal-title">
+			<h1 class="title terminal-title wow fadeInDown" data-wow-offset="100">
 				Вы покупаете новое качество бизнеса
 				и скорость обслуживания ваших клиентов
 			</h1>
@@ -481,7 +508,7 @@
 	<section class="buy">
 		<div class="blackout"></div>
 		<div class="container">
-			<h1 class="title buy-title">
+			<h1 class="title buy-title wow fadeInDown" data-wow-offset="100">
 				Покупают с комплектом:
 			</h1>
 			<div class="buy-wrapper">
@@ -653,7 +680,7 @@
 <section class="delivery">
 	<div class="delivery-wrapper">
 		<div class="container">
-			<h1 class="title">
+			<h1 class="title wow fadeInDown" data-wow-offset="100">
 				Отправляем оборудование по всей Украине
 			</h1>
 			<div class="delivery-icon">
@@ -682,7 +709,7 @@
 <!-- difference-START -->
 <div class="difference">
 	<div class="container">
-		<h1 class="title">
+		<h1 class="title wow fadeInDown" data-wow-offset="100">
 			Почувствуйте разницу с KASSA24!
 		</h1>
 		<div class="difference-box">
@@ -718,7 +745,7 @@
 <!-- partnership-START -->
 <section class="partnership">
 	<div class="container">
-		<h1 class="title">
+		<h1 class="title wow fadeInDown" data-wow-offset="100">
 			Кто уже работает с нашим оборудованием
 		</h1>
 		<div class="partnership-company">
@@ -756,10 +783,10 @@
 <!-- opportunities-START -->
 <section class="opportunities opportunities-bottom">
 	<div class="container">
-		<h1 class="title">
+		<h1 class="title wow fadeInDown" data-wow-offset="100">
 			Поддерживаем и развиваем ПО
 		</h1>
-		<p class="subtitle">
+		<p class="subtitle wow fadeInDown" data-wow-offset="100">
 			Обновления программы будут доступны
 			Всем пользователям Kassa24.
 		</p>
@@ -819,7 +846,7 @@
 <!-- get-programm-START -->
 <section class="get-programm">
 	<div class="container">
-		<h1 class="title">
+		<h1 class="title wow fadeInDown" data-wow-offset="100">
 			Как получить терминал с программой:
 		</h1>
 		<div class="get-programm-box">
@@ -843,10 +870,10 @@
 <section class="request">
 	<div class="blackout"></div>
 	<div class="container">
-		<h1 class="title">
+		<h1 class="title wow fadeInDown" data-wow-offset="100">
 			Упростите работу с кассой в Вашей торговой точке
 		</h1>
-		<p class="subtitle">
+		<p class="subtitle wow fadeInDown" data-wow-offset="100">
 			Оцените удобство KASSA24  с первого дня работы!
 		</p>
 		<hr class="line request-line">
@@ -913,8 +940,16 @@
 <!-- Scrollup -->
 <a href="#" class="scrollup"><img src="img/scroll.png" alt="Scroll"></a>
 
+<!-- jQuery -->
 <script src="js/jquery-3.4.1.min.js"></script>
+<!-- Owl-Carousel -->
 <script src="js/owl.carousel.min.js"></script>
+<!-- Wow js -->
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<!-- Main js -->
 <script src="js/main.js"></script>
 </body>
 </html>
