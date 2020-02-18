@@ -144,12 +144,12 @@ p{
 .yellow-block__content p:last-child:after{
 	content: '';
 	background: url(../img/Arrow1.svg);
-	width: 51px;
-	height: 8px;
+	width: 57px;
+	height: 21px;
 	background-position: center;
 	background-repeat: no-repeat;
 	position: absolute;
-	top: 12px;
+	top: 5px;
 	right: -100px;
 }
 
@@ -379,9 +379,14 @@ p{
 }
 
 .header-main__img{
+	width: 550px;
 	position: absolute;
-	top: -132px;
+	top: -160px;
 	right: -75px;
+}
+
+.header-main__img img{
+	width: 100%;
 }
 /*header-END*/
 
@@ -451,6 +456,7 @@ p{
 
 /*opportunities-START*/
 .opportunities{
+	background: #fff;
 	padding-top: 90px;
 	padding-bottom: 100px;
 	border-bottom: 1px solid #E3E3E3;
@@ -492,6 +498,7 @@ p{
 
 /*equipment-START*/
 .equipment{
+	background: #fff;
 	padding-top: 100px;
 }
 
@@ -553,6 +560,7 @@ p{
 
 /*decision-START*/
 .decision{
+	background: #fff;
 	padding-top: 100px;
 	padding-bottom: 50px;
 }
@@ -647,7 +655,6 @@ input[name="tab"]:checked + label{
 }
 
 .decision-slider__img{
-	padding: 10px 12px;
 	border: 13px solid #FAFAFA;
 	width: 495px;
 }
@@ -746,6 +753,7 @@ input[name="tab"]:checked + label{
 
 /*terminal-START*/
 .terminal{
+	background: #fff;
 	padding-top: 100px;
 }
 
@@ -774,6 +782,11 @@ input[name="tab"]:checked + label{
 
 .terminal-slider{
 	width: 630px;
+}
+
+.terminal-slider .owl-carousel .item img{
+	max-height: 400px;
+	min-height: 320px;
 }
 
 .terminal-slider .owl-next{
@@ -1000,11 +1013,22 @@ input[name="tab"]:checked + label{
 
 /*delivery-START*/
 .delivery-wrapper{
+	position: relative;
 	padding-top: 125px;
-	height: 800px;
+	height: 700px;
+	overflow: hidden;
+}
+
+.delivery-background{
+	height: 100%;
+	width: 100%;
 	background: url(../img/Ukraine-background.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: top;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
 .delivery-icon{
@@ -1026,7 +1050,9 @@ input[name="tab"]:checked + label{
 
 /*difference-START*/
 .difference{
-	margin-top: -125px;
+	padding-top: 50px;
+	background: #fff;
+	/*margin-top: -125px;*/
 }
 
 .difference-box{
@@ -1071,18 +1097,31 @@ input[name="tab"]:checked + label{
 
 /*partnership-START*/
 .partnership{
+	background: #fff;
 	padding-top: 100px;
 }
 
 .partnership-company{
-	margin: 80px 0px;
+	margin: 60px 0px 100px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+}
+
+.partnership-company__item{
+	width: 400px;
+	height: 250px;
+	text-align: center;
+}
+
+.partnership-company img{
+	display: block;
+	margin-top: 10px;
+	width: 100%;
+	height: 100%;
 }
 
 .partnership-advantages{
@@ -1096,7 +1135,7 @@ input[name="tab"]:checked + label{
 
 .partnership-advantages__item{
 	width: 410px;
-	padding: 60px 100px;
+	padding: 50px 100px;
 	text-align: center;
 	background: #FAFAFA;
 	line-height: 1.9em;
@@ -1115,6 +1154,7 @@ input[name="tab"]:checked + label{
 
 /*get-programm-START*/
 .get-programm{
+	background: #fff;
 	padding: 100px 0px;
 }
 
@@ -1126,6 +1166,15 @@ input[name="tab"]:checked + label{
 	display: -o-flex;
 	display: flex;
 	align-items: center;
+}
+
+.get-programm-box__img{
+	margin-top: -50px;
+	width: 520px;
+}
+
+.get-programm-box__img img{
+	width: 100%;
 }
 
 .get-programm-content{
@@ -1215,6 +1264,7 @@ input[name="tab"]:checked + label{
 
 /*footer-START*/
 .footer{
+	background: #fff;
 	padding-top: 50px;
 }
 

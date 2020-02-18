@@ -19,7 +19,7 @@
 
 	.header-main__img{
 		width: 450px;
-		top: -80px;
+		top: -120px;
 	}
 
 	.header-main__img img{
@@ -64,8 +64,16 @@
 
 	.partnership-advantages__item {
 		width: 360px;
-		padding: 60px 90px;
 		text-align: center;
+	}
+
+	.get-programm{
+		padding: 70px 0px;
+	}
+
+	.partnership-company__item{
+		width: 360px;
+		height: 230px;
 	}
 }
 
@@ -114,7 +122,7 @@
 
 	.header-yellow-content p:last-child:after {
 		right: -75px !important;
-		top: 10px;
+		top: 3px !important;
 	}
 
 	.choice, .opportunities, .equipment, .decision, .terminal, .get-programm{
@@ -171,6 +179,7 @@
 
 	.yellow-block__content p:last-child:after{
 		right: -75px;
+		top: 8px;
 	}
 
 	.decision-slider .owl-next{
@@ -229,8 +238,8 @@
 	}
 
 	.partnership-advantages__item{
-		width: 305px;
-		padding: 60px 35px;
+		width: 300px;
+		padding: 40px 35px;
 	}
 
 	.opportunities-box {
@@ -274,6 +283,12 @@
 	.footer-wrapper .footer-block:last-child p{
 		margin: 15px 0px 27px;
 	}
+
+	.partnership-company__item{
+		width: 300px;
+		height: 190px;
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 991px) {
@@ -315,7 +330,7 @@
 
 	.header-main__img{
 		width: 375px;
-		top: -50px;
+		top: -90px;
 	}
 
 	.header-yellow-content{
@@ -334,7 +349,7 @@
 
 	.header-yellow-content p:last-child:after{
 		right: -120px !important;
-		top: -3px;
+		top: -7px !important;
 	}
 
 	.yellow-block {
@@ -430,6 +445,11 @@
 		width: 575px;
 	}
 
+	.partnership-advantages__item{
+		width: 260px;
+		padding: 40px 35px;
+	}
+
 	.line{
 		margin: 25px auto;
 	}
@@ -490,7 +510,7 @@
 
 	.delivery-wrapper{
 		padding-top: 70px;
-		height: 650px;
+		height: 550px;
 	}
 
 	.delivery-icon{
@@ -518,21 +538,21 @@
 		padding-top: 60px;
 	}
 
-	.partnership-company__item{
-		width: 130px;
-	}
-
-	.partnership-company__item img{
-		width: 100%;
-	}
-
 	.partnership-company{
-		margin: 55px 0px;
+		flex-direction: column;
 	}
 
-	.partnership-advantages__item {
-		width: 235px;
-		padding: 60px 15px;
+	.partnership-company__item{
+		margin-bottom: 30px;
+		width: 50%;
+		height: auto;
+		font-size: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.partnership-company__item:last-child{
+		margin-bottom: 0;
 	}
 
 	.opportunities-item__text{
@@ -601,6 +621,10 @@
 		width: 40px;
 		height: 40px;
 	}
+
+	.partnership-company{
+		margin: 30px 0px 80px;
+	}
 }
 
 @media screen and (max-width: 870px) {
@@ -640,7 +664,7 @@
 
 	.header-main__img {
 		width: 300px;
-		top: 143px;
+		top: 130px;
 		right: 160px;
 	}
 
@@ -785,6 +809,11 @@
 		font-size: 15px;
 	}
 
+	.terminal-slider .owl-carousel .item img{
+		max-height: 350px;
+		min-height: 300px;
+	}
+
 	.decision-slider .owl-next{
 		top: 255px;
 		width: 48px;
@@ -849,7 +878,10 @@
 
 	.delivery-wrapper{
 		padding-top: 30px;
-		height: 550px;
+	}
+
+	.delivery-background{
+		background-size: 100%;
 	}
 
 	.difference-box {
@@ -863,21 +895,15 @@
 	}
 
 	.difference{
-		margin-top: -70px;
+		margin-top: 0px;
 	}
 
 	.partnership{
 		padding-top: 40px;
 	}
 
-	.partnership-company {
-		margin: 30px 0px;
-		flex-direction: column;
-	}
-
 	.partnership-company__item{
-		width: 150px;
-		margin-bottom: 20px;
+		width: 65%;
 	}
 
 	.partnership-advantages{
@@ -889,6 +915,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 20px;
+		padding: 60px 15px;
 	}
 
 	.subtitle{
@@ -908,7 +935,7 @@
 	}
 
 	.get-programm-box__img{
-		width: 100%;
+		width: 70%;
 	}
 
 	.get-programm-content{
@@ -961,6 +988,20 @@
 
 	.choice-box-item{
 		width: 260px;
+	}
+
+	.delivery-wrapper{
+		height: 450px;
+	}
+
+	.delivery-icon{
+		width: 70px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.delivery-icon img{
+		width: 100%;
 	}
 }
 
@@ -1133,6 +1174,10 @@
 		padding: 30px 15px;
 	}
 
+	.delivery-wrapper{
+		height: 500px;
+	}
+
 	.get-programm-box {
 		margin-top: 25px;
 	}
@@ -1144,6 +1189,11 @@
 
 	.get-programm-content p{
 		margin-bottom: 10px;
+	}
+
+	.get-programm-box__img{
+		width: 90%;
+		margin-top: 0;
 	}
 
 	.request{
@@ -1169,6 +1219,11 @@
 	.tariffs-price{
 		margin: 25px 0px 15px;
 	}
+
+	.partnership-company__item{
+		width: 85%;
+		font-size: 18px;
+	}
 }
 
 @media screen and (max-width: 405px) {
@@ -1177,11 +1232,11 @@
 	}
 
 	.header-main {
-		padding: 25px 0px 245px;
+		padding: 25px 0px 230px;
 	}
-	
+
 	.header-main__img {
-		top: 165px;
+		top: 130px;
 		right: 25px;
 	}
 
@@ -1218,6 +1273,7 @@
 
 	.title{
 		font-size: 18px;
+		margin: 0;
 	}
 
 	.subtitle{
@@ -1228,6 +1284,11 @@
 		font-size: 14px;
 	}
 
+	.terminal-slider .owl-carousel .item img{
+		max-height: 250px;
+		min-height: 200px;
+	}
+
 	.tariffs{
 		width: 170px;
 	}
@@ -1236,12 +1297,20 @@
 		width: 165px !important;
 	}
 
+	.partnership-company{
+		margin: 35px 0px;
+	}
+
+	.delivery-wrapper{
+		height: 402px;
+	}
+
 	.difference-top {
 		font-size: 14px;
 	}
 
 	.partnership{
-		padding-top: 0;
+		padding: 40px 0px;
 	}
 
 	.request-form{
@@ -1271,7 +1340,7 @@
 	}
 
 	.header-main__img {
-		top: 185px;
+		top: 160px;
 		right: 0px;
 	}
 
