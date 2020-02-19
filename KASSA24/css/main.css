@@ -63,6 +63,7 @@ p{
 }
 
 .btn{
+	color: #000;
 	outline: none;
 	display: block;
 	font-size: 16px;
@@ -129,7 +130,7 @@ p{
 .yellow-block__content p:first-child:after{
 	content: '';
 	position: absolute;
-	top: -1px;
+	top: 2px;
 	right: 0;
 	height: 25px;
 	background: #000;
