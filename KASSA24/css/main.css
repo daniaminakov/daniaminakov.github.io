@@ -646,12 +646,27 @@ input[name="tab"]:checked + label{
 	outline: none;
 }
 
+.decision-slider .owl-prev{
+	opacity: 0.6;
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	background: url(../img/decision-next.svg) !important;
+	background-size: cover !important;
+	background-repeat: no-repeat !important;
+	height: 56px;
+	width: 56px;
+	outline: none;
+	transform: rotate(180deg);
+}
+
 .decision-slider .item{
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	align-items: center;
 }
 
 .decision-slider__img{
