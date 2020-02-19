@@ -177,7 +177,7 @@ p{
 }
 
 .header-top{
-	padding: 45px 0px;
+	padding: 30px 0px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -394,7 +394,7 @@ p{
 /*choice-START*/
 .choice{
 	background: #fff;
-	padding-top: 100px;	
+	padding-top: 70px;	
 }
 
 .choice-box{
@@ -457,8 +457,7 @@ p{
 /*opportunities-START*/
 .opportunities{
 	background: #fff;
-	padding-top: 90px;
-	padding-bottom: 100px;
+	padding: 50px 0px;
 	border-bottom: 1px solid #E3E3E3;
 }
 
@@ -499,7 +498,7 @@ p{
 /*equipment-START*/
 .equipment{
 	background: #fff;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .equipment-wrapper{
@@ -561,12 +560,12 @@ p{
 /*decision-START*/
 .decision{
 	background: #fff;
-	padding-top: 100px;
+	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
 .decision-wrapper{
-	margin-top: 70px;
+	margin-top: 30px;
 }
 
 .decision-top{
@@ -754,7 +753,7 @@ input[name="tab"]:checked + label{
 /*terminal-START*/
 .terminal{
 	background: #fff;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .terminal-title{
@@ -767,7 +766,7 @@ input[name="tab"]:checked + label{
 .terminal-wrapper{
 	padding: 78px 0px 74px;
 	background: #FAFAFA;
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 .terminal-box{
@@ -786,7 +785,6 @@ input[name="tab"]:checked + label{
 
 .terminal-slider .owl-carousel .item img{
 	max-height: 400px;
-	min-height: 320px;
 }
 
 .terminal-slider .owl-next{
@@ -838,7 +836,7 @@ input[name="tab"]:checked + label{
 }
 
 .terminal-content p{
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 
 .terminal-content p:last-child{
@@ -852,13 +850,13 @@ input[name="tab"]:checked + label{
 .terminal-content__block{
 	margin-top: 20px;
 	margin-bottom: 10px;
-	padding: 20px 0px;
+	padding: 15px 0px;
 	border-top: 1px solid #E3E3E3;
 	border-bottom: 1px solid #E3E3E3;
 }
 
 .terminal-content__block p{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .terminal-content span{
@@ -1015,7 +1013,7 @@ input[name="tab"]:checked + label{
 .delivery-wrapper{
 	position: relative;
 	padding-top: 125px;
-	height: 700px;
+	height: 578px;
 	overflow: hidden;
 }
 
@@ -1098,11 +1096,11 @@ input[name="tab"]:checked + label{
 /*partnership-START*/
 .partnership{
 	background: #fff;
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .partnership-company{
-	margin: 60px 0px 100px;
+	margin: 50px 0px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -1147,7 +1145,7 @@ input[name="tab"]:checked + label{
 }
 
 .opportunities-yellow-block{
-	margin-top: 100px;
+	margin-top: 60px;
 }
 /*partnership-END*/
 
@@ -1155,11 +1153,11 @@ input[name="tab"]:checked + label{
 /*get-programm-START*/
 .get-programm{
 	background: #fff;
-	padding: 100px 0px;
+	padding: 50px 0px;
 }
 
 .get-programm-box{
-	margin-top: 80px;
+	margin-top: 50px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;

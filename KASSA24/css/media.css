@@ -125,10 +125,6 @@
 		top: 3px !important;
 	}
 
-	.choice, .opportunities, .equipment, .decision, .terminal, .get-programm{
-		padding-top: 70px;
-	}
-
 	.choice-box-item {
 		width: 310px;
 	}
@@ -147,7 +143,7 @@
 	}
 
 	.terminal-content__block p {
-		margin-bottom: 15px;
+		margin-bottom: 7px;
 	}
 
 	.title{
@@ -228,6 +224,10 @@
 		width: 470px;
 	}
 
+	.difference-box{
+		margin-top: 40px;
+	}
+
 	.difference-top {
 		width: 100%;
 		font-size: 18px;
@@ -267,6 +267,10 @@
 		width: 100%;
 	}
 
+	.delivery-wrapper{
+		height: 575px;
+	}
+
 	.get-programm-content p {
 		margin-bottom: 15px;
 		font-size: 15px;
@@ -298,6 +302,7 @@
 
 	.header-top{
 		flex-direction: column;
+		padding: 20px 0px;
 	}
 
 	.menu-item{
@@ -361,7 +366,7 @@
 	}
 
 	.choice, .opportunities, .equipment, .decision, .terminal, .get-programm {
-		padding-top: 50px;
+		padding-top: 40px;
 	}
 
 	.choice-box-item {
@@ -474,9 +479,9 @@
 		margin-right: auto;
 	}
 
-	.terminal-content__block p {
+/*	.terminal-content__block p {
 		margin-bottom: 10px;
-	}
+	}*/
 
 	.terminal-content__block{
 		margin: 10px 0px;
@@ -510,7 +515,7 @@
 
 	.delivery-wrapper{
 		padding-top: 70px;
-		height: 550px;
+		height: 437px;
 	}
 
 	.delivery-icon{
@@ -535,7 +540,7 @@
 	}
 
 	.partnership{
-		padding-top: 60px;
+		padding-top: 40px;
 	}
 
 	.partnership-company{
@@ -623,7 +628,11 @@
 	}
 
 	.partnership-company{
-		margin: 30px 0px 80px;
+		margin: 30px 0px;
+	}
+
+	.buy{
+		padding: 50px 0px 80px;
 	}
 }
 
@@ -647,7 +656,7 @@
 	}
 
 	.header-top {
-		padding: 30px 0px;
+		padding: 10px 0px;
 	}
 
 	.navigation{
@@ -878,6 +887,7 @@
 
 	.delivery-wrapper{
 		padding-top: 30px;
+		height: 393px;
 	}
 
 	.delivery-background{
@@ -991,7 +1001,7 @@
 	}
 
 	.delivery-wrapper{
-		height: 450px;
+		height: 362px;
 	}
 
 	.delivery-icon{
@@ -1140,10 +1150,10 @@
 		margin-bottom: 5px;
 	}
 
-	.terminal-content__block p{
+	/*.terminal-content__block p{
 		margin-bottom: 7px;
 	}
-
+*/
 	.terminal-price span {
 		font-size: 24px;
 	}
@@ -1175,7 +1185,7 @@
 	}
 
 	.delivery-wrapper{
-		height: 500px;
+		height: 421px;
 	}
 
 	.get-programm-box {
