@@ -28,7 +28,7 @@ $(".navigation").on("click","a", function (event) {
 });
 
 // Клики по кнопкам
-$(".btn").on("click", function (event) {
+$(".btn-to-element").on("click", function (event) {
     //отменяем стандартную обработку нажатия по ссылке
     event.preventDefault();
     //забираем идентификатор блока с атрибута href
@@ -50,29 +50,6 @@ $(".get-programm-content").on("click","a", function (event) {
     //анимируем переход на расстояние - top за 1000 мс
     $('body,html').animate({scrollTop: top}, 1000);
 });
-
-
-// terminal-carousel-START
-$('.terminal-slider .owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:1
-        },
-        1000:{
-            items:1
-        }
-    }
-})
-// terminal-carousel-END
 
 
 // decision-slider-START
