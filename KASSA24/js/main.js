@@ -75,7 +75,6 @@ $('.terminal-slider .owl-carousel').owlCarousel({
 // terminal-carousel-END
 
 
-
 // decision-slider-START
 $('.decision-slider').owlCarousel({
     loop:true,
@@ -133,6 +132,7 @@ var slide3 = $(waySlides + '(7)');
 var slide4 = $(waySlides + '(8)');
 var slide5 = $(waySlides + '(9)');
 var slide6 = $(waySlides + '(4)');
+var slidePrev = $(waySlides + '(3)');
 
 // Находим кнопку "next" 
 var next = $('.decision-slider .owl-nav .owl-next');
@@ -169,11 +169,44 @@ next.click(function() {
         placeTitle.text(title1);
     }
 });
+
+// Находим кнопку "prev" 
+var prev = $('.decision-slider .owl-nav .owl-prev');
+// При клике на кнопку "prev"
+prev.click(function() {
+    if(slide6.hasClass('active')){
+        clearChecked();
+        tab1.attr('checked', 'checked');
+        placeTitle.text(title1);
+    }else if(slidePrev.hasClass('active')){
+        clearChecked();
+        tab6.attr('checked', 'checked');
+        placeTitle.text(title6);
+    }else if(slide4.hasClass('active')){
+        clearChecked();
+        tab5.attr('checked', 'checked');
+        placeTitle.text(title5);
+    }
+    else if(slide3.hasClass('active')){
+        clearChecked();
+        tab4.attr('checked', 'checked');
+        placeTitle.text(title4);
+    }
+    else if(slide2.hasClass('active')){
+        clearChecked();
+        tab3.attr('checked', 'checked');
+        placeTitle.text(title3);
+    }
+    else if(slide1.hasClass('active')){
+        clearChecked();
+        tab2.attr('checked', 'checked');
+        placeTitle.text(title2);
+    }
+});
 // decision-slider-END
 
+
 // tariffs-carousel-START
-
-
 function windowSize(){
     if ($(window).width() <= '755'){
         $('.tariffs').owlCarousel({
