@@ -841,7 +841,8 @@ input[name="tab"]:checked + label{
 	font-weight: 700;	
 }
 
-.underline a{
+.underline span{
+	cursor: pointer;
 	color: #333333;
 	font-weight: 700;
 	text-decoration-line: underline;
@@ -971,6 +972,10 @@ input[name="tab"]:checked + label{
 }
 
 .tariffs-order{
+	width: 83%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 	outline: none;
 	cursor: pointer;
 	color: #fff;
@@ -1302,3 +1307,49 @@ input[name="tab"]:checked + label{
 	text-align: center;
 }
 /*footer-END*/
+
+
+/*characteristic-modal-START*/
+.characteristic-modal{
+	/*display: none;*/
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	overflow-y: hidden;
+	position: fixed;
+	justify-content: center;
+	padding-top: 50px;
+}
+
+.characteristic-wrapper{
+	position: relative;
+	z-index: 9999;
+	width: 550px;
+	height: 510px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	background: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+	-webkit-box-shadow: 0px 0px 44px -11px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 44px -11px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 44px -11px rgba(0,0,0,0.75);
+}
+
+.characteristic-wrapper img{
+	width: 100%;
+	height: 100%;
+}
+
+/*characteristic-modal-END*/

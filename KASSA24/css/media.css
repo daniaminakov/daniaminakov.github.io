@@ -921,7 +921,7 @@
 	}
 
 	.tariffs .owl-stage-outer .owl-stage .owl-item{
-		width: 174px !important;
+		width: 168px !important;
 	}
 
 	.tariffs .owl-stage-outer .owl-stage{
@@ -930,11 +930,14 @@
 
 	.tariffs-item {
 		width: 100%;
+		text-align: center;
 	}
 
 	.tariffs-item__presence img{
-		width: 30px;
+		width: 30px !important;
 		height: 30px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.delivery-wrapper{
@@ -1086,6 +1089,11 @@
 	.terminal-video{
 		width: 500px;
 		height: 285px;
+	}
+
+	.characteristic-wrapper{
+		width: 95%;
+		height: 430px;
 	}
 }
 
@@ -1256,7 +1264,7 @@
 	}
 
 	.tariffs .owl-stage-outer .owl-stage .owl-item{
-		width: 214px !important;
+		width: 205px !important;
 	}
 
 	.blackout-text{
@@ -1325,6 +1333,11 @@
 
 	.decision-slider .owl-next, .decision-slider .owl-prev{
 		top: 220px;
+	}
+
+	.characteristic-wrapper{
+		width: 95%;
+		height: 400px;
 	}
 }
 
@@ -1480,6 +1493,10 @@
 		width: 98%;
 		margin: 15px auto 0px;
 		padding: 40px 65px;
+	}
+
+	.characteristic-wrapper{
+		height: 360px;
 	}
 }
 
