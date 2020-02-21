@@ -39,8 +39,20 @@ $(".btn-to-element").on("click", function (event) {
     $('body,html').animate({scrollTop: top}, 1000);
 });
 
-// Еще клик по ссылке
+// Клик по ссылке get-programm-content
 $(".get-programm-content").on("click","a", function (event) {
+    //отменяем стандартную обработку нажатия по ссылке
+    event.preventDefault();
+    //забираем идентификатор блока с атрибута href
+    var id  = $(this).attr('href'),
+    //узнаем высоту от начала страницы до блока на который ссылается якорь
+    top = $(id).offset().top;
+    //анимируем переход на расстояние - top за 1000 мс
+    $('body,html').animate({scrollTop: top}, 1000);
+});
+
+// Клик по ссылке tariffs-order
+$(".tariffs-order").on("click", function (event) {
     //отменяем стандартную обработку нажатия по ссылке
     event.preventDefault();
     //забираем идентификатор блока с атрибута href
@@ -211,3 +223,16 @@ function windowSize(){
 };
 
 windowSize();
+
+
+// modal-characteristic
+$('.underline span').click(function(){
+    $('.characteristic-modal').css('display', 'flex');
+});
+// Close
+window.onclick = function(event) {
+  var modal = document.querySelector('.characteristic-modal')
+  if(event.target == modal){
+    $('.characteristic-modal').css("display", 'none');
+  }
+}
