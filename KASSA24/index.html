@@ -916,9 +916,9 @@
 			<div class="footer-block-center">
 				<h2>ЕСТЬ ПРЕДЛОЖЕНИЯ ПО ФУНКЦИОНАЛУ?</h2>
 				<p>Заполните форму и мы свяжемся с вами, как только функционал станет доступным</p>
-				<a href="#section_form" class="btn btn-to-element">
+				<button class="btn wow pulse" data-wow-duration="2s" data-wow-iteration="infinite" id="func_form">
 					Связаться
-				</a>
+				</button>
 			</div>
 			<div class="footer-block">
 				<h2>Следите за новостями</h2>
@@ -950,7 +950,34 @@
 <!-- Modal-characteristic -->
 <div class="characteristic-modal">
 	<div class="characteristic-wrapper">
+		<div class="characteristic-close">
+			<img src="img/close.svg" alt="Close">
+		</div>
 		<img src="img/characteristic.png" alt="Characteristic">
+	</div>
+</div>
+
+<!-- Form-function -->
+<div class="form-function">
+	<div class="form-function-wrapper">
+		<div class="close">
+			<img src="img/close.svg" alt="Close">
+		</div>
+		<form action="send.php" method="POST">
+			<h3 class="form-function__title">
+				Вам не хватает какой-то функции?
+			</h3>
+			<p class="form-function__text">
+				Напишите нам, и разработчики постараются добавить ее в следующий релиз программы.
+				Оставьте почту и мы сообщим, когда выйдет обновление.
+			</p>
+			<input type="email" name="email" placeholder="E-mail:" required>
+			<input type="text" name="function" placeholder="Функция:" required>
+			<a href="https://drive.google.com/u/0/uc?id=1SkEdb-XO31rY6JdTPTqho0JtbRIks0NT&export=download" target="_blank">Политика конфиденциальности</a>
+			<button type="submit" class="btn btn-yellow">
+				Отправить заявку
+			</button>
+		</form>
 	</div>
 </div>
 
@@ -965,12 +992,12 @@
 </script>
 <!-- Main js -->
 <script src="js/main.js"></script>
-<!-- <script>
+<script>
 	window.onload = function(){
 		setTimeout(function(){
 			document.getElementById('ifrm_video').src = 'https://www.youtube.com/embed/Ynh9rkHhxyQ';
 		},5000);
 	};
-</script> -->
+</script>
 </body>
 </html>
