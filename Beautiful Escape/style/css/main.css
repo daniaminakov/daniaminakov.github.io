@@ -167,10 +167,6 @@ body {
 .ul-wrapper li:last-child {
   margin-right: 0px;
 }
-.ul-wrapper li a:hover {
-  transition: 0.3s ease 0.1s;
-  font-size: 10px;
-}
 .beautiful-escape {
   background-color: #fff;
   padding: 25px;
