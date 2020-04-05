@@ -236,7 +236,7 @@
         width: 20px;
     }
     .about {
-        padding: 70px 0px;
+        padding: 85px 0px 70px;
     }
     .about-content {
         width: 90%;
@@ -318,7 +318,7 @@
         flex-direction: column;
     }
     .navigtion {
-        margin-top: 15px;
+        margin-top: 5px;
     }
     .about-content {
         width: 100%;
@@ -383,12 +383,9 @@
     .burger-menu {
         top: 35%;
     }
-    .about {
-        padding: 90px 0px 70px;
-    }
     .scrollbar,
     .scrollpath {
-        width: 5px;
+        width: 3px;
     }
     .portfolio-item {
         width: 85%;
@@ -411,6 +408,34 @@
         span {
             margin-bottom: 5px;
         }
+    }
+    .about-content .about-content__text,
+    .about-content .about-content__info {
+        font-size: 14px;
+    }
+    .second-title {
+        font-size: 22px;
+    }
+    .services-box .services-item .services-item__text,
+    .contacts-media .contacts-media__text,
+    .contacts-media .contacts-media__item {
+        font-size: 14px;
+    }
+    .services-box .services-item {
+        margin-bottom: 20px;
+        width: 295px;
+    }
+    .contacts-media .contacts-media__item span {
+        font-size: 16px;
+    }
+    .contacts-media .freelancehunt-link img {
+        width: 155px;
+    }
+    .portfolio {
+        padding: 85px 0px 35px;
+    }
+    .contacts {
+        padding: 85px 0px 50px;
     }
 }
 
