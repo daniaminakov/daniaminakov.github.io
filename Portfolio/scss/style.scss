@@ -15,9 +15,9 @@
     flex-direction: column;
     align-items: center;
     background: #f9fbff;
-    // opacity: 1;
+    opacity: 1;
     visibility: visible;
-    // transition: all 1s;
+    transition: all 1s;
     &.done {
         opacity: 0;
         visibility: hidden;
