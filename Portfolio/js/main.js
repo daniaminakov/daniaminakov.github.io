@@ -80,7 +80,7 @@ $(".arrow-bottom").on("click", function(event) {
 // Прогрес-скиллы-START
 function progressSkills() {
     var progressBar = document.querySelectorAll(".progress-bar");
-    var time = 2500;
+    var time = 2000;
     progressBar.forEach(function(i) {
         let label = i.children[1].children[0].children[0];
         let line = i.children[1];
