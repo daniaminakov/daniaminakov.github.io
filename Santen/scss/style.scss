@@ -197,7 +197,7 @@ body {
 .blue-block {
     width: 100%;
     background: rgba(0, 154, 207, 0.06);
-    padding: 30px 0px;
+    padding: 30px;
 }
 
 .box {
@@ -233,6 +233,44 @@ body {
         width: 60px;
         height: 60px;
     }
+}
+
+.small-blue {
+    font-size: 22px;
+}
+
+.title-small {
+    font-size: 36px;
+}
+
+.product-title {
+    color: #009ACF;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.list {
+    li {
+        span {
+            strong {
+                color: $mainColor;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.list-title {
+    margin-left: -18px;
+    font-family: Roboto Condensed;
+    font-size: 24px;
+    color: $mainColor;
+}
+
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -436,6 +474,7 @@ body {
 
 /*header-END*/
 
+// <--------part-1-START-------->
 
 /*groups-END*/
 
@@ -814,7 +853,571 @@ body {
 /*footer-END*/
 
 
-/*astigmatizm-PAGE-START*/
+/*kationorm-PAGE-START*/
+
+.product-head {
+    .main-title {
+        font-size: 90px;
+        font-weight: 400;
+    }
+    .list {
+        li {
+            span {
+                strong {
+                    color: $mainColor;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+
+.box-product-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.procuct-page-left {
+    margin-top: auto;
+    width: 625px;
+    .list {
+        li {
+            line-height: 1.3em;
+            margin-bottom: 10px;
+        }
+        .list-title {
+            margin: 30px 0px 14px -18px;
+        }
+    }
+}
+
+.product-page-buttons {
+    display: flex;
+    margin-top: 35px;
+    .btn {
+        display: block;
+        padding: 20px 60px;
+    }
+    .btn:nth-child(2) {
+        padding: 20px 90px;
+        margin-left: 18px;
+        background: transparent;
+        color: $mainColor;
+        border: 1px solid $mainColor;
+    }
+}
+
+.procuct-page-right {
+    img {
+        width: 100%;
+    }
+}
+
+.application-border {
+    width: 510px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    position: relative;
+    border: 1px solid #F8A600;
+    &:after {
+        content: '';
+        position: absolute;
+        top: -11px;
+        right: 40px;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #F8A600;
+        border-width: 1px 0 0 1px;
+        transform: rotate(45deg);
+        background: #fff;
+    }
+}
+
+.application-border-blue {
+    border: 1px solid #009ACF;
+    &:after {
+        border: 1px solid #009ACF;
+        border-width: 1px 0 0 1px;
+    }
+}
+
+.advantages {
+    margin: 50px 0px;
+}
+
+.advantages-wrapper {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.advantages-item {
+    width: 185px;
+}
+
+.advantages-item__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 190px;
+    background: rgba(0, 154, 207, 0.06);
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+.advantages-item__text {
+    font-family: Montserrat;
+    color: $mainColor;
+    font-size: 16px;
+}
+
+.product-page-slider {
+    position: relative;
+    .fw-300 {
+        line-height: 1.3em;
+    }
+    &:after {
+        content: '';
+        height: 678px;
+        width: 520px;
+        background: url('../img/slider-after.svg');
+        z-index: -1;
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 140px;
+        right: 0px;
+    }
+}
+
+.product-slider {
+    width: 100%;
+    margin-top: 40px;
+    position: relative;
+    .slick-prev:before,
+    .slick-next:before {
+        display: none;
+    }
+    .slick-prev {
+        z-index: 2;
+        left: 440px;
+        width: 58px;
+        height: 58px;
+        background: url(../img/arrow-left.svg) !important;
+    }
+    .slick-next {
+        right: 614px;
+        width: 58px;
+        height: 58px;
+        background: url(../img/arrow-right-blue.svg) !important;
+    }
+    .slick-prev,
+    .slick-next {
+        top: auto;
+        bottom: -30px;
+    }
+}
+
+.product-slider__item {
+    overflow: hidden;
+    outline: none;
+    display: flex !important;
+    justify-content: space-between;
+    padding-right: 2px;
+}
+
+.product-slider-left {
+    width: 476px;
+    .blue {
+        width: 400px;
+    }
+    .text {
+        margin-top: 33px;
+        font-weight: 300;
+    }
+}
+
+.num-slide {
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: Montserrat;
+    color: $mainColor;
+    strong {
+        font-weight: 500;
+    }
+}
+
+.product-slider-right {
+    line-height: 0;
+    width: 670px;
+    img {
+        width: 100%;
+    }
+}
+
+.kationorm-about {
+    padding-top: 90px;
+    .box {
+        margin-bottom: 45px;
+    }
+}
+
+.kationorm-about-left {
+    width: 440px;
+    .text {
+        span {
+            font-size: 24px;
+            color: #F8A600;
+            font-weight: 500;
+        }
+    }
+    .about-title {
+        margin: 50px 0px 40px;
+    }
+}
+
+.about-title {
+    font-weight: 300;
+    font-size: 30px;
+    color: $mainColor;
+}
+
+.about-list {
+    li {
+        line-height: 1.5em;
+    }
+}
+
+.instruction {
+    .box-right {
+        width: 360px;
+        margin-right: 100px;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.katoinorm-instruction {
+    padding: 95px 0px 60px;
+    .box {
+        margin-top: -80px;
+    }
+    .box-left {
+        width: 620px;
+        .blue {
+            margin: 25px 0px 17px;
+        }
+    }
+}
+
+.instruction-box {
+    padding-top: 50px;
+}
+
+.instruction-item {
+    .instruction-text {
+        height: 0;
+        overflow: hidden;
+        padding: 0px;
+    }
+    .text {
+        margin: 10px 0px;
+        font-family: Montserrat;
+        strong {
+            font-weight: 500;
+        }
+        .list {
+            margin-top: 10px;
+            display: inline-block;
+        }
+    }
+}
+
+.instruction-active {
+    .instruction-text {
+        padding-bottom: 25px;
+        height: 100%;
+    }
+    .instruction-item__title {
+        &:after {
+            content: '-';
+            color: $mainColor;
+            position: absolute;
+            top: -5px;
+            right: 3px;
+            font-size: 60px;
+            font-weight: 300;
+            font-family: Montserrat, sans-serif;
+        }
+    }
+}
+
+.instruction-item__title {
+    cursor: pointer;
+    border-top: 1px solid $mainColor;
+    font-family: Montserrat;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    position: relative;
+    span {
+        margin-right: 15px;
+        font-size: 40px;
+        color: $mainColor;
+    }
+    &:after {
+        content: '+';
+        color: $mainColor;
+        position: absolute;
+        top: 5px;
+        right: 0;
+        font-size: 50px;
+        font-weight: 300;
+        font-family: Montserrat, sans-serif;
+    }
+}
+
+.how-item {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+}
+
+.how-item__img {
+    width: 79px;
+    img {
+        width: 100%;
+    }
+}
+
+.how-item__text {
+    margin-left: 22px;
+    .list {
+        li {
+            line-height: 1.4em;
+        }
+    }
+}
+
+.blue-how {
+    margin-top: 23px;
+    font-size: 18px;
+}
+
+.where {
+    padding-top: 90px;
+}
+
+.where-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.where-content {
+    width: 585px;
+}
+
+.where-attention {
+    margin: 50px 0px 20px;
+}
+
+.pharmacy-box {
+    width: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pharmacy__item {
+    padding: 15px 0px;
+}
+
+
+/*kationorm-PAGE-END*/
+
+
+/*okutiarz-PAGE-START*/
+
+.product-about {
+    padding-top: 90px;
+    .blue-block {
+        font-weight: 300;
+    }
+    .blue {
+        margin: 25px 0px;
+    }
+}
+
+.advantages-page {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages-page-item {
+    width: 268px;
+    padding: 8px 30px 0px 18px;
+    border: 1px solid $mainColor;
+    position: relative;
+     :after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 71px;
+        height: 71px;
+        background: url('../img/drop.svg');
+    }
+    .text {
+        strong {
+            font-weight: 500;
+        }
+    }
+}
+
+.advantages-num {
+    color: $mainColor;
+    font-family: Montserrat;
+    font-size: 50px;
+    margin-bottom: 4px;
+}
+
+.product-about-title {
+    font-size: 30px;
+    color: $mainColor;
+    margin: 30px 0px;
+}
+
+.viscosity-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.viscosity-item {
+    width: 570px;
+    padding: 26px 20px;
+    background: rgba(0, 154, 207, 0.12);
+    border: 1px solid #00309D;
+}
+
+.viscosity-title {
+    color: #00309D;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.okutiarz-instruction {
+    padding: 20px 0px 100px;
+    .box-left {
+        width: 825px;
+    }
+}
+
+.okutiarz-link {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.okutiarz-how-item {
+    .how-item__img {
+        width: auto;
+        img {
+            width: 45px;
+        }
+    }
+}
+
+
+/*okutiarz-PAGE-END*/
+
+
+/*oftagel-PAGE-START*/
+
+.oftagel-advantages-item {
+    width: 370px;
+    padding: 8px 30px 20px 18px;
+}
+
+.oftagel-about {
+    .box {
+        margin-bottom: 30px;
+    }
+    .blue-block {
+        margin-top: 45px;
+    }
+}
+
+.oftagel-instruction {
+    .box-left {
+        width: 825px;
+    }
+}
+
+
+/*oftagel-PAGE-END*/
+
+
+/*eye-hygiene-PAGE-START*/
+
+.eye-hygiene {
+    padding-bottom: 100px;
+    .list-page {
+        margin: 22px 0px 32px;
+    }
+}
+
+
+/*eye-hygiene-PAGE-END*/
+
+// <--------part-1-END-------->
+// <--------part-2-START-------->
+
+/*articles-PAGE-START*/
+
+.articles-page {
+    padding-bottom: 45px;
+}
+
+.articles-page-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.articles-page-item {
+    width: 370px;
+    margin-bottom: 30px;
+}
+
+.articles-page-item__img {
+    line-height: 0;
+    img {
+        width: 100%;
+    }
+}
+
+.articles-page-item__info {
+    padding: 15px 50px 21px 20px;
+    background: rgba(0, 154, 207, 0.12);
+    .text {
+        margin-bottom: 15px;
+    }
+}
+
+
+/*articles-PAGE-END*/
+
+
+/*astigmatizm-START*/
 
 .astigmatizm {
     padding-bottom: 95px;
@@ -834,10 +1437,24 @@ body {
 }
 
 
-/*astigmatizm-PAGE-END*/
+/*astigmatizm-END*/
 
 
-/*makulyi-PAGE-START*/
+/*prevention-page-START*/
+
+.prevention-page-wrapper {
+    margin-bottom: 60px;
+    .blue {
+        width: 575px;
+        margin-bottom: 24px;
+    }
+}
+
+
+/*prevention-page-END*/
+
+
+/*makulyi-START*/
 
 .makulyi {
     padding-bottom: 95px;
@@ -847,10 +1464,10 @@ body {
 }
 
 
-/*makulyi-PAGE-END*/
+/*makulyi-END*/
 
 
-/*tsvetovospriyatiya-PAGE-START*/
+/*tsvetovospriyatiya-START*/
 
 .tsvetovospriyatiya {
     padding-bottom: 90px;
@@ -863,10 +1480,10 @@ body {
 }
 
 
-/*tsvetovospriyatiya-PAGE-END*/
+/*tsvetovospriyatiya-END*/
 
 
-/*for-children-PAGE-START*/
+/*for-children-START*/
 
 .for-children {
     padding-bottom: 50px;
@@ -879,20 +1496,7 @@ body {
 }
 
 
-/*for-children-PAGE-END*/
-
-
-/*eye-hygiene-PAGE-START*/
-
-.eye-hygiene {
-    padding-bottom: 100px;
-    .list-page {
-        margin: 22px 0px 32px;
-    }
-}
-
-
-/*eye-hygiene-PAGE-END*/
+/*for-children-END*/
 
 
 /*eyesight-check-PAGE-START*/
@@ -914,7 +1518,87 @@ body {
 }
 
 
-/*eyesight-check-PAGE-END*/
+/*page-START*/
+
+.page {
+    padding-bottom: 40px;
+    .blue {
+        margin-bottom: 40px;
+    }
+}
+
+
+/*page-END*/
+
+// <--------part-2-END-------->
+// <--------part-3-START-------->
+
+/*eye-tests-PAGE-START*/
+
+.test-articles {
+    padding-bottom: 50px;
+    .text {
+        width: 977px;
+    }
+}
+
+.test-articles-wrapper {
+    margin: 0px auto 30px;
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.test-articles__item {
+    margin-right: 40px;
+    margin-bottom: 65px;
+    text-align: center;
+    width: 225px;
+    .test-articles__item-img {
+        margin-bottom: 20px;
+        img {
+            width: 100%;
+        }
+    }
+    .more {
+        margin-left: -20px;
+    }
+}
+
+.eye-teble {
+    .what-is-info {
+        width: 600px;
+    }
+}
+
+.orlova-teble {
+    padding: 50px 0px;
+    .what-is-info {
+        width: 630px;
+    }
+}
+
+.golovin-teble {
+    .box {
+        align-items: flex-start;
+    }
+    .text {
+        width: 800px;
+    }
+}
+
+.eye-tests {
+    padding: 50px 0px 100px;
+    .text {
+        margin-bottom: 50px;
+    }
+}
+
+
+/*eye-tests-PAGE-END*/
 
 
 /*siemens-star-PAGE-START*/
@@ -1017,8 +1701,11 @@ body {
         .more {
             padding: 1px 0px;
         }
-        img {
-            width: 100%;
+        a {
+            outline: none;
+            img {
+                width: 100%;
+            }
         }
     }
     .slick-prev:before,
@@ -1029,13 +1716,13 @@ body {
         left: -85px;
         width: 58px;
         height: 58px;
-        background: url(../img/arrow-left.png) !important;
+        background: url(../img/arrow-left.svg) !important;
     }
     .slick-next {
         right: -85px;
         width: 58px;
         height: 58px;
-        background: url(../img/arrow-right.png) !important;
+        background: url(../img/arrow-right.svg) !important;
     }
     .slick-prev,
     .slick-next {
@@ -1047,108 +1734,20 @@ body {
 /*siemens-star-PAGE-END*/
 
 
-/*articles-PAGE-START*/
+/*eye-exercise-PAGE-START*/
 
-.articles-page {
-    padding-bottom: 45px;
-}
-
-.articles-page-wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.articles-page-item {
-    width: 370px;
-    margin-bottom: 30px;
-}
-
-.articles-page-item__img {
-    line-height: 0;
-    img {
-        width: 100%;
-    }
-}
-
-.articles-page-item__info {
-    padding: 15px 50px 21px 20px;
-    background: rgba(0, 154, 207, 0.12);
-    .text {
-        margin-bottom: 15px;
-    }
-}
-
-
-/*articles-PAGE-END*/
-
-
-/*eye-tests-PAGE-START*/
-
-.test-articles {
-    padding-bottom: 50px;
-    .text {
-        width: 977px;
-    }
-}
-
-.test-articles-wrapper {
-    margin: 0px auto 30px;
-    width: 1050px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.test-articles__item {
-    margin-right: 40px;
-    margin-bottom: 65px;
-    text-align: center;
-    width: 225px;
-    .test-articles__item-img {
-        margin-bottom: 20px;
-        img {
-            width: 100%;
-        }
-    }
-    .more {
-        margin-left: -20px;
-    }
-}
-
-.eye-teble {
-    .what-is-info {
-        width: 600px;
-    }
-}
-
-.orlova-teble {
-    padding: 50px 0px;
-    .what-is-info {
-        width: 630px;
-    }
-}
-
-.golovin-teble {
-    .box {
-        align-items: flex-start;
+.eye-exercise {
+    padding-bottom: 40px;
+    .page-img-center {
+        margin: 60px 0px 45px;
     }
     .text {
-        width: 800px;
-    }
-}
-
-.eye-tests {
-    padding: 50px 0px 100px;
-    .text {
-        margin-bottom: 50px;
+        margin: 20px 0px;
     }
 }
 
 
-/*eye-tests-PAGE-END*/
+/*eye-exercise-PAGE-END*/
 
 
 /*syndrome-PAGE-END*/
@@ -1396,9 +1995,8 @@ body {
     margin: 50px 0px 40px;
     table {
         width: 100%;
-        border-spacing: 0px 0px;
-        border-left: none;
-        border-bottom: none;
+        border-spacing: 0px;
+        border-collapse: collapse;
     }
     thead {
         text-align: left;
@@ -1408,9 +2006,7 @@ body {
             color: $mainColor;
             font-size: 24px;
             font-weight: 300;
-            border-top: none;
             border-bottom: none;
-            border-right: none;
         }
         th:nth-child(1) {
             width: 285px;
@@ -1425,7 +2021,6 @@ body {
         font-family: Montserrat;
         line-height: 1.5em;
         border-top: none;
-        border-right: none;
         ul {
             li {
                 line-height: 2.5em;
@@ -1539,18 +2134,468 @@ body {
 
 /*test-PAGE-END*/
 
+// <--------part-3-END-------->
+// <--------part-4-START-------->
 
-/*eye-exercise-PAGE-START*/
+/*syndrome-user-lens-START*/
 
-.eye-exercise {
-    padding-bottom: 40px;
-    .page-img-center {
-        margin: 60px 0px 45px;
+.syndrome-user-lens {
+    padding-bottom: 65px;
+    .main-title {
+        font-size: 60px;
+        margin-bottom: 50px;
     }
-    .text {
-        margin: 20px 0px;
+    .list-300 {
+        margin: 45px 0px 50px;
+        font-family: Roboto Condensed;
+        font-size: 15px;
+        line-height: 1.5em;
     }
 }
 
 
-/*eye-exercise-PAGE-END*/
+/*syndrome-user-lens-END*/
+
+
+/*sharpness-prevention-START*/
+
+.sharpness-prevention {
+    padding-bottom: 60px;
+    .main-title {
+        font-size: 60px;
+    }
+    .list {
+        margin-bottom: 30px;
+        li {
+            margin-bottom: 30px;
+        }
+    }
+    .blue {
+        margin-bottom: 30px;
+    }
+}
+
+
+/*sharpness-prevention-END*/
+
+
+/*how-drip-START*/
+
+.how-drip {
+    padding-bottom: 70px;
+    .text {
+        width: 1080px;
+    }
+    .page-img-center {
+        margin-bottom: 95px;
+        position: relative;
+        .how-drip-behind {
+            height: 190px;
+            width: 100%;
+            background: rgba(0, 154, 207, 0.06);
+            position: absolute;
+            bottom: -55px;
+            z-index: -1;
+        }
+    }
+}
+
+.how-drip-box {
+    margin: 40px 0px 80px;
+}
+
+.how-drip__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    .blue {
+        width: 100%;
+        font-size: 22px;
+    }
+    img {
+        width: 83px;
+        margin-right: 20px;
+    }
+}
+
+
+/*how-drip-END*/
+
+
+/*hat-tear-START*/
+
+.what-tear {
+    .syndrome-menu-item {
+        margin-right: 80px;
+    }
+    .blue {
+        margin-bottom: 15px;
+    }
+    .blue-block {
+        .list {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.what-tear-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    .box-left {
+        width: 500px;
+        img {
+            width: 100%;
+        }
+    }
+    .list {
+        padding: 20px 0px;
+    }
+    p {
+        strong {
+            font-weight: 500;
+        }
+    }
+}
+
+.anatomy-eye {
+    padding-top: 40px;
+    .box2 {
+        margin-bottom: 30px;
+    }
+}
+
+.diseases {
+    padding-top: 70px;
+    .blue {
+        padding: 25px 0px;
+    }
+    .box {
+        .list {
+            font-size: 15px;
+        }
+        .list:last-child {
+            width: 600px;
+        }
+    }
+    .mb {
+        margin-bottom: 50px;
+    }
+}
+
+
+/*hat-tear-END*/
+
+// <--------part-4-END-------->
+// <--------part-5-START-------->
+
+/*signs-START*/
+
+.signs-page {
+    padding-top: 35px;
+    .title {
+        width: 980px;
+    }
+}
+
+.causes {
+    padding: 50px 0px;
+    .blue {
+        margin-bottom: 18px;
+    }
+    .blue-block {
+        margin-bottom: 40px;
+    }
+    .box1 {
+        width: 1050px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+        .list {
+            li {
+                margin-bottom: 15px;
+                line-height: 1.4em;
+            }
+        }
+        p {
+            margin-bottom: 15px;
+            strong {
+                font-family: Montserrat, sans-serif;
+                font-weight: 500;
+            }
+        }
+        .item {
+            width: 455px;
+        }
+    }
+}
+
+.box2 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    .item {
+        width: 570px;
+        background: rgba(0, 154, 207, 0.06);
+        padding: 25px 50px 20px 25px;
+    }
+    .blue {
+        margin-bottom: 15px;
+    }
+}
+
+.maybe-causes-box {
+    display: flex;
+    margin: 40px 0px 60px;
+    flex-wrap: wrap;
+    .item {
+        color: $mainColor;
+        font-size: 20px;
+        font-weight: 300;
+        width: 360px;
+        padding: 20px;
+        line-height: 1.3em;
+        border-right: 1px solid rgba(0, 154, 207, 0.4);
+        border-bottom: 1px solid rgba(0, 154, 207, 0.4);
+    }
+    .item:nth-child(3),
+    .item:nth-child(6) {
+        border-right: none;
+    }
+    .item:nth-child(4),
+    .item:nth-child(5),
+    .item:nth-child(6) {
+        border-bottom: none;
+    }
+}
+
+.causes-advantages-page {
+    margin: 45px 0px;
+    .advantages-page-item {
+        padding: 8px 5px 0px 18px;
+        .text {
+            font-weight: 300;
+            line-height: 1.2em;
+        }
+    }
+}
+
+.signs-information {
+    padding-top: 60px;
+    .title {
+        font-size: 34px;
+    }
+    .blue-block {
+        margin-bottom: 45px;
+        padding: 25px 110px 30px 30px;
+        .blue {
+            margin-bottom: 20px;
+        }
+        .blue-small {
+            font-size: 22px;
+            line-height: 1.4em;
+        }
+    }
+}
+
+
+/*signs-START*/
+
+.tear-substitutes {
+    padding-top: 36px;
+}
+
+.tear-substitutes-box {
+    display: flex;
+    justify-content: space-between;
+    .box-left {
+        width: 713px;
+    }
+    .box-right {
+        margin-top: -70px;
+        width: 370px;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.tear-substitutes-box__blue {
+    background: rgba(0, 154, 207, 0.06);
+    padding: 30px 180px 105px 30px;
+    .blue {
+        margin-bottom: 40px;
+    }
+}
+
+.how-choice {
+    padding: 100px 0px 25px;
+    .text {
+        margin: 15px 0px;
+        strong {
+            font-weight: 500;
+        }
+    }
+    .sundrome-list {
+        li {
+            line-height: 1.4em;
+            margin-bottom: 25px;
+        }
+    }
+}
+
+.classification {
+    .blue {
+        margin-bottom: 25px;
+    }
+    .text {
+        width: 985px;
+    }
+    .links {
+        padding-top: 40px;
+        margin: 0;
+    }
+}
+
+.classification-box1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .item {
+        font-size: 20px;
+        font-weight: 300;
+        padding: 12px 25px;
+        background: rgba(0, 154, 207, 0.06);
+    }
+}
+
+.classification-box2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .item {
+        margin-right: 25px;
+        margin-bottom: 25px;
+        width: 365px;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 15px 43px 52px 20px;
+        background: rgba(0, 154, 207, 0.06);
+    }
+}
+
+.compatibility-box {
+    display: flex;
+    margin-bottom: 30px;
+    .item {
+        margin-right: 30px;
+        padding: 60px 100px;
+        font-size: 20px;
+        font-family: Montserrat;
+        font-weight: 300;
+        background: rgba(0, 154, 207, 0.06);
+    }
+}
+
+.tear-substitutes-table {
+    td {
+        padding-left: 30px;
+        ul {
+            li {
+                line-height: 1.5em;
+            }
+        }
+    }
+}
+
+
+/*tear-substitutes-PAGE-END*/
+
+
+/*gymnastics-eye-PAGE-START*/
+
+.gymnastics-eye-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 0px 100px;
+}
+
+.gymnastics-eye-item {
+    display: block;
+    text-align: center;
+    width: 225px;
+    height: 235px;
+    position: relative;
+    span {
+        text-align: left;
+        width: 220px;
+        position: absolute;
+        bottom: 0;
+        left: 0px;
+        padding-bottom: 5px;
+    }
+    &:hover {
+        span {
+            color: $mainColor * 1.5;
+            &:before {
+                background: $mainColor * 1.5;
+            }
+        }
+    }
+}
+
+.gymnastics-eye-item__img {
+    img {
+        max-width: 100%;
+    }
+}
+
+
+/*gymnastics-eye-PAGE-END*/
+
+
+/*where-buy-PAGE-START*/
+
+.where-buy {
+    padding-bottom: 60px;
+}
+
+.table-where {
+    margin-bottom: 40px;
+    border-spacing: 0px;
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+        th {
+            padding: 15px;
+        }
+    }
+    .table-pharmacy {
+        width: 370px;
+    }
+    tr {
+        margin: 0;
+    }
+    td {
+        padding: 30px 0px;
+        border: 1px solid $mainColor;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
+.buy-btn {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 16px 40px;
+    background: $mainColor;
+    border-radius: 2px;
+    text-decoration: none;
+    &:hover {
+        background: $mainColor * 1.2;
+    }
+}
+
+
+/*where-buy-PAGE-END*/
