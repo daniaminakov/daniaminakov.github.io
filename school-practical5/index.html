@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Обчислення площі прямокутного трикутника</title>
+	<style>
+		body{
+			font-family: sans-serif;
+		}
+		p{
+			text-align: center;
+		}
+		form{
+			width: 50%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		form > fieldset:last-child{
+			margin-top: 15px;
+		}
+		legend{
+			margin-bottom: 10px;
+		}
+		#output1{
+			outline: none;
+		}
+		#val1{
+			margin-right: 40px;
+		}
+		.сalculate{
+			display: block;
+			margin: 15px 10px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		.canvas{
+			margin-top: 40px;
+			max-width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.triangle{
+			width: 0;
+			height: 0;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-bottom: 100px solid red;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		@media screen and (max-width:1065px) {
+			#val1{
+				display: block;
+				margin-bottom: 10px;
+			}
+			#val2{
+				display: block;
+			}
+		}
+	</style>
+</head>
+<body>
+	<p>Обчислння площі прямокутного трикутника</p>
+	<form name="form1">
+		<fieldset>
+			<legend>Введення даних</legend>
+			Основа: <input type="number" id="val1" value="10" maxlength="2">
+			Висота: <input type="number" id="val2" value="5" required>
+		</fieldset>
+		<fieldset>
+			<legend>Оброботка та виведення даних</legend>
+			Площа: <input type="text" id="output1" placeholder="25" readonly>
+			<input type="button" value="Обчислити" class="сalculate">
+		</fieldset>
+	</form>
+	<div class="canvas">
+		<div class="triangle"></div>
+	</div>
+	<script>
+		const сalculateArea = document.querySelector('.сalculate');
+		const output = document.querySelector('#output1');
+		const triangle = document.querySelector('.triangle');
+		сalculateArea.addEventListener('click', () => {
+			let inpBase = document.querySelector('#val1').value;
+			let inpHeight = document.querySelector('#val2').value;
+			output.value = (inpBase * inpHeight) / 2;
+			triangle.setAttribute("style", "border-left:" + inpHeight * 10 + "px solid transparent;border-right:" + inpHeight * 10 + "px solid transparent;border-bottom:" + inpBase * 10 + "px solid red;");
+		})
+	</script>
+</body>
+</html>
