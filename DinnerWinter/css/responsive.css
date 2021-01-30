@@ -1,0 +1,912 @@
+@media screen and (max-width: 1860px){
+	.header-main{
+		max-width: 1450px;
+	}
+	.header-content{
+		margin-left: 100px;
+		padding: 125px 285px 100px 125px;
+	}
+	.discounts-wrapper{
+		width: 100%;
+		justify-content: space-between;
+	}
+	.discounts-item{
+		margin-right: 0;
+	}
+	.main-prize-img{
+		width: 750px;
+		margin-left: 0;
+		position: absolute;
+		right: 0;
+	}
+	.main-prize-img img{
+		width: 100%;
+		height: auto;
+	}
+	.main-prize{
+		align-items: center;
+	}
+	.participant .container{
+		position: static;
+	}
+	.participant{
+		position: relative;
+	}
+	.phone-img{
+		width: 500px;
+		right: 0;
+		bottom: -5px;
+	}
+	.phone-img img{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1500px){
+	.header-up{
+		width: 95%;
+	}
+	.header{
+		background-position: right;
+	}
+	.header-social{
+		display: none;
+	}
+	.header-content{
+		margin-left: 0;
+	}
+	.header-content{
+		padding: 125px 180px 100px 125px;
+	}
+	.container{
+		width: 1150px;
+	}
+	.line{
+		width: 97%;
+	}
+	.main-prize-img{
+		width: 590px;
+	}
+	.phone-img{
+		width: 340px;
+	}
+}
+
+@media screen and (max-width: 1199px){
+	.header-title{
+		font-size: 80px;
+		line-height: 90px;
+	}
+	.header-discount{
+		font-size: 62px;
+	}
+	.header-discount span{
+		font-size: 80px;
+	}
+	.header-text{
+		font-size: 38px;
+	}
+	.container{
+		width: 960px;
+	}
+	h1.title{
+		font-size: 50px;
+	}
+	.what-changed-item p{
+		font-size: 34px;
+		margin-left: 75px;
+	}
+	.what-changed-elements{
+		margin-top: 520px;
+	}
+
+	.what-changed-img{
+		height: 960px;
+		width: auto;
+		transform: rotate(90deg);
+		left: 0;
+		bottom: auto;
+		top: 395px;
+	}
+
+	.what-changed-img img{
+		height: 100%;
+		width: auto;
+	}
+	.what-changed .subtile, .order-quantity{
+		font-size: 33px;
+	}
+	.order-quantity{
+		font-size: 32px;
+	}
+	.discounts-procent{
+		font-size: 34px;
+	}
+	.discounts-procent span{
+		font-size: 44px;
+	}
+	.line{
+		top: 73px;
+		width: 95%;
+	}
+	h2{
+		font-size: 44px;
+	}
+	.main-prize-info h2{
+		width: 340px;
+	}
+	.main-prize-info h2 span{
+		font-size: 55px;
+	}
+	.main-prize-text{
+		width: 495px;
+		font-size: 30px;
+		line-height: 36px;
+	}
+	.main-prize-img{
+		width: 515px;
+	}
+	.participant h2{
+		font-size: 56px;
+	}
+	.participant-item{
+		line-height: 38px;
+		font-size: 32px;
+	}
+	.participant-elements{
+		width: 710px;
+	}
+	.phone-img{
+		width: 300px;
+	}
+	.footer-container{
+		width: 95%;
+	}
+	.footer-up-left p{
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 1050px){
+	.header-title{
+		font-size: 75px;
+		line-height: 85px;
+	}
+	.header-discount{
+		font-size: 56px;
+	}
+	.header-discount span{
+		font-size: 62px;
+	}
+	.header-content{
+		padding: 125px 180px 60px 80px;
+	}
+	.header{
+		padding: 55px 0px 160px;
+	}
+	.what-changed .container{
+		width: 860px;
+	}
+	h1.title{
+		font-size: 42px;
+	}
+	.what-changed .subtile, .order-quantity{
+		font-size: 28px;
+	}
+	.what-changed-max{
+		padding: 100px 0px 90px;
+	}
+	.what-changed .subtile{
+		margin: 20px 0px 60px;
+	}
+	.what-changed-img{
+		height: 860px;
+		top: 360px;
+	}
+	.what-changed-elements{
+		margin-top: 570px;
+	}
+	.main-icon{
+		padding: 10px;
+		width: 80px;
+		height: 80px;
+	}
+	.main-icon img{
+		height: 100%;
+		width: auto;
+	}
+	.what-changed-item p{
+		font-size: 30px;
+		width: 595px;
+	}
+	.discounts{
+		padding: 90px 0px 80px;
+	}
+	.discounts-procent{
+		font-size: 30px;
+	}
+	.discounts-procent span{
+		font-size: 36px;
+	}
+	.discounts-max{
+		margin: 90px 0px 130px;
+	}
+	.container{
+		width: 860px;
+	}
+	h2{
+		font-size: 39px;
+		line-height: 50px;
+	}
+	.line{
+		top: 68px;
+		width: 97%;
+	}
+	.main-prize-info h2 span{
+		font-size: 48px;
+	}
+	.main-prize-info h2{
+		width: 305px;
+	}
+	.main-prize-text{
+		font-size: 28px;
+		line-height: 34px;
+	}
+	.main-prize{
+		position: relative;
+		margin: 195px 0px 115px;
+	}
+	.main-prize-img{
+		top: -50px;
+	}
+	.participant h2{
+		font-size: 48px;
+	}
+	.participant-item{
+		font-size: 30px;
+	}
+	.participant-elements{
+		width: 665px;
+	}
+	.phone-img{
+		width: 270px;
+	}
+	.footer-discount p, .footer-discount a{
+		font-size: 22px;
+	}
+	.footer-up-left p{
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width: 899px){
+	.container, .what-changed .container{
+		width: 710px;
+	}
+	.header{
+		padding: 45px 0px 150px;
+	}
+	.header-content{
+		padding: 125px 50px 90px 60px;
+	}
+	.header-title{
+		font-size: 72px;
+		line-height: 81px;
+	}
+	.header-discount{
+		margin-top: 20px;
+		font-size: 52px;
+	}
+	.header-discount span{
+		font-size: 58px;
+	}
+	.header-text{
+		font-size: 36px;
+	}
+	.header-logo img{
+		width: 180px;
+	}
+	.header-elements a{
+		font-size: 18px;
+	}
+	h1.title{
+		font-size: 36px;
+		line-height: 43px;
+	}
+	.what-changed .subtile{
+		margin: 10px 0px 50px;
+	}
+	.what-changed-img{
+		transform: rotate(0deg);
+		width: 100%;
+		height: auto;
+		right: 0;
+		left: auto;
+		top: 0;
+	}
+	.what-changed-img img{
+		width: 100%;
+		height: auto;
+	}
+	.what-changed-item p{
+		margin-left: 50px;
+	}
+	.discounts{
+		position: relative;
+	}
+	.discounts-wrapper{
+		padding-left: 100px;
+		flex-direction: column;
+	}
+	.discounts-circle{
+		display: none;
+	}
+	.order-quantity{
+		margin-bottom: 15px;
+	}
+	.discounts-item{
+		margin-bottom: 110px;
+	}
+	.line{
+		display: none;
+	}
+	.discounts-wrapper{
+		position: relative;
+	}
+	.discounts-wrapper::before{
+		content: '';
+		position: absolute;
+		height: 837px;
+		width: 4px;
+		top: 0;
+		left: 42px;
+		background: rgba(0, 0, 0, 0.74);
+		box-shadow: 4px 6px 5px rgba(0, 0, 0, 0.15);
+	}
+	.certificate{
+		position: relative;
+		margin: 0;
+		padding-top: 80px;
+	}
+	.discounts-wrapper .discounts-item:last-child{
+		margin-bottom: 0;
+	}
+	.discounts{
+		padding: 90px 0px 140px;
+	}
+	.discounts-max{
+		margin: 75px 0px 0px;
+	}
+	.line{
+		height: 835px;
+		top: 0;
+		left: 70px;
+		z-index: 0;
+	}
+	.discounts-item{
+		position: relative;
+	}
+	.discounts-item::before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: -69px;
+		width: 26px;
+		height: 26px;
+		border-radius: 50%;
+		background: #333333;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	}
+	h2{
+		font-size: 36px;
+	}
+	.main-prize{
+		flex-direction: column-reverse;
+		margin: 40px 0px 100px;
+	}
+	.main-prize-img{
+		position: static;
+	}
+	.main-prize-info h2{
+		width: 500px;
+		margin-top: 30px;
+	}
+	.main-prize-info hr{
+		margin: 50px 0px;
+	}
+	.participant h2{
+		font-size: 40px;
+	}
+	.participant hr{
+		margin: 60px 0px 70px;
+	}
+	.participant-item{
+		font-size: 28px;
+		line-height: 34px;
+	}
+	.participant-elements{
+		width: 640px;
+	}
+	.phone-img{
+		width: 350px;
+		bottom: -195px;
+	}
+	.btn{
+		font-size: 20px;
+		line-height: 24px;
+		padding: 15px 55px;
+	}
+	.footer-discount p{
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 755px){
+	.header-title{
+		width: 440px;
+		font-size: 66px;
+		line-height: 70px;
+	}
+	.header-discount{
+		font-size: 48px;
+		width: 300px;
+		line-height: 45px;
+		margin-bottom: 30px;
+	}
+	.header-discount span{
+		font-size: 46px;
+	}
+	.header-text{
+		font-size: 28px;
+		margin-top: 35px;
+	}
+	.header-content{
+		padding: 80px 20px;
+	}
+	.header-up{
+		padding-bottom: 70px;
+	}
+	.header{
+		padding: 45px 0px 110px;
+	}
+	.container, .what-changed .container{
+		width: 550px;
+	}
+	.what-changed-max{
+		padding: 55px 0px 75px;
+	}
+	.what-changed .subtile, .order-quantity{
+		font-size: 24px;
+	}
+	.what-changed-item p{
+		font-size: 26px;
+		width: 100%;
+		line-height: 30px;
+		margin-left: 40px;
+	}
+	.what-changed-max{
+		background: linear-gradient(260.2deg, #F6F2F1 20.13%, #FEFEFE 56.2%);
+	}
+	.what-changed-elements{
+		margin-top: 600px;
+	}
+	h1.title{
+		font-size: 32px;
+		line-height: 38px;
+	}
+	.discounts{
+		padding: 70px 0px 120px;
+	}
+	.discounts-wrapper::before{
+		height: 738px;
+	}
+	.discounts-procent span{
+		font-size: 32px;
+	}
+	.discounts-procent{
+		font-size: 26px;
+	}
+	.order-quantity{
+		margin-bottom: 0;
+	}
+	.certificate{
+		padding-top: 60px;
+	}
+	h2{
+		font-size: 34px;
+	}
+	.main-prize-img{
+		width: 100%;
+	}
+	.main-prize-info hr{
+		margin: 40px 0px;
+	}
+	.main-prize-text {
+		width: 400px;
+		font-size: 24px;
+		line-height: 31px;
+	}
+	.participant h2{
+		font-size: 35px;
+	}
+	.participant hr{
+		margin: 40px 0px 50px;
+	}
+	.participant-elements{
+		width: 100%;
+	}
+	.participant-item{
+		font-size: 25px;
+		line-height: 32px;
+		margin-bottom: 30px;
+	}
+	.phone-img{
+		bottom: -200px;
+		z-index: -1;
+	}
+	.footer-discount p{
+		font-size: 20px;
+		line-height: 22px;
+	}
+	.footer-discount a{
+		font-size: 20px;
+	}
+	.footer{
+		padding: 30px 0px 55px;
+	}
+	.logo{
+		width: auto;
+	}
+	.logo img{
+		width: 180px;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 595px){
+	.header-up{
+		width: 99%;
+	}
+	.menu-navigation {
+		top: -5px;
+		right: 0;
+	}
+	.header-elements{
+		width: 160px;
+	}
+	.header-title {
+		width: 100%;
+		font-size: 50px;
+		line-height: 55px;
+	}
+	.header-discount{
+		width: 250px;
+		font-size: 38px;
+		line-height: 40px;
+	}
+	.header-discount span{
+		font-size: 40px;
+	}
+	.hr{
+		height: 4px;
+		width: 105px;
+	}
+	.header-text{
+		font-size: 26px;
+	}
+	.header{
+		padding: 35px 0px 100px;
+		background-position: 75%;
+	}
+	.header-content{
+		width: 92%;
+	}
+	.container, .what-changed .container{
+		width: 390px;
+	}
+	h1.title {
+		font-size: 29px;
+		line-height: 34px;
+	}
+	.what-changed-max{
+		padding: 28px 0px 60px;
+	}
+	.what-changed-elements{
+		margin-top: 440px;
+	}
+	.main-icon {
+		padding: 15px;
+		width: 70px;
+		height: 70px;
+	}
+	.what-changed-item p {
+		font-size: 22px;
+		line-height: 26px;
+		margin-left: 30px;
+	}
+	.what-changed .hr{
+		display: none;
+	}
+	.discounts-item{
+		margin-bottom: 70px;
+	}
+	.discounts-wrapper::before{
+		height: 618px;
+	}
+	.main-prize-info h2{
+		width: 100%;
+	}
+	h2{
+		font-size: 29px;
+	}
+	.main-prize-info h2 span{
+		font-size: 38px;
+	}
+	.certificate{
+		padding-top: 35px;
+	}
+	.main-prize-text{
+		width: 330px;
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.main-prize{
+		margin: 40px 0px 60px;
+	}
+	.participant h2{
+		font-size: 25px;
+	}
+	.participant hr{
+		margin: 25px 0px 50px;
+	}
+	.participant-item {
+		font-size: 22px;
+		line-height: 27px;
+	}
+	.participant-elements{
+		margin-bottom: 50px;
+	}
+	.btn{
+		margin-left: auto;
+		display: block;
+		margin-right: auto;
+		width: 190px;
+	}
+	.phone-img{
+		right: 20px;
+		bottom: -350px;
+		width: 365px;
+	}
+	.participant{
+		padding-bottom: 170px;
+	}
+	.footer-discount p, .footer-discount a{
+		font-size: 18px;
+	}
+	.footer-up{
+		display: flex;
+		flex-direction: column;
+	}
+	.footer-up-left p{
+		font-size: 19px;
+	}
+	.footer-up-left .hr{
+		margin: 25px 0px 35px;
+	}
+	.footer-social{
+		margin-top: 40px;
+	}
+	.footer-up{
+		margin-top: 60px;
+	}
+	.main-prize-info hr{
+		margin: 30px 0px;
+	}
+}
+
+@media screen and (max-width: 410px){
+	.footer-social{
+		margin-top: 20px;
+	}
+	.phone-img{
+		width: 90%;
+	}
+	.header-logo img{
+		width: 130px;
+	}
+	.container, .what-changed .container{
+		width: 355px;
+	}
+	.header-up{
+		width: 355px;
+	}
+	.header {
+		padding: 25px 0px 80px;
+		background-position: 79%;
+	}
+	.header-title {
+		font-size: 46px;
+		line-height: 50px;
+	}
+	.header-discount{
+		width: 200px;
+		font-size: 30px;
+		line-height: 32px;
+	}
+	.header-discount span{
+		font-size: 32px;
+	}
+	.header-content{
+		background: linear-gradient(46.94deg, #FFFFFF -7.8%, rgba(196, 196, 196, 0) 136.44%);
+		padding: 70px 20px;
+	}
+	.hr{
+		height: 3px;
+		width: 80px;
+	}
+	.header-text{
+		font-size: 22px;
+	}
+	h1.title {
+		font-size: 26px;
+		line-height: 32px;
+	}
+	.what-changed .subtile, .order-quantity{
+		font-size: 21px;
+	}
+	.what-changed-max{
+		padding: 20px 0px 60px;
+	}
+	.what-changed .subtile{
+		margin-top: 5px;
+	}
+	.what-changed-item p{
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.discounts{
+		padding: 40px 0px 100px;
+	}
+	.discounts-wrapper{
+		padding-left: 80px;
+	}
+	.discounts-procent{
+		font-size: 24px;
+	}
+	.discounts-procent span{
+		font-size: 28px;
+	}
+	.discounts-wrapper::before{
+		left: 22px;
+		height: 522px;
+	}
+	.discounts-item{
+		margin-bottom: 50px;
+	}
+	h2{
+		font-size: 26px;
+		line-height: 36px;
+	}
+	.main-prize-info h2 span{
+		font-size: 36px;
+	}
+	.main-prize-info h2{
+		margin-top: 20px;
+	}
+	.main-prize-text{
+		font-size: 19px;
+	}
+	.participant h2{
+		font-size: 23px;
+	}
+	.participant-item{
+		font-size: 19px;
+		line-height: 25px;
+	}
+	.btn{
+		font-size: 18px;
+		width: 171px;
+		padding: 13px 50px;
+	}
+	.phone-img{
+		bottom: -310px;
+	}
+	.footer-discount p, .footer-discount a{
+		font-size: 16px;
+	}
+	.footer-up{
+		margin-top: 50px;
+	}
+	.footer-up-left .hr{
+		margin: 18px 0px 30px;
+	}
+	.footer-up-left p{
+		font-size: 18px;
+	}
+	.footer-social{
+		width: 300px;
+		height: 60px;
+	}
+	.footer-info, .copyright{
+		font-size: 13px;
+	}
+	.scrollup {
+		bottom: 90px;
+		right: 20px;
+	}
+	.footer{
+		padding: 30px 0px;
+	}
+}
+
+@media screen and (max-width: 365px){
+	.container, .what-changed .container, .header-up{
+		width: 310px;
+	}
+	.header-up{
+		flex-direction: column;
+	}
+	.header-elements {
+		width: 200px;
+		margin-top: 20px;
+	}
+	.header{
+		background-position: 84%;
+	}
+	.header-title{
+		font-size: 40px;
+		line-height: 45px;
+	}
+	h1.title {
+		font-size: 23px;
+		line-height: 30px;
+	}
+	.what-changed .subtile, .order-quantity{
+		font-size: 18px;
+	}
+	.what-changed-elements{
+		margin-top: 345px;
+	}
+	.discounts-procent{
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.discounts-procent span{
+		font-size: 26px;
+	}
+	.discounts-wrapper::before{
+		height: 448px;
+	}
+	.discounts-max{
+		margin-top: 40px;
+	}
+	.main-prize{
+		margin: 15px 0px 50px;
+	}
+	.main-prize-text{
+		width: 100%;
+	}
+	.main-prize-info h2 span{
+		font-size: 33px;
+	}
+	.main-prize-info h2{
+		font-size: 21px;
+	}
+	.phone-img{
+		bottom: -265px;
+	}
+	.scrollup {
+		bottom: 75px;
+		right: 5px;
+	}
+	.menu-navigation {
+		top: -15px;
+		right: -15px;
+	}
+	.discounts-wrapper{
+		padding-left: 60px;
+	}
+	.discounts-item::before{
+		left: -49px;
+	}
+}
