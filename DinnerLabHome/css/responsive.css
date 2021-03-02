@@ -44,8 +44,8 @@
 		margin-top: 0;
 	}
 	.why-bottom img{
-		width: 50%;
-		height: auto;
+		width: 50% !important;
+		height: auto !important;
 	}
 	.why-content{
 		margin-left: 0;
