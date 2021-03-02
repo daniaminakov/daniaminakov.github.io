@@ -44,8 +44,14 @@
 		margin-top: 0;
 	}
 	.why-bottom img{
-		width: 50% !important;
-		height: auto !important;
+		width: 50%;
+		height: auto;
+		-ms-flex-item-align:center;
+		-ms-grid-row-align:center;
+		align-self:center;
+		-webkit-box-align:center; 
+		-ms-flex-align:center; 
+		align-items:center
 	}
 	.why-content{
 		margin-left: 0;
