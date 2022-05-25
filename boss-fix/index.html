@@ -220,8 +220,8 @@
     </div>
 
     <div class="order">
-        <img src="images/net-order1.png" class="parallax parallax-top" dara-rate="0.15" alt="Net">
-        <img src="images/net-order2.png" class="parallax parallax-bottom" dara-rate="-0.1" alt="Net">
+        <img data-src="images/net-order1.png" class="parallax parallax-top lazy" dara-rate="0.15" alt="Net">
+        <img data-src="images/net-order2.png" class="parallax parallax-bottom lazy" dara-rate="-0.1" alt="Net">
         <div class="container order-box">
             <div class="order-item">
                 <div class="order-item-content">
@@ -351,7 +351,7 @@
         <div class="container">
             <div class="brief-box">
                 <div class="brief-img">
-                    <img src="images/brief.svg" alt="Brief" data-aos="fade-right" data-aos-duration="800">
+                    <img data-src="images/brief.svg" alt="Brief" class="lazy" data-aos="fade-right" data-aos-duration="800">
                 </div>
                 <div class="brief-content" data-aos="fade-left" data-aos-duration="800">
                     <h2 class="title">Бриф</h2>
@@ -501,6 +501,13 @@
     <script src="js/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <!-- LazyLoad -->
+    <script src="js/jquery.lazy.min.js"></script>
+    <script>
+        $(function() {
+            $('.lazy').lazy();
+        });
     </script>
     <!-- Main script -->
     <script src="js/main.js"></script>

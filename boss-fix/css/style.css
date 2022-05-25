@@ -269,7 +269,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-mobile-img {
-    display: none;
+    display: none !important;
 }
 
 .lang {

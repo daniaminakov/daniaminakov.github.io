@@ -570,10 +570,10 @@
         width: 100%;
     }
     .header-bottom img {
-        display: none;
+        display: none !important;
     }
     .header-bottom .header-mobile-img {
-        display: block;
+        display: block !important;
     }
     .header-main__content p {
         font-size: 22px;
