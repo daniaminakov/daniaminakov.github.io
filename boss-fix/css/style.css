@@ -690,7 +690,7 @@ body::-webkit-scrollbar-thumb {
     z-index: 0;
     position: relative;
     margin-top: -134px;
-    background-image: url(../images/order-back.png);
+    /* background-image: url(../images/order-back.png); */
     padding: 300px 0px 96px;
     background-position: top center;
     background-repeat: no-repeat;
