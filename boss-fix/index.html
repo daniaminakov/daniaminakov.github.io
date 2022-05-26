@@ -19,7 +19,9 @@
     <!-- AOS -->
     <link rel="stylesheet" href="css/aos.css" media="all">
     <!-- Main style -->
-    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="preload" href="css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="css/style.css" media="all"></noscript>
+    <!-- <link rel="stylesheet" href="css/style.css" media="all"> -->
     <!-- Responsive style -->
     <link rel="stylesheet" href="css/responsive.css" media="all">
     <!-- Favicon -->
