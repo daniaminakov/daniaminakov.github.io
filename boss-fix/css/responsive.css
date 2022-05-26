@@ -665,7 +665,7 @@
         margin: 0;
     }
     .portfolio {
-        background-image: url(../images/portfolio-back-mobile.png);
+        background-image: url(../images/portfolio-back-mobile.jpg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -684,7 +684,7 @@
     }
     .order {
         margin-top: 0;
-        background-image: url(../images/order-back-mobile.png);
+        background-image: url(../images/order-back-mobile.jpg) !important;
         padding: 150px 0px 70px;
     }
     .reviews {
@@ -718,7 +718,7 @@
     .brief {
         margin-top: -25px;
         background-color: transparent;
-        background-image: url(../images/brief-back-mobile.png);
+        background-image: url(../images/brief-back-mobile.jpg);
         background-position: top center;
         background-repeat: no-repeat;
         background-size: cover;
