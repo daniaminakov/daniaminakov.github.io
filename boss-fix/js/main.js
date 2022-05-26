@@ -1,4 +1,8 @@
 jQuery(document).ready(function($) {
+    // AOS init
+    AOS.init();
+    // LazyLad init
+    $('.lazy').lazy();
 
     // Клик по кнопкам меню
     $(".header-menu li a").on("click", function(e) {
