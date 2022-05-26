@@ -5,24 +5,21 @@
 
 @font-face {
     font-family: 'Oswald';
-    src: url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.eot');
-    src: url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.woff2') format('woff2'), url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.woff') format('woff'), url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.ttf') format('truetype'), url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.svg#Oswald-Medium') format('svg');
+    src: url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.woff2') format('woff2'), url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.eot');
-    src: url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.woff2') format('woff2'), url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.woff') format('woff'), url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.ttf') format('truetype'), url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.svg#Oswald-DemiBold') format('svg');
+    src: url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.woff2') format('woff2'), url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.eot');
-    src: url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.woff2') format('woff2'), url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.woff') format('woff'), url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.ttf') format('truetype'), url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.svg#Oswald-Bold') format('svg');
+    src: url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.woff2') format('woff2'), url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
@@ -32,32 +29,28 @@
 
 @font-face {
     font-family: 'Futura PT';
-    src: url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.eot');
-    src: url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.woff') format('woff'), url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.ttf') format('truetype'), url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.svg#FuturaPT-Book') format('svg');
+    src: url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.woff') format('woff');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Futura PT';
-    src: url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.eot');
-    src: url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.woff') format('woff'), url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.ttf') format('truetype'), url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.svg#FuturaPT-Medium') format('svg');
+    src: url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.woff') format('woff');
     font-weight: 450;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Futura PT';
-    src: url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.eot');
-    src: url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.woff') format('woff'), url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.ttf') format('truetype'), url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.svg#FuturaPT-Demi') format('svg');
+    src: url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.woff') format('woff');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Futura PT';
-    src: url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.eot');
-    src: url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.woff') format('woff'), url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.ttf') format('truetype'), url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.svg#FuturaPT-Bold') format('svg');
+    src: url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
 }
@@ -65,17 +58,8 @@
 
 /* Fonts-END */
 
-
-/* [data-aos] {
-    pointer-events: none !important;
-} */
-
 .aos-animate {
     pointer-events: auto !important;
-}
-
-.aos-init[data-aos][data-aos].aos-animate {
-    /* transform: unset !important; */
 }
 
 
