@@ -8,6 +8,7 @@
     src: url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.woff2') format('woff2'), url('../fonts/Oswald/Oswald-Medium/Oswald-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -15,6 +16,7 @@
     src: url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.woff2') format('woff2'), url('../fonts/Oswald/Oswald-DemiBold/Oswald-DemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -22,6 +24,7 @@
     src: url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.woff2') format('woff2'), url('../fonts/Oswald/Oswald-Bold/Oswald-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 
@@ -32,6 +35,7 @@
     src: url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Book/FuturaPT-Book.woff') format('woff');
     font-weight: 400;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -39,6 +43,7 @@
     src: url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Medium/FuturaPT-Medium.woff') format('woff');
     font-weight: 450;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -46,6 +51,7 @@
     src: url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Demi/FuturaPT-Demi.woff') format('woff');
     font-weight: 600;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -53,6 +59,7 @@
     src: url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.woff2') format('woff2'), url('../fonts/Futura PT/FuturaPT-Bold/FuturaPT-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
+    font-display: swap;
 }
 
 
