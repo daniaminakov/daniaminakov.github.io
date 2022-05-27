@@ -397,7 +397,7 @@
  }
  
  .advantage-wave-mobile {
-     display: none;
+     display: none !important;
  }
  
  .advantage-item__title {
@@ -988,7 +988,7 @@
  .work-item:nth-child(4):before {
      content: '';
      background-image: url(../images/work-points4.png);
-     width: 10px;
+     width: 11px;
      height: 78px;
      position: absolute;
      top: -79px;
@@ -1226,7 +1226,6 @@
  .header,
  .advantage,
  .portfolio,
- .price,
  .order,
  .reviews,
  .work,
