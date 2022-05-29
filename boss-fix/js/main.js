@@ -111,5 +111,12 @@ jQuery(document).ready(function($) {
         ]
     });
 
+    // При ресайзе окна браузера ресайзить слайдеры
+    $(window).on('resize orientationchange', function() {
+        $('.portfolio-slider').slick('resize');
+        $('.reviews-slider').slick('resize');
+        $('.price-box').slick('resize');
+        $('.team-slider').slick('resize');
+    });
 
 });
