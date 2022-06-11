@@ -70,8 +70,14 @@
                         <a href="tel:+3806812345678" class="header-phone">+38 (068) 123 456 78</a>
                         <div class="lang">
                             <ul>
-                                <li>
+                                <li class="current">
                                     <a href="#">UA</a>
+                                </li>
+                                <li>
+                                    <a href="#">EN</a>
+                                </li>
+                                <li>
+                                    <a href="#">DE</a>
                                 </li>
                             </ul>
                         </div>
@@ -210,7 +216,7 @@
                 </div>
                 <p class="price-item__text">Анімація тексту, іконок, інфографіки. Без персонажної анімації</p>
                 <p class="price-item__price" style="color: #BA9EE7;"><span class="currency">$</span><span class="number">299</span>/10 днів</p>
-                <a href="#" class="price-btn">Замовити</a>
+                <a href="#simple" class="price-btn brief-btn">Замовити</a>
             </div>
             <div class="price-item" style="-webkit-box-shadow: 0px 0px 49px -6px rgba(158, 216, 216, 0.2);" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="200">
                 <div class="price-item__up lazy" data-src="images/price-wave2.svg">
@@ -219,7 +225,7 @@
                 <p class="price-item__text">Інфографіка чергується з простими персонажними сценами. Герої прості, стилізовані
                 </p>
                 <p class="price-item__price" style="color: #9ED8D8;"><span class="currency">$</span><span class="number">499</span>/15 днів</p>
-                <a href="#" class="price-btn">Замовити</a>
+                <a href="#medium" class="price-btn brief-btn">Замовити</a>
             </div>
             <div class="price-item" style="-webkit-box-shadow: 0px 0px 49px -6px rgba(139, 177, 252, 0.2);" data-aos="flip-right" data-aos-duration="1000" data-aos-delay="400">
                 <div class="price-item__up lazy" data-src="images/price-wave3.svg">
@@ -227,7 +233,7 @@
                 </div>
                 <p class="price-item__text">Деталізовані персонажі та фони в сценах, реалістичні та динамічно вивірені рухи, яскраві переходи між сценами</p>
                 <p class="price-item__price" style="color: #8BB1FC;"><span class="currency">$</span><span class="number">299</span>/20 днів</p>
-                <a href="#" class="price-btn">Замовити</a>
+                <a href="#premium" class="price-btn brief-btn">Замовити</a>
             </div>
         </div>
     </div>
@@ -246,7 +252,7 @@
                     <p class="order-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet, sapien at suscipit faucibus, libero enim efficitur mauris, ut accumsan arcu metus at nisl. Nullam bibendum massa vel elementum pharetra. Nullam pharetra nisi at
                         purus condimentum pretium. Cras consectetur vitae risus in porttitor. </p>
                 </div>
-                <a href="#" class="btn">Замовити</a>
+                <a href="#special" class="btn brief-btn">Замовити</a>
             </div>
             <div class="order-item">
                 <div class="order-item-content">
@@ -258,7 +264,7 @@
                     <p class="order-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet, sapien at suscipit faucibus, libero enim efficitur mauris, ut accumsan arcu metus at nisl. Nullam bibendum massa vel elementum pharetra. Nullam pharetra nisi at
                         purus condimentum pretium. Cras consectetur vitae risus in porttitor.</p>
                 </div>
-                <a href="#" class="btn">Замовити</a>
+                <a href="#special2" class="btn brief-btn">Замовити</a>
             </div>
         </div>
     </div>
@@ -369,7 +375,7 @@
                 <div class="brief-content" data-aos="fade-left" data-aos-duration="800">
                     <h2 class="title">Бриф</h2>
                     <p class="brief-content__text">Заповнення брифу дозволить нам точніше зрозуміти завдання, щоб оцінити складність і дати відповідь про вартість та терміни.<br> Також бриф дозволяє звести до мінімуму необхідність вносити редагування</p>
-                    <a href="#" class="btn">Скачати Бриф</a>
+                    <a href="#general" class="btn download-brief" data-edit="Заповнити бриф">Скачати Бриф</a>
                 </div>
             </div>
         </div>
@@ -377,14 +383,13 @@
 
     <div class="team">
         <div class="container" id="team">
-            <div class="team-title title-left">
+            <div class="team-title">
                 <div class="subtitle">
                     <span>про нас</span>
                 </div>
                 <h2 class="title">Наша Команда</h2>
             </div>
             <div class="team-slider">
-                <div class="team-slider__item empty"></div>
                 <div class="team-slider__item" data-aos="zoom-in-right" data-aos-duration="800">
                     <div class="team-slider__img">
                         <img class="lazy" data-src="images/team1.png" alt="Team">
@@ -455,6 +460,20 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet, sapien at suscipit faucibus, libero enim efficitur mauris, ut accumsan arcu metus at nisl. Nullam bibendum massa vel elementum pharetr
                     </p>
                 </div>
+                <div class="team-slider__item" data-aos="zoom-in-right" data-aos-duration="800">
+                    <div class="team-slider__img">
+                        <img class="lazy" data-src="images/team4.png" alt="Team">
+                    </div>
+                    <h4 class="author-name">
+                        Антон Якіменко
+                    </h4>
+                    <p class="author-position">
+                        Аніматор
+                    </p>
+                    <p class="team-slider__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec laoreet, sapien at suscipit faucibus, libero enim efficitur mauris, ut accumsan arcu metus at nisl. Nullam bibendum massa vel elementum pharetr
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -505,6 +524,1584 @@
         </div>
     </footer>
 
+
+    <!-- бриф_спецпредложение1 -->
+    <div class="modal modal-brief" id="special">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper modal-brief-wrapper">
+            <div class="back-images">
+                <img src="images/special-back.svg" alt="Back image">
+                <img src="images/special-back2.svg" alt="Back image">
+                <img src="images/special-back3.svg" alt="Back image">
+                <img src="images/special-back4.svg" alt="Back image">
+                <img src="images/special-back5.svg" alt="Back image">
+                <img src="images/special-back6.svg" alt="Back image">
+                <img src="images/special-back7.svg" alt="Back image">
+                <img src="images/special-back8.svg" alt="Back image">
+            </div>
+            <form method="POST" class="form-brief">
+                <div class="modal-close"><img src="images/modal-close-special1.svg" alt="Close"></div>
+                <p class="modal-title brief-color">Бриф для створення ролика за спецпропозицією</p>
+                <p class="modal-subtitle brief-color">В рамках цієї пропозиції діє <span>знижка 20%</span>, але в пакет не входять безкоштовні редагування. Від замовника потрібна увага до дрібниць на етапі формування завдання</p>
+                <div class="contact-info">
+                    <p class="modal-title2 brief-color">Контактна інформація</p>
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info__item">
+                            <label for="contact_name">ПІБ</label>
+                            <input type="text" name="name" class="inp" id="contact_name" placeholder="Прізвище, ім’я, побатькові" required>
+                        </div>
+                        <div class="contact-info__item">
+                            <label for="contact_email">Email</label>
+                            <input type="email" name="email" class="inp" id="contact_email" placeholder="Email адреса" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-info">
+                    <p class="modal-title2 brief-color">Технічна інформація</p>
+                    <p class="modal-subtitle2">Інфографіка чергується з простими персонажними сценами. Герої також прості, стилізовані</p>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">1</div>
+                            <p>Яку основну функцію має виконувати готовий анімаційний ролик? Що рекламуватиме або представлятиме мультфільм: товар, послугу, компанію, проект? Можливо, це має бути навчальний ролик, інструкція, соціальний проект?</p>
+                        </div>
+                        <input type="text" name="input1" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">2</div>
+                            <p>На яку аудиторію розрахований анімаційний ролик?</p>
+                        </div>
+                        <input type="text" name="input2" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">3</div>
+                            <p>Де буде демонструватися мультфільм: на телебаченні, на виставці, на сайті компанії, на каналі youtube, у соціальних мережах?</p>
+                        </div>
+                        <input type="text" name="input3" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">4</div>
+                            <p>Вкажіть приблизний хронометраж</p>
+                        </div>
+                        <input type="text" name="input4" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">5</div>
+                            <p>Чи маєте Ви сценарій?</p>
+                        </div>
+                        <div class="inputs-radio inputs-file">
+                            <input type="radio" name="have_scenario" id="have_scenario_1" value="Так">
+                            <label for="have_scenario_1" class="label-file">
+                                Так
+                                <input type="file" name="scenario" class="file-upload-input">
+                                <div class="file-upload-select">
+                                    <div class="file-select-button brief-color">+ <span>Додати файл</span></div>
+                                    <div class="file-select-name"></div>
+                                </div>
+                            </label>
+                            <input type="radio" name="have_scenario" id="have_scenario_2" value="Є сценарна ідея">
+                            <label for="have_scenario_2">Є сценарна ідея</label>
+                            <input type="radio" name="have_scenario" id="have_scenario_3" value="Сценарій треба написати">
+                            <label for="have_scenario_3">Сценарій треба написати</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">6</div>
+                            <p>Додайте посилання на ролики, які Вам подобаються і розкажіть, що саме приваблює в наведених прикладах?</p>
+                        </div>
+                        <input type="text" name="input6" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">7</div>
+                            <p>Відео супроводжуватиметься закадровим голосом?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="voice" id="voice_1" value="Так">
+                            <label for="voice_1">Так</label>
+                            <input type="radio" name="voice" id="voice_2" value="Ні">
+                            <label for="voice_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">8</div>
+                            <p>Чи має в ролику бути персонажна анімація, чи тільки анімована інфографіка та неживі об'єкти?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="animate" id="animate_1" value="Ролик з персонажною анімацією">
+                            <label for="animate_1">Ролик з персонажною анімацією</label>
+                            <input type="radio" name="animate" id="animate_2" value="Анімована інфографіка">
+                            <label for="animate_2">Анімована інфографіка</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">9</div>
+                            <p>Чи будуть у ролику персонажі, які вимовляють репліки? Якщо так, то скільки їх буде?</p>
+                        </div>
+                        <input type="text" name="input9" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">10</div>
+                            <p>Потрібні послуги диктора, чи ви надасте начитку?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="speaker" id="speaker_1" value="У мене є начитка">
+                            <label for="speaker_1">У мене є начитка</label>
+                            <input type="radio" name="speaker" id="speaker_2" value="Потрібні послуги диктора">
+                            <label for="speaker_2">Потрібні послуги диктора</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">11</div>
+                            <p>Якою мовою буде основна версія ролика?</p>
+                        </div>
+                        <input type="text" name="input11" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">12</div>
+                            <p>Чи будуть додаткові версії, і якщо так – якими мовами?</p>
+                        </div>
+                        <input type="text" name="input12" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">13</div>
+                            <p>Чи потрібно зробити варіанти цього мультфільму для різних регіонів, з різними телефонами, або які відрізняються іншою службовою інформацією?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="options" id="options_1" value="Так">
+                            <label for="options_1">Так</label>
+                            <input type="radio" name="options" id="options_2" value="Ні">
+                            <label for="options_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">14</div>
+                            <p>Чи потрібні додаткові версії з іншими пропорціями кадру (вертикальне відео, 1X1)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="versions" id="versions_1" value="Так">
+                            <label for="versions_1">Так</label>
+                            <input type="radio" name="versions" id="versions_2" value="Ні">
+                            <label for="versions_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">15</div>
+                            <p>Чи потрібно додати субтитри?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="subtitles" id="subtitles_1" value="Так">
+                            <label for="subtitles_1">Так</label>
+                            <input type="radio" name="subtitles" id="subtitles_2" value="Ні">
+                            <label for="subtitles_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">16</div>
+                            <p>Чи потрібний саунд-дизайн?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="sound_design" id="sound_design_1" value="Так">
+                            <label for="sound_design_1">Так</label>
+                            <input type="radio" name="sound_design" id="sound_design_2" value="Ні">
+                            <label for="sound_design_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">17</div>
+                            <p>Чи є обмеження у законодавстві, які потрібно відобразити? Обов'язкові написи, вимоги тощо?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="legislation" id="legislation_1" value="Так">
+                            <label for="legislation_1">Так</label>
+                            <input type="radio" name="legislation" id="legislation_2" value="Ні">
+                            <label for="legislation_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">18</div>
+                            <p>Чи є у вашої компанії брендовий персонаж, герой (маскот)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="brand_character" id="brand_character_1" value="Так">
+                            <label for="brand_character_1">Так</label>
+                            <input type="radio" name="brand_character" id="brand_character_2" value="Ні">
+                            <label for="brand_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">19</div>
+                            <p>Чи потрібне для мультфільму створення рекламного персонажа чи бренд-героя, якого ви надалі плануєте використовувати у своїх рекламних кампаніях?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="create_character" id="create_character_1" value="Так">
+                            <label for="create_character_1">Так</label>
+                            <input type="radio" name="create_character" id="create_character_2" value="Ні">
+                            <label for="create_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">20</div>
+                            <p>У вас є фірмовий стиль, брендбук, логотип, слоган, рекомендації щодо використання шрифтів?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="corporate_identity" id="corporate_identity_1" value="Так">
+                            <label for="corporate_identity_1">Так</label>
+                            <input type="radio" name="corporate_identity" id="corporate_identity_2" value="Ні">
+                            <label for="corporate_identity_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">21</div>
+                            <p>Чи є фірмові кольори, які слід використовувати у мультфільмі?</p>
+                        </div>
+                        <input type="text" name="input21" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">22</div>
+                            <p>Чи є дедлайн?</p>
+                        </div>
+                        <input type="text" name="input22" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">23</div>
+                            <p>Додаткова інформація, яка може бути корисною для розуміння завдання.</p>
+                        </div>
+                        <input type="text" name="input23" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                </div>
+                <input type="submit" value="Надіслати" class="inp-submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- бриф_спецпредложение2 -->
+    <div class="modal modal-brief" id="special2">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper modal-brief-wrapper">
+            <div class="back-images">
+                <img src="images/special-back.svg" alt="Back image">
+                <img src="images/special-back2.svg" alt="Back image">
+                <img src="images/special-back3.svg" alt="Back image">
+                <img src="images/special-back4.svg" alt="Back image">
+                <img src="images/special-back5.svg" alt="Back image">
+                <img src="images/special-back6.svg" alt="Back image">
+                <img src="images/special-back7.svg" alt="Back image">
+                <img src="images/special-back8.svg" alt="Back image">
+            </div>
+            <form method="POST" class="form-brief">
+                <div class="modal-close"><img src="images/modal-close-special2.svg" alt="Close"></div>
+                <p class="modal-title brief-color">Бриф для створення ролика за спецпропозицією</p>
+                <p class="modal-subtitle brief-color">Замовте ролик, і ми <span>безкоштовно</span> запропонуємо три варіанти сценарію відповідно до особливостей вашого завдання</p>
+                <div class="contact-info">
+                    <p class="modal-title2 brief-color">Контактна інформація</p>
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info__item">
+                            <label for="contact_name">ПІБ</label>
+                            <input type="text" name="name" class="inp" id="contact_name" placeholder="Прізвище, ім’я, побатькові" required>
+                        </div>
+                        <div class="contact-info__item">
+                            <label for="contact_email">Email</label>
+                            <input type="email" name="email" class="inp" id="contact_email" placeholder="Email адреса" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-info">
+                    <p class="modal-title2 brief-color">Технічна інформація</p>
+                    <p class="modal-subtitle2">Інфографіка чергується з простими персонажними сценами. Герої також прості, стилізовані</p>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">1</div>
+                            <p>Яку основну функцію має виконувати готовий анімаційний ролик? Що рекламуватиме або представлятиме мультфільм: товар, послугу, компанію, проект? Можливо, це має бути навчальний ролик, інструкція, соціальний проект?</p>
+                        </div>
+                        <input type="text" name="input1" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">2</div>
+                            <p>На яку аудиторію розрахований анімаційний ролик?</p>
+                        </div>
+                        <input type="text" name="input2" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">3</div>
+                            <p>Де буде демонструватися мультфільм: на телебаченні, на виставці, на сайті компанії, на каналі youtube, у соціальних мережах?</p>
+                        </div>
+                        <input type="text" name="input3" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">4</div>
+                            <p>Вкажіть приблизний хронометраж</p>
+                        </div>
+                        <input type="text" name="input4" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">5</div>
+                            <p>Чи маєте Ви сценарій?</p>
+                        </div>
+                        <div class="inputs-radio inputs-file">
+                            <input type="radio" name="have_scenario" id="have_scenario_1" value="Так">
+                            <label for="have_scenario_1" class="label-file">
+                                Так
+                                <input type="file" name="scenario" class="file-upload-input">
+                                <div class="file-upload-select">
+                                    <div class="file-select-button brief-color">+ <span>Додати файл</span></div>
+                                    <div class="file-select-name"></div>
+                                </div>
+                            </label>
+                            <input type="radio" name="have_scenario" id="have_scenario_2" value="Є сценарна ідея">
+                            <label for="have_scenario_2">Є сценарна ідея</label>
+                            <input type="radio" name="have_scenario" id="have_scenario_3" value="Сценарій треба написати">
+                            <label for="have_scenario_3">Сценарій треба написати</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">6</div>
+                            <p>Додайте посилання на ролики, які Вам подобаються і розкажіть, що саме приваблює в наведених прикладах?</p>
+                        </div>
+                        <input type="text" name="input6" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">7</div>
+                            <p>Відео супроводжуватиметься закадровим голосом?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="voice" id="voice_1" value="Так">
+                            <label for="voice_1">Так</label>
+                            <input type="radio" name="voice" id="voice_2" value="Ні">
+                            <label for="voice_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">8</div>
+                            <p>Чи має в ролику бути персонажна анімація, чи тільки анімована інфографіка та неживі об'єкти?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="animate" id="animate_1" value="Ролик з персонажною анімацією">
+                            <label for="animate_1">Ролик з персонажною анімацією</label>
+                            <input type="radio" name="animate" id="animate_2" value="Анімована інфографіка">
+                            <label for="animate_2">Анімована інфографіка</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">9</div>
+                            <p>Чи будуть у ролику персонажі, які вимовляють репліки? Якщо так, то скільки їх буде?</p>
+                        </div>
+                        <input type="text" name="input9" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">10</div>
+                            <p>Потрібні послуги диктора, чи ви надасте начитку?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="speaker" id="speaker_1" value="У мене є начитка">
+                            <label for="speaker_1">У мене є начитка</label>
+                            <input type="radio" name="speaker" id="speaker_2" value="Потрібні послуги диктора">
+                            <label for="speaker_2">Потрібні послуги диктора</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">11</div>
+                            <p>Якою мовою буде основна версія ролика?</p>
+                        </div>
+                        <input type="text" name="input11" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">12</div>
+                            <p>Чи будуть додаткові версії, і якщо так – якими мовами?</p>
+                        </div>
+                        <input type="text" name="input12" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">13</div>
+                            <p>Чи потрібно зробити варіанти цього мультфільму для різних регіонів, з різними телефонами, або які відрізняються іншою службовою інформацією?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="options" id="options_1" value="Так">
+                            <label for="options_1">Так</label>
+                            <input type="radio" name="options" id="options_2" value="Ні">
+                            <label for="options_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">14</div>
+                            <p>Чи потрібні додаткові версії з іншими пропорціями кадру (вертикальне відео, 1X1)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="versions" id="versions_1" value="Так">
+                            <label for="versions_1">Так</label>
+                            <input type="radio" name="versions" id="versions_2" value="Ні">
+                            <label for="versions_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">15</div>
+                            <p>Чи потрібно додати субтитри?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="subtitles" id="subtitles_1" value="Так">
+                            <label for="subtitles_1">Так</label>
+                            <input type="radio" name="subtitles" id="subtitles_2" value="Ні">
+                            <label for="subtitles_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">16</div>
+                            <p>Чи потрібний саунд-дизайн?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="sound_design" id="sound_design_1" value="Так">
+                            <label for="sound_design_1">Так</label>
+                            <input type="radio" name="sound_design" id="sound_design_2" value="Ні">
+                            <label for="sound_design_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">17</div>
+                            <p>Чи є обмеження у законодавстві, які потрібно відобразити? Обов'язкові написи, вимоги тощо?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="legislation" id="legislation_1" value="Так">
+                            <label for="legislation_1">Так</label>
+                            <input type="radio" name="legislation" id="legislation_2" value="Ні">
+                            <label for="legislation_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">18</div>
+                            <p>Чи є у вашої компанії брендовий персонаж, герой (маскот)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="brand_character" id="brand_character_1" value="Так">
+                            <label for="brand_character_1">Так</label>
+                            <input type="radio" name="brand_character" id="brand_character_2" value="Ні">
+                            <label for="brand_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">19</div>
+                            <p>Чи потрібне для мультфільму створення рекламного персонажа чи бренд-героя, якого ви надалі плануєте використовувати у своїх рекламних кампаніях?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="create_character" id="create_character_1" value="Так">
+                            <label for="create_character_1">Так</label>
+                            <input type="radio" name="create_character" id="create_character_2" value="Ні">
+                            <label for="create_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">20</div>
+                            <p>У вас є фірмовий стиль, брендбук, логотип, слоган, рекомендації щодо використання шрифтів?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="corporate_identity" id="corporate_identity_1" value="Так">
+                            <label for="corporate_identity_1">Так</label>
+                            <input type="radio" name="corporate_identity" id="corporate_identity_2" value="Ні">
+                            <label for="corporate_identity_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">21</div>
+                            <p>Чи є фірмові кольори, які слід використовувати у мультфільмі?</p>
+                        </div>
+                        <input type="text" name="input21" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">22</div>
+                            <p>Чи є дедлайн?</p>
+                        </div>
+                        <input type="text" name="input22" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">23</div>
+                            <p>Додаткова інформація, яка може бути корисною для розуміння завдання.</p>
+                        </div>
+                        <input type="text" name="input23" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                </div>
+                <input type="submit" value="Надіслати" class="inp-submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- бриф_общий -->
+    <div class="modal modal-brief" id="general">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper modal-brief-wrapper">
+            <form method="POST" class="form-brief">
+                <div class="modal-close"><img src="images/modal-close.svg" alt="Close"></div>
+                <p class="modal-title brief-color">Бриф для створення анімаційного ролика</p>
+                <p class="modal-subtitle brief-color">Будь ласка, приділіть кілька хвилин заповненню брифу, і ми зможемо більш точно оцінити складність проекту</p>
+                <div class="chioce-level inputs-radio">
+                    <p>Будь ласка, виберіть рівень ролика</p>
+                    <div class="choice-level__item">
+                        <input type="radio" name="level" id="level_simple">
+                        <label for="level_simple"><span class="purple">Сімпл</span> (простий, без персонажів)</label>
+                    </div>
+                    <div class="choice-level__item">
+                        <input type="radio" name="level" id="level_medium">
+                        <label for="level_medium"><span class="green">Медіум</span> (з простими персонажами та сценами)</label>
+                    </div>
+                    <div class="choice-level__item">
+                        <input type="radio" name="level" id="level_premium">
+                        <label for="level_premium"><span class="blue">Преміум</span> (максимальна деталізація)</label>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <p class="modal-title2 brief-color">Контактна інформація</p>
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info__item">
+                            <label for="contact_name">ПІБ</label>
+                            <input type="text" name="name" class="inp" id="contact_name" placeholder="Прізвище, ім’я, побатькові" required>
+                        </div>
+                        <div class="contact-info__item">
+                            <label for="contact_email">Email</label>
+                            <input type="email" name="email" class="inp" id="contact_email" placeholder="Email адреса" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-info">
+                    <p class="modal-title2 brief-color">Технічна інформація</p>
+                    <p class="modal-subtitle2">Інфографіка чергується з простими персонажними сценами. Герої також прості, стилізовані</p>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">1</div>
+                            <p>Яку основну функцію має виконувати готовий анімаційний ролик? Що рекламуватиме або представлятиме мультфільм: товар, послугу, компанію, проект? Можливо, це має бути навчальний ролик, інструкція, соціальний проект?</p>
+                        </div>
+                        <input type="text" name="input1" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">2</div>
+                            <p>На яку аудиторію розрахований анімаційний ролик?</p>
+                        </div>
+                        <input type="text" name="input2" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">3</div>
+                            <p>Де буде демонструватися мультфільм: на телебаченні, на виставці, на сайті компанії, на каналі youtube, у соціальних мережах?</p>
+                        </div>
+                        <input type="text" name="input3" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">4</div>
+                            <p>Вкажіть приблизний хронометраж</p>
+                        </div>
+                        <input type="text" name="input4" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">5</div>
+                            <p>Чи маєте Ви сценарій?</p>
+                        </div>
+                        <div class="inputs-radio inputs-file">
+                            <input type="radio" name="have_scenario" id="have_scenario_1" value="Так">
+                            <label for="have_scenario_1" class="label-file">
+                                Так
+                                <input type="file" name="scenario" class="file-upload-input">
+                                <div class="file-upload-select">
+                                    <div class="file-select-button brief-color">+ <span>Додати файл</span></div>
+                                    <div class="file-select-name"></div>
+                                </div>
+                            </label>
+                            <input type="radio" name="have_scenario" id="have_scenario_2" value="Є сценарна ідея">
+                            <label for="have_scenario_2">Є сценарна ідея</label>
+                            <input type="radio" name="have_scenario" id="have_scenario_3" value="Сценарій треба написати">
+                            <label for="have_scenario_3">Сценарій треба написати</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">6</div>
+                            <p>Додайте посилання на ролики, які Вам подобаються і розкажіть, що саме приваблює в наведених прикладах?</p>
+                        </div>
+                        <input type="text" name="input6" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">7</div>
+                            <p>Відео супроводжуватиметься закадровим голосом?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="voice" id="voice_1" value="Так">
+                            <label for="voice_1">Так</label>
+                            <input type="radio" name="voice" id="voice_2" value="Ні">
+                            <label for="voice_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">8</div>
+                            <p>Чи має в ролику бути персонажна анімація, чи тільки анімована інфографіка та неживі об'єкти?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="animate" id="animate_1" value="Ролик з персонажною анімацією">
+                            <label for="animate_1">Ролик з персонажною анімацією</label>
+                            <input type="radio" name="animate" id="animate_2" value="Анімована інфографіка">
+                            <label for="animate_2">Анімована інфографіка</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">9</div>
+                            <p>Чи будуть у ролику персонажі, які вимовляють репліки? Якщо так, то скільки їх буде?</p>
+                        </div>
+                        <input type="text" name="input9" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">10</div>
+                            <p>Потрібні послуги диктора, чи ви надасте начитку?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="speaker" id="speaker_1" value="У мене є начитка">
+                            <label for="speaker_1">У мене є начитка</label>
+                            <input type="radio" name="speaker" id="speaker_2" value="Потрібні послуги диктора">
+                            <label for="speaker_2">Потрібні послуги диктора</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">11</div>
+                            <p>Якою мовою буде основна версія ролика?</p>
+                        </div>
+                        <input type="text" name="input11" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">12</div>
+                            <p>Чи будуть додаткові версії, і якщо так – якими мовами?</p>
+                        </div>
+                        <input type="text" name="input12" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">13</div>
+                            <p>Чи потрібно зробити варіанти цього мультфільму для різних регіонів, з різними телефонами, або які відрізняються іншою службовою інформацією?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="options" id="options_1" value="Так">
+                            <label for="options_1">Так</label>
+                            <input type="radio" name="options" id="options_2" value="Ні">
+                            <label for="options_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">14</div>
+                            <p>Чи потрібні додаткові версії з іншими пропорціями кадру (вертикальне відео, 1X1)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="versions" id="versions_1" value="Так">
+                            <label for="versions_1">Так</label>
+                            <input type="radio" name="versions" id="versions_2" value="Ні">
+                            <label for="versions_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">15</div>
+                            <p>Чи потрібно додати субтитри?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="subtitles" id="subtitles_1" value="Так">
+                            <label for="subtitles_1">Так</label>
+                            <input type="radio" name="subtitles" id="subtitles_2" value="Ні">
+                            <label for="subtitles_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">16</div>
+                            <p>Чи потрібний саунд-дизайн?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="sound_design" id="sound_design_1" value="Так">
+                            <label for="sound_design_1">Так</label>
+                            <input type="radio" name="sound_design" id="sound_design_2" value="Ні">
+                            <label for="sound_design_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">17</div>
+                            <p>Чи є обмеження у законодавстві, які потрібно відобразити? Обов'язкові написи, вимоги тощо?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="legislation" id="legislation_1" value="Так">
+                            <label for="legislation_1">Так</label>
+                            <input type="radio" name="legislation" id="legislation_2" value="Ні">
+                            <label for="legislation_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">18</div>
+                            <p>Чи є у вашої компанії брендовий персонаж, герой (маскот)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="brand_character" id="brand_character_1" value="Так">
+                            <label for="brand_character_1">Так</label>
+                            <input type="radio" name="brand_character" id="brand_character_2" value="Ні">
+                            <label for="brand_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">19</div>
+                            <p>Чи потрібне для мультфільму створення рекламного персонажа чи бренд-героя, якого ви надалі плануєте використовувати у своїх рекламних кампаніях?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="create_character" id="create_character_1" value="Так">
+                            <label for="create_character_1">Так</label>
+                            <input type="radio" name="create_character" id="create_character_2" value="Ні">
+                            <label for="create_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">20</div>
+                            <p>У вас є фірмовий стиль, брендбук, логотип, слоган, рекомендації щодо використання шрифтів?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="corporate_identity" id="corporate_identity_1" value="Так">
+                            <label for="corporate_identity_1">Так</label>
+                            <input type="radio" name="corporate_identity" id="corporate_identity_2" value="Ні">
+                            <label for="corporate_identity_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">21</div>
+                            <p>Чи є фірмові кольори, які слід використовувати у мультфільмі?</p>
+                        </div>
+                        <input type="text" name="input21" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">22</div>
+                            <p>Чи є дедлайн?</p>
+                        </div>
+                        <input type="text" name="input22" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">23</div>
+                            <p>Додаткова інформація, яка може бути корисною для розуміння завдання.</p>
+                        </div>
+                        <input type="text" name="input23" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                </div>
+                <input type="submit" value="Надіслати" class="inp-submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- бриф_премиум -->
+    <div class="modal modal-brief" id="premium">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper modal-brief-wrapper">
+            <form method="POST" class="form-brief">
+                <div class="modal-close"><img src="images/modal-close-white.svg" alt="Close"></div>
+                <div class="modal-up">
+                    <img src="images/premium-up.svg" class="up" alt="Up image">
+                    <img src="images/premium-bottom.svg" class="bottom" alt="Bottom image">
+                    <p class="modal-title brief-color">Бриф для створення ролика рівня «Premium»</p>
+                    <p class="modal-subtitle brief-color">Таку анімацію вигідно відрізняють деталізовані персонажі та фони в сценах, реалістичні та динамічно вивірені рухи, яскраві переходи між сценами</p>
+                </div>
+                <div class="contact-info">
+                    <p class="modal-title2 brief-color">Контактна інформація</p>
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info__item">
+                            <label for="contact_name">ПІБ</label>
+                            <input type="text" name="name" class="inp" id="contact_name" placeholder="Прізвище, ім’я, побатькові" required>
+                        </div>
+                        <div class="contact-info__item">
+                            <label for="contact_email">Email</label>
+                            <input type="email" name="email" class="inp" id="contact_email" placeholder="Email адреса" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-info">
+                    <p class="modal-title2 brief-color">Технічна інформація</p>
+                    <p class="modal-subtitle2">Інфографіка чергується з простими персонажними сценами. Герої також прості, стилізовані</p>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">1</div>
+                            <p>Яку основну функцію має виконувати готовий анімаційний ролик? Що рекламуватиме або представлятиме мультфільм: товар, послугу, компанію, проект? Можливо, це має бути навчальний ролик, інструкція, соціальний проект?</p>
+                        </div>
+                        <input type="text" name="input1" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">2</div>
+                            <p>На яку аудиторію розрахований анімаційний ролик?</p>
+                        </div>
+                        <input type="text" name="input2" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">3</div>
+                            <p>Де буде демонструватися мультфільм: на телебаченні, на виставці, на сайті компанії, на каналі youtube, у соціальних мережах?</p>
+                        </div>
+                        <input type="text" name="input3" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">4</div>
+                            <p>Вкажіть приблизний хронометраж</p>
+                        </div>
+                        <input type="text" name="input4" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">5</div>
+                            <p>Чи маєте Ви сценарій?</p>
+                        </div>
+                        <div class="inputs-radio inputs-file">
+                            <input type="radio" name="have_scenario" id="have_scenario_1" value="Так">
+                            <label for="have_scenario_1" class="label-file">
+                                    Так
+                                    <input type="file" name="scenario" class="file-upload-input">
+                                    <div class="file-upload-select">
+                                        <div class="file-select-button brief-color">+ <span>Додати файл</span></div>
+                                        <div class="file-select-name"></div>
+                                    </div>
+                                </label>
+                            <input type="radio" name="have_scenario" id="have_scenario_2" value="Є сценарна ідея">
+                            <label for="have_scenario_2">Є сценарна ідея</label>
+                            <input type="radio" name="have_scenario" id="have_scenario_3" value="Сценарій треба написати">
+                            <label for="have_scenario_3">Сценарій треба написати</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">6</div>
+                            <p>Додайте посилання на ролики, які Вам подобаються і розкажіть, що саме приваблює в наведених прикладах?</p>
+                        </div>
+                        <input type="text" name="input6" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">7</div>
+                            <p>Відео супроводжуватиметься закадровим голосом?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="voice" id="voice_1" value="Так">
+                            <label for="voice_1">Так</label>
+                            <input type="radio" name="voice" id="voice_2" value="Ні">
+                            <label for="voice_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">8</div>
+                            <p>Чи має в ролику бути персонажна анімація, чи тільки анімована інфографіка та неживі об'єкти?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="animate" id="animate_1" value="Ролик з персонажною анімацією">
+                            <label for="animate_1">Ролик з персонажною анімацією</label>
+                            <input type="radio" name="animate" id="animate_2" value="Анімована інфографіка">
+                            <label for="animate_2">Анімована інфографіка</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">9</div>
+                            <p>Чи будуть у ролику персонажі, які вимовляють репліки? Якщо так, то скільки їх буде?</p>
+                        </div>
+                        <input type="text" name="input9" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">10</div>
+                            <p>Потрібні послуги диктора, чи ви надасте начитку?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="speaker" id="speaker_1" value="У мене є начитка">
+                            <label for="speaker_1">У мене є начитка</label>
+                            <input type="radio" name="speaker" id="speaker_2" value="Потрібні послуги диктора">
+                            <label for="speaker_2">Потрібні послуги диктора</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">11</div>
+                            <p>Якою мовою буде основна версія ролика?</p>
+                        </div>
+                        <input type="text" name="input11" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">12</div>
+                            <p>Чи будуть додаткові версії, і якщо так – якими мовами?</p>
+                        </div>
+                        <input type="text" name="input12" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">13</div>
+                            <p>Чи потрібно зробити варіанти цього мультфільму для різних регіонів, з різними телефонами, або які відрізняються іншою службовою інформацією?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="options" id="options_1" value="Так">
+                            <label for="options_1">Так</label>
+                            <input type="radio" name="options" id="options_2" value="Ні">
+                            <label for="options_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">14</div>
+                            <p>Чи потрібні додаткові версії з іншими пропорціями кадру (вертикальне відео, 1X1)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="versions" id="versions_1" value="Так">
+                            <label for="versions_1">Так</label>
+                            <input type="radio" name="versions" id="versions_2" value="Ні">
+                            <label for="versions_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">15</div>
+                            <p>Чи потрібно додати субтитри?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="subtitles" id="subtitles_1" value="Так">
+                            <label for="subtitles_1">Так</label>
+                            <input type="radio" name="subtitles" id="subtitles_2" value="Ні">
+                            <label for="subtitles_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">16</div>
+                            <p>Чи потрібний саунд-дизайн?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="sound_design" id="sound_design_1" value="Так">
+                            <label for="sound_design_1">Так</label>
+                            <input type="radio" name="sound_design" id="sound_design_2" value="Ні">
+                            <label for="sound_design_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">17</div>
+                            <p>Чи є обмеження у законодавстві, які потрібно відобразити? Обов'язкові написи, вимоги тощо?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="legislation" id="legislation_1" value="Так">
+                            <label for="legislation_1">Так</label>
+                            <input type="radio" name="legislation" id="legislation_2" value="Ні">
+                            <label for="legislation_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">18</div>
+                            <p>Чи є у вашої компанії брендовий персонаж, герой (маскот)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="brand_character" id="brand_character_1" value="Так">
+                            <label for="brand_character_1">Так</label>
+                            <input type="radio" name="brand_character" id="brand_character_2" value="Ні">
+                            <label for="brand_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">19</div>
+                            <p>Чи потрібне для мультфільму створення рекламного персонажа чи бренд-героя, якого ви надалі плануєте використовувати у своїх рекламних кампаніях?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="create_character" id="create_character_1" value="Так">
+                            <label for="create_character_1">Так</label>
+                            <input type="radio" name="create_character" id="create_character_2" value="Ні">
+                            <label for="create_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">20</div>
+                            <p>У вас є фірмовий стиль, брендбук, логотип, слоган, рекомендації щодо використання шрифтів?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="corporate_identity" id="corporate_identity_1" value="Так">
+                            <label for="corporate_identity_1">Так</label>
+                            <input type="radio" name="corporate_identity" id="corporate_identity_2" value="Ні">
+                            <label for="corporate_identity_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">21</div>
+                            <p>Чи є фірмові кольори, які слід використовувати у мультфільмі?</p>
+                        </div>
+                        <input type="text" name="input21" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">22</div>
+                            <p>Чи є дедлайн?</p>
+                        </div>
+                        <input type="text" name="input22" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">23</div>
+                            <p>Додаткова інформація, яка може бути корисною для розуміння завдання.</p>
+                        </div>
+                        <input type="text" name="input23" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                </div>
+                <input type="submit" value="Надіслати" class="inp-submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- бриф_медиум -->
+    <div class="modal modal-brief" id="medium">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper modal-brief-wrapper">
+            <form method="POST" class="form-brief">
+                <div class="modal-close"><img src="images/modal-close-white.svg" alt="Close"></div>
+                <div class="modal-up">
+                    <img src="images/medium-up.svg" class="up" alt="Up image">
+                    <img src="images/medium-bottom.svg" class="bottom" alt="Bottom image">
+                    <p class="modal-title brief-color">Бриф для створення ролика рівня «Medium»</p>
+                    <p class="modal-subtitle brief-color">Сценаристи володіють принципами створення текстів, що продають. Використовуються важливі тригери, це підвищує продажі</p>
+                </div>
+                <div class="contact-info">
+                    <p class="modal-title2 brief-color">Контактна інформація</p>
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info__item">
+                            <label for="contact_name">ПІБ</label>
+                            <input type="text" name="name" class="inp" id="contact_name" placeholder="Прізвище, ім’я, побатькові" required>
+                        </div>
+                        <div class="contact-info__item">
+                            <label for="contact_email">Email</label>
+                            <input type="email" name="email" class="inp" id="contact_email" placeholder="Email адреса" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-info">
+                    <p class="modal-title2 brief-color">Технічна інформація</p>
+                    <p class="modal-subtitle2">Інфографіка чергується з простими персонажними сценами. Герої також прості, стилізовані</p>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">1</div>
+                            <p>Яку основну функцію має виконувати готовий анімаційний ролик? Що рекламуватиме або представлятиме мультфільм: товар, послугу, компанію, проект? Можливо, це має бути навчальний ролик, інструкція, соціальний проект?</p>
+                        </div>
+                        <input type="text" name="input1" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">2</div>
+                            <p>На яку аудиторію розрахований анімаційний ролик?</p>
+                        </div>
+                        <input type="text" name="input2" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">3</div>
+                            <p>Де буде демонструватися мультфільм: на телебаченні, на виставці, на сайті компанії, на каналі youtube, у соціальних мережах?</p>
+                        </div>
+                        <input type="text" name="input3" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">4</div>
+                            <p>Вкажіть приблизний хронометраж</p>
+                        </div>
+                        <input type="text" name="input4" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">5</div>
+                            <p>Чи маєте Ви сценарій?</p>
+                        </div>
+                        <div class="inputs-radio inputs-file">
+                            <input type="radio" name="have_scenario" id="have_scenario_1" value="Так">
+                            <label for="have_scenario_1" class="label-file">
+                                    Так
+                                    <input type="file" name="scenario" class="file-upload-input">
+                                    <div class="file-upload-select">
+                                        <div class="file-select-button brief-color">+ <span>Додати файл</span></div>
+                                        <div class="file-select-name"></div>
+                                    </div>
+                                </label>
+                            <input type="radio" name="have_scenario" id="have_scenario_2" value="Є сценарна ідея">
+                            <label for="have_scenario_2">Є сценарна ідея</label>
+                            <input type="radio" name="have_scenario" id="have_scenario_3" value="Сценарій треба написати">
+                            <label for="have_scenario_3">Сценарій треба написати</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">6</div>
+                            <p>Додайте посилання на ролики, які Вам подобаються і розкажіть, що саме приваблює в наведених прикладах?</p>
+                        </div>
+                        <input type="text" name="input6" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">7</div>
+                            <p>Відео супроводжуватиметься закадровим голосом?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="voice" id="voice_1" value="Так">
+                            <label for="voice_1">Так</label>
+                            <input type="radio" name="voice" id="voice_2" value="Ні">
+                            <label for="voice_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">8</div>
+                            <p>Чи має в ролику бути персонажна анімація, чи тільки анімована інфографіка та неживі об'єкти?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="animate" id="animate_1" value="Ролик з персонажною анімацією">
+                            <label for="animate_1">Ролик з персонажною анімацією</label>
+                            <input type="radio" name="animate" id="animate_2" value="Анімована інфографіка">
+                            <label for="animate_2">Анімована інфографіка</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">9</div>
+                            <p>Чи будуть у ролику персонажі, які вимовляють репліки? Якщо так, то скільки їх буде?</p>
+                        </div>
+                        <input type="text" name="input9" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">10</div>
+                            <p>Потрібні послуги диктора, чи ви надасте начитку?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="speaker" id="speaker_1" value="У мене є начитка">
+                            <label for="speaker_1">У мене є начитка</label>
+                            <input type="radio" name="speaker" id="speaker_2" value="Потрібні послуги диктора">
+                            <label for="speaker_2">Потрібні послуги диктора</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">11</div>
+                            <p>Якою мовою буде основна версія ролика?</p>
+                        </div>
+                        <input type="text" name="input11" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">12</div>
+                            <p>Чи будуть додаткові версії, і якщо так – якими мовами?</p>
+                        </div>
+                        <input type="text" name="input12" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">13</div>
+                            <p>Чи потрібно зробити варіанти цього мультфільму для різних регіонів, з різними телефонами, або які відрізняються іншою службовою інформацією?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="options" id="options_1" value="Так">
+                            <label for="options_1">Так</label>
+                            <input type="radio" name="options" id="options_2" value="Ні">
+                            <label for="options_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">14</div>
+                            <p>Чи потрібні додаткові версії з іншими пропорціями кадру (вертикальне відео, 1X1)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="versions" id="versions_1" value="Так">
+                            <label for="versions_1">Так</label>
+                            <input type="radio" name="versions" id="versions_2" value="Ні">
+                            <label for="versions_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">15</div>
+                            <p>Чи потрібно додати субтитри?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="subtitles" id="subtitles_1" value="Так">
+                            <label for="subtitles_1">Так</label>
+                            <input type="radio" name="subtitles" id="subtitles_2" value="Ні">
+                            <label for="subtitles_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">16</div>
+                            <p>Чи потрібний саунд-дизайн?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="sound_design" id="sound_design_1" value="Так">
+                            <label for="sound_design_1">Так</label>
+                            <input type="radio" name="sound_design" id="sound_design_2" value="Ні">
+                            <label for="sound_design_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">17</div>
+                            <p>Чи є обмеження у законодавстві, які потрібно відобразити? Обов'язкові написи, вимоги тощо?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="legislation" id="legislation_1" value="Так">
+                            <label for="legislation_1">Так</label>
+                            <input type="radio" name="legislation" id="legislation_2" value="Ні">
+                            <label for="legislation_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">18</div>
+                            <p>Чи є у вашої компанії брендовий персонаж, герой (маскот)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="brand_character" id="brand_character_1" value="Так">
+                            <label for="brand_character_1">Так</label>
+                            <input type="radio" name="brand_character" id="brand_character_2" value="Ні">
+                            <label for="brand_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">19</div>
+                            <p>Чи потрібне для мультфільму створення рекламного персонажа чи бренд-героя, якого ви надалі плануєте використовувати у своїх рекламних кампаніях?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="create_character" id="create_character_1" value="Так">
+                            <label for="create_character_1">Так</label>
+                            <input type="radio" name="create_character" id="create_character_2" value="Ні">
+                            <label for="create_character_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">20</div>
+                            <p>У вас є фірмовий стиль, брендбук, логотип, слоган, рекомендації щодо використання шрифтів?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="corporate_identity" id="corporate_identity_1" value="Так">
+                            <label for="corporate_identity_1">Так</label>
+                            <input type="radio" name="corporate_identity" id="corporate_identity_2" value="Ні">
+                            <label for="corporate_identity_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">21</div>
+                            <p>Чи є фірмові кольори, які слід використовувати у мультфільмі?</p>
+                        </div>
+                        <input type="text" name="input21" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">22</div>
+                            <p>Чи є дедлайн?</p>
+                        </div>
+                        <input type="text" name="input22" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">23</div>
+                            <p>Додаткова інформація, яка може бути корисною для розуміння завдання.</p>
+                        </div>
+                        <input type="text" name="input23" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                </div>
+                <input type="submit" value="Надіслати" class="inp-submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- Бриф_симпл -->
+    <div class="modal modal-brief" id="simple">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper modal-brief-wrapper">
+            <form method="POST" class="form-brief">
+                <div class="modal-close"><img src="images/modal-close-white.svg" alt="Close"></div>
+                <div class="modal-up">
+                    <img src="images/simple-up.svg" class="up" alt="Up image">
+                    <img src="images/simple-bottom.svg" class="bottom" alt="Bottom image">
+                    <p class="modal-title brief-color">Бриф для створення ролика рівня «Simple»</p>
+                    <p class="modal-subtitle brief-color">Сценаристи володіють принципами створення текстів, що продають. Використовуються важливі тригери, це підвищує продажі</p>
+                </div>
+                <div class="contact-info">
+                    <p class="modal-title2 brief-color">Контактна інформація</p>
+                    <div class="contact-info-wrapper">
+                        <div class="contact-info__item">
+                            <label for="contact_name">ПІБ</label>
+                            <input type="text" name="name" class="inp" id="contact_name" placeholder="Прізвище, ім’я, побатькові" required>
+                        </div>
+                        <div class="contact-info__item">
+                            <label for="contact_email">Email</label>
+                            <input type="email" name="email" class="inp" id="contact_email" placeholder="Email адреса" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="technical-info">
+                    <p class="modal-title2 brief-color">Технічна інформація</p>
+                    <p class="modal-subtitle2">Інфографіка чергується з простими персонажними сценами. Герої також прості, стилізовані</p>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">1</div>
+                            <p>Яку основну функцію має виконувати готовий анімаційний ролик? Що рекламуватиме або представлятиме мультфільм: товар, послугу, компанію, проект? Можливо, це має бути навчальний ролик, інструкція, соціальний проект?</p>
+                        </div>
+                        <input type="text" name="input1" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">2</div>
+                            <p>На яку аудиторію розрахований анімаційний ролик?</p>
+                        </div>
+                        <input type="text" name="input2" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">3</div>
+                            <p>Де буде демонструватися мультфільм: на телебаченні, на виставці, на сайті компанії, на каналі youtube, у соціальних мережах?</p>
+                        </div>
+                        <input type="text" name="input3" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">4</div>
+                            <p>Вкажіть приблизний хронометраж</p>
+                        </div>
+                        <input type="text" name="input4" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">5</div>
+                            <p>Чи маєте Ви сценарій?</p>
+                        </div>
+                        <div class="inputs-radio inputs-file">
+                            <input type="radio" name="have_scenario" id="have_scenario_1" value="Так">
+                            <label for="have_scenario_1" class="label-file">
+                                    Так
+                                    <input type="file" name="scenario" class="file-upload-input">
+                                    <div class="file-upload-select">
+                                        <div class="file-select-button brief-color">+ <span>Додати файл</span></div>
+                                        <div class="file-select-name"></div>
+                                    </div>
+                                </label>
+                            <input type="radio" name="have_scenario" id="have_scenario_2" value="Є сценарна ідея">
+                            <label for="have_scenario_2">Є сценарна ідея</label>
+                            <input type="radio" name="have_scenario" id="have_scenario_3" value="Сценарій треба написати">
+                            <label for="have_scenario_3">Сценарій треба написати</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">6</div>
+                            <p>Додайте посилання на ролики, які Вам подобаються і розкажіть, що саме приваблює в наведених прикладах?</p>
+                        </div>
+                        <input type="text" name="input6" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">7</div>
+                            <p>Відео супроводжуватиметься закадровим голосом?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="voice" id="voice_1" value="Так">
+                            <label for="voice_1">Так</label>
+                            <input type="radio" name="voice" id="voice_2" value="Ні">
+                            <label for="voice_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">8</div>
+                            <p>Потрібні послуги диктора, чи ви надасте начитку?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="speaker" id="speaker_1" value="У мене є начитка">
+                            <label for="speaker_1">У мене є начитка</label>
+                            <input type="radio" name="speaker" id="speaker_2" value="Потрібні послуги диктора">
+                            <label for="speaker_2">Потрібні послуги диктора</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">9</div>
+                            <p>Якою мовою буде основна версія ролика?</p>
+                        </div>
+                        <input type="text" name="input11" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">10</div>
+                            <p>Чи будуть додаткові версії, і якщо так – якими мовами?</p>
+                        </div>
+                        <input type="text" name="input12" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">11</div>
+                            <p>Чи потрібно зробити варіанти цього мультфільму для різних регіонів, з різними телефонами, або які відрізняються іншою службовою інформацією?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="options" id="options_1" value="Так">
+                            <label for="options_1">Так</label>
+                            <input type="radio" name="options" id="options_2" value="Ні">
+                            <label for="options_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">12</div>
+                            <p>Чи потрібні додаткові версії з іншими пропорціями кадру (вертикальне відео, 1X1)?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="versions" id="versions_1" value="Так">
+                            <label for="versions_1">Так</label>
+                            <input type="radio" name="versions" id="versions_2" value="Ні">
+                            <label for="versions_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">13</div>
+                            <p>Чи потрібно додати субтитри?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="subtitles" id="subtitles_1" value="Так">
+                            <label for="subtitles_1">Так</label>
+                            <input type="radio" name="subtitles" id="subtitles_2" value="Ні">
+                            <label for="subtitles_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">14</div>
+                            <p>Чи потрібний саунд-дизайн?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="sound_design" id="sound_design_1" value="Так">
+                            <label for="sound_design_1">Так</label>
+                            <input type="radio" name="sound_design" id="sound_design_2" value="Ні">
+                            <label for="sound_design_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">15</div>
+                            <p>Чи є обмеження у законодавстві, які потрібно відобразити? Обов'язкові написи, вимоги тощо?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="legislation" id="legislation_1" value="Так">
+                            <label for="legislation_1">Так</label>
+                            <input type="radio" name="legislation" id="legislation_2" value="Ні">
+                            <label for="legislation_2">Ні</label>
+                        </div>
+                    </div>
+
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">16</div>
+                            <p>У вас є фірмовий стиль, брендбук, логотип, слоган, рекомендації щодо використання шрифтів?</p>
+                        </div>
+                        <div class="inputs-radio">
+                            <input type="radio" name="corporate_identity" id="corporate_identity_1" value="Так">
+                            <label for="corporate_identity_1">Так</label>
+                            <input type="radio" name="corporate_identity" id="corporate_identity_2" value="Ні">
+                            <label for="corporate_identity_2">Ні</label>
+                        </div>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">17</div>
+                            <p>Чи є фірмові кольори, які слід використовувати у мультфільмі?</p>
+                        </div>
+                        <input type="text" name="input21" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">18</div>
+                            <p>Чи є дедлайн?</p>
+                        </div>
+                        <input type="text" name="input22" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                    <div class="technical-item">
+                        <div class="technical-item__head">
+                            <div class="number">19</div>
+                            <p>Додаткова інформація, яка може бути корисною для розуміння завдання.</p>
+                        </div>
+                        <input type="text" name="input23" class="inp" placeholder="Ваша відповідь" required>
+                    </div>
+                </div>
+                <input type="submit" value="Надіслати" class="inp-submit">
+            </form>
+        </div>
+    </div>
+
+    <!-- Бриф_симпл -->
+    <div class="modal modal-thanks">
+        <div class="modal-overlay"></div>
+        <div class="modal-wrapper">
+            <div class="modal-close"><img src="images/modal-close.svg" alt="Close"></div>
+            <div class="modal-thanks-wrapper">
+                <img src="images/thanks.svg" alt="Thanks">
+                <p class="response-title">Дякуємо!</p>
+                <p class="response-text">Ми зв'яжемося з Вами найближчим часом</p>
+            </div>
+        </div>
+    </div>
 
 
     <!-- jQuery cnd -->
