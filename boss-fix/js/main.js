@@ -266,7 +266,7 @@ jQuery(document).ready(function($) {
     }
 
     // Close modal
-    $('.modal .modal-close').click(function() {
+    $('.modal-brief .modal-close, .modal-thanks .modal-close').click(function() {
         // Закрыть модальное окно
         closeModal();
     })
