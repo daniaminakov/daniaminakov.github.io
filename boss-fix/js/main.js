@@ -256,25 +256,93 @@ jQuery(document).ready(function($) {
         }, 1000)
     });
 
-    // Close modal
-    $('.modal-close').click(function() {
-        $('.modal').removeClass('is-visible');
+    // Закрыть модальное окно и проскрооллить до нужного элемента
+    function closeModal() {
+        $('.modal.is-visible').removeClass('is-visible');
         $('html, body').stop().animate({
             scrollTop: $('.active-modal').offset().top - 500
         }, 1000);
         $('.active-modal').removeClass('active-modal');
+    }
+
+    // Close modal
+    $('.modal .modal-close').click(function() {
+        // Закрыть модальное окно
+        closeModal();
     })
 
     // Если клик был вне модального окна
     $('.modal-brief, .modal-thanks').mouseup(function(e) {
-        if ($('.modal.is-visible')) {
+        if ($('.modal').hasClass('is-visible')) {
             var modal = $('.modal.is-visible .modal-wrapper');
             if (!modal.is(e.target) && modal.has(e.target).length === 0) {
-                $('.modal.is-visible').removeClass('is-visible');
-                $('html, body').stop().animate({
-                    scrollTop: $('.active-modal').offset().top - 500
-                }, 1000);
-                $('.active-modal').removeClass('active-modal');
+                // Закрыть модальное окно
+                closeModal();
+            }
+        }
+    });
+
+    // Видео в портфолио
+    $(".video-link").click(function(e) {
+        e.preventDefault();
+
+        // Получите идентификатора видео из элемента, на который нажали
+        var videoLink = $(this).attr('href');
+        videoLink = videoLink.replace('https://www.youtube.com/watch?v=', '');
+
+        // Автовоспроизведение при появлении модального окна
+        var autoplay = '?autoplay=1';
+
+        // Не показывать вид «Похожие видео», когда видео заканчивается
+        var related_no = '&rel=0';
+
+        // Соедините переменные videoLink и param вместе
+        var src = 'https://www.youtube.com/embed/' + videoLink + autoplay + related_no;
+
+        // Установите источник в iframe
+        $("#youtube").attr('src', src);
+
+        // Показываем модальное окно
+        $(".video-modal").addClass("is-visible");
+
+    });
+
+    // Закрыть и сбросить модальное окно видео портфолио
+    function closeVideoModal() {
+        $('.video-modal.is-visible').removeClass('is-visible');
+        $("#youtube").attr('src', '');
+    }
+
+    // Close video modal
+    $('.video-modal .modal-close').click(function() {
+        // Закрыть и сбросить модальное окно
+        closeVideoModal();
+    })
+
+    // Если клик был вне модального окна
+    $('.video-modal').mouseup(function(e) {
+        if ($('.video-modal').hasClass('is-visible')) {
+            var modal = $('.video-modal-content');
+            if (!modal.is(e.target) && modal.has(e.target).length === 0) {
+                // Закрыть и сбросить модальное окно
+                closeVideoModal();
+            }
+        }
+    });
+
+    // если нажать клавишу ESC
+    $('body').keyup(function(e) {
+        if (e.keyCode == 27) {
+            if ($('.modal').hasClass('is-visible')) {
+                var modal = $('.modal.is-visible .modal-wrapper');
+                if (!modal.is(e.target) && modal.has(e.target).length === 0) {
+                    // Закрыть модальное окно
+                    closeModal();
+                }
+            }
+            if ($('.video-modal').hasClass('is-visible')) {
+                // Закрыть и сбросить модальное окно
+                closeVideoModal();
             }
         }
     });
