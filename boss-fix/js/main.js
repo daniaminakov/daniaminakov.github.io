@@ -242,20 +242,6 @@ jQuery(document).ready(function($) {
         $(anchor).addClass('is-visible');
     });
 
-    // Клик по кнопке скачать
-    $('.download-brief').click(function(e) {
-        e.preventDefault();
-        var thisButton = $(this).text($(this).attr('data-edit'));
-        setTimeout(function() {
-            thisButton.addClass('active-modal');
-            var anchor = thisButton.attr('href');
-            $('html, body').stop().animate({
-                scrollTop: 0
-            }, 1000);
-            $(anchor).addClass('is-visible');
-        }, 1000)
-    });
-
     // Закрыть модальное окно и проскрооллить до нужного элемента
     function closeModal() {
         $('.modal.is-visible').removeClass('is-visible');
