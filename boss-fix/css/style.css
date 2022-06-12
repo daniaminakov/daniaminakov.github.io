@@ -1354,24 +1354,6 @@ body::-webkit-scrollbar-thumb {
     -webkit-transform: translate(0%, 0%);
 }
 
-@media (min-aspect-ratio: 16/9) {
-    .video-modal-content {
-        width: 0;
-        height: calc(100vh - 10em);
-        padding-top: 0;
-        padding-left: calc((100vh - 10em) * 1.7778);
-        /* 16:9 calc */
-    }
-}
-
-@media (max-width: 640px) {
-    .video-modal-content {
-        width: calc(100% - 1em);
-        padding-top: calc((100% - 1em) * 0.5625);
-        /* 16:9 calc */
-    }
-}
-
 iframe#youtube {
     border: none;
     position: absolute;
