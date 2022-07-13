@@ -203,15 +203,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .header-menu {
-    display: flex
-}
-
-.header-menu li {
-    margin-right: 34px
-}
-
-.header-menu li:last-child {
-    margin-right: 0
+    display: flex;
+    justify-content: space-between;
+    width: 660px;
 }
 
 .header-menu li a {
