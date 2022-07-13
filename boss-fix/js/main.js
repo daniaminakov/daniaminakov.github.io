@@ -133,6 +133,75 @@ jQuery(document).ready(function($) {
         ]
     });
 
+    // Слайдер
+    $('.header-video-slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: false,
+        // swipe: false,
+    });
+
+
+    function videoInit(parent, autoPlayNumber) {
+        // Получите идентификатора видео из элемента
+        var videoLink = parent.attr('data-watch');
+        console.log(videoLink);
+        videoLink = videoLink.replace('https://www.youtube.com/watch?v=', '');
+
+        // Автовоспроизведение при появлении модального окна
+        var autoplay = '?autoplay=0';
+
+        // Если задан autoPlayNumber
+        if (autoPlayNumber) {
+            autoplay = '?autoplay=1';
+        }
+
+        // Не показывать вид «Похожие видео», когда видео заканчивается
+        var related_no = '&rel=0';
+
+        // Соедините переменные videoLink и param вместе
+        var src = 'https://www.youtube.com/embed/' + videoLink + autoplay + related_no;
+
+        // Установите источник в iframe
+        parent.find('.youtube-video').attr('src', src);
+    }
+
+
+    // Клик по видео в header
+    $('.header-video-start').click(function() {
+        if ($(this).hasClass('active')) {
+            $(this).removeClass('active');
+            $('.header-video-slider').addClass('active');
+            // Активный слайд
+            var activeSlide = $('.header-video-slider__item.slick-active');
+            // Инициализируем активный слайд
+            videoInit(activeSlide, true);
+        }
+    });
+
+    // Клик по стрелке вперед
+    $('.header-video-slider .slick-next').click(function() {
+        // Активный слайд
+        var activeSlide = $('.header-video-slider__item.slick-active');
+        // Предыдущий слайд
+        var prevSlide = activeSlide.prev();
+        // Инициализируем активный и предыдущий слайд
+        videoInit(activeSlide, true);
+        videoInit(prevSlide);
+    });
+
+    // Клик по стрелке назад
+    $('.header-video-slider .slick-prev').click(function() {
+        // Активный слайд
+        var activeSlide = $('.header-video-slider__item.slick-active');
+        // Следующий слайд
+        var nextSlide = activeSlide.next();
+        // Инициализируем активный и Сследующий слайд
+        videoInit(activeSlide, true);
+        videoInit(nextSlide);
+    });
+
+
     // При ресайзе окна браузера ресайзить слайдеры
     $(window).on('resize orientationchange', function() {
         $('.portfolio-slider').slick('resize');
