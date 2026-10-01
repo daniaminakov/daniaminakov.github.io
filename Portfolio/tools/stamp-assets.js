@@ -5,7 +5,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 const root = path.join(__dirname, '..');
-const pages = ['index.html', 'works.html'];
+const pages = ['index.html', 'projects.html'];
 const assetLink = /((?:href|src)=")((?:css|js)\/[^"?\s]+)(?:\?v=[0-9a-f]+)?\s*(")/g;
 
 for (const page of pages) {
