@@ -1,10 +1,19 @@
 <!DOCTYPE html>
-<html lang="ru" style="overflow-y: hidden;">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danil Minakov</title>
+    <title>Projects — Danylo Minakov</title>
+    <meta name="description" content="Recent projects by Danylo Minakov, full-stack web developer: corporate websites, landing pages and web services.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Projects — Danylo Minakov">
+    <meta property="og:description" content="Recent projects by Danylo Minakov, full-stack web developer: corporate websites, landing pages and web services.">
+    <meta property="og:url" content="https://daniaminakov.github.io/Portfolio/works.html">
+    <meta property="og:image" content="https://daniaminakov.github.io/Portfolio/img/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="shortcut icon" href="img/logo.ico" type="image/png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/animate.min.css">
@@ -15,41 +24,6 @@
 </head>
 
 <body>
-
-    <!-- preloader-START -->
-    <div class="preloader" id="preloader">
-        <div class="box">
-            <div class="item">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="item">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="item">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div class="item">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-        <p class="preloader-text">
-            Please
-            <span>Wait</span>
-        </p>
-    </div>
-    <!-- preloader-END -->
 
     <!-- scrollbar-START -->
     <div class="scrollbar"></div>
@@ -64,27 +38,16 @@
                 <div class="header-up__box">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="img/logo.svg" alt="Logo"><b>D</b>anil<b>M</b>inakov
+                            <img src="img/logo.svg" alt="Logo"><b>D</b>anylo<b>M</b>inakov
                         </a>
                     </div>
                     <div class="navigtion">
-                        <div class="messenger-text">
-                            Мессенджеры
-                            <img src="img/arrow.svg" alt="Arrow">
-                        </div>
-                        <div class="messenger">
-                            <a href="https://t.me/Minakov99" class="messenger-item" target=" _blank ">
-                                <img src="img/telegram.svg " alt="Telegram ">
-                            </a>
-                            <a href="https://wa.me/380999379231 " class="messenger-item" target="_blank">
-                                <img src="img/whatsapp.svg" alt="Whatsapp">
-                            </a>
-                        </div>
+                        <button type="button" class="header-cta" data-modal-open="contact-modal">Contact me</button>
                         <div class="burger-menu">
-                            <span style="background-color:#222832;"></span>
-                            <span style="background-color:#222832;"></span>
-                            <span style="background-color:#222832;"></span>
-                            <span style="background-color:#222832;"></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
                     </div>
                 </div>
@@ -101,7 +64,7 @@
                 </div>
             </div>
             <p class="parallax-text parallax__item" data-speed="1">
-                Portfolio
+                Projects
             </p>
 
         </div>
@@ -114,13 +77,13 @@
     <!-- menu-START -->
     <ul class="menu-wrapper">
         <li>
-            <a href="index.html"><span data-letters="Главная">Главная</span></a>
+            <a href="index.html"><span data-letters="Home">Home</span></a>
         </li>
         <li>
-            <a href="" class="menu-item__active"><span data-letters="Портфолио">Портфолио</span> </a>
+            <a href="" class="menu-item__active"><span data-letters="Projects">Projects</span> </a>
         </li>
         <li>
-            <a href="contacts.html"><span data-letters="Контакты">Контакты</span></a>
+            <a href="mailto:danylominakov@gmail.com" data-modal-open="contact-modal"><span data-letters="Contact">Contact</span></a>
         </li>
     </ul>
     <!-- menu-END -->
@@ -129,13 +92,13 @@
     <section class="portfolio" id="portfolio">
         <div class="container">
             <h2 class="second-title">
-                Последние работы &darr;
+                Recent projects &darr;
             </h2>
             <div class="portfolio-wrapper">
                 <!--  -->
                 <div class="portfolio-item wow zoomIn" style="background-color: #c76338;" data-wow-delay="0.4s">
                     <div class="portfolio-item__link">
-                        <a href="https://truckspotlogistics.com/" target="_blank" title="Перейти">
+                        <a href="https://truckspotlogistics.com/" target="_blank" title="Open website">
                             <img src="img/go-to.svg" alt="Go">
                         </a>
                     </div>
@@ -145,7 +108,7 @@
                 <!--  -->
                 <div class="portfolio-item wow zoomIn" style="background-color: #005201;" data-wow-delay="0.5s">
                     <div class="portfolio-item__link">
-                        <a href="https://moverjetlogistics.com/" target="_blank" title="Перейти">
+                        <a href="https://moverjetlogistics.com/" target="_blank" title="Open website">
                             <img src="img/go-to.svg" alt="Go">
                         </a>
                     </div>
@@ -153,100 +116,110 @@
                 </div>
                 <!--  -->
                 <!--  -->
-                <div class="portfolio-item wow zoomIn" style="background-color: #d67b20;" data-wow-delay="0.6s">
+                <div class="portfolio-item wow zoomIn" style="background-color: #3a3f47;" data-wow-delay="0.6s">
                     <div class="portfolio-item__link">
-                        <a href="https://comparethecarrier.com/" target="_blank" title="Перейти">
+                        <a href="https://comparethecarrier.com/" target="_blank" title="Open website">
                             <img src="img/go-to.svg" alt="Go">
                         </a>
                     </div>
                     <img src="img/portfolio-img10.png" alt="Portfolio image">
                 </div>
                 <!--  -->
-                <!--  -->
-                <div class="portfolio-item backg-grey wow zoomIn" data-wow-delay="0.4s">
+                <div class="portfolio-item backg-darkblue wow zoomIn" data-wow-delay="0.4s">
                     <div class="portfolio-item__link">
-                        <a href="https://daniaminakov.github.io/DinnerWinter/" target="_blank" title="Перейти">
-                            <img src="img/go-to.svg" alt="Go">
-                        </a>
-                    </div>
-                    <img src="img/portfolio-img9.png" alt="Portfolio image">
-                </div>
-                <!--  -->
-                <div class="portfolio-item backg-orange wow zoomIn" data-wow-delay="0.5s">
-                    <div class="portfolio-item__link">
-                        <a href="https://daniaminakov.github.io/DinnerLab/" target="_blank" title="Перейти">
-                            <img src="img/go-to.svg" alt="Go">
-                        </a>
-                    </div>
-                    <img src="img/portfolio-img8.png" alt="Portfolio image">
-                </div>
-                <!--  -->
-                <div class="portfolio-item backg-darkblue wow zoomIn" data-wow-delay="0.6s">
-                    <div class="portfolio-item__link">
-                        <a href="https://okzrenie.com.ua/" target="_blank" title="Перейти">
+                        <a href="https://okzrenie.com.ua/" target="_blank" title="Open website">
                             <img src="img/go-to.svg" alt="Go">
                         </a>
                     </div>
                     <img src="img/portfolio-img7.png" alt="Portfolio image">
                 </div>
                 <!--  -->
-                <div class="portfolio-item backg-yellow wow zoomIn" data-wow-delay="0.4s">
+                <div class="portfolio-item backg-yellow wow zoomIn" data-wow-delay="0.5s">
                     <div class="portfolio-item__link">
-                        <a href="http://www.kassa24.com.ua/" target="_blank" title="Перейти">
+                        <a href="https://daniaminakov.github.io/KASSA24/" target="_blank" title="Open website">
                             <img src="img/go-to.svg" alt="Go">
                         </a>
                     </div>
                     <img src="img/portfolio-img1.png" alt="Portfolio image">
                 </div>
                 <!--  -->
-                <div class="portfolio-item backg-pink wow zoomIn" data-wow-delay="0.5s">
+                <div class="portfolio-item backg-pink wow zoomIn" data-wow-delay="0.6s">
                     <div class="portfolio-item__link">
-                        <a href="https://daniaminakov.github.io/Workshop/" target="_blank" title="Перейти">
+                        <a href="https://daniaminakov.github.io/Workshop/" target="_blank" title="Open website">
                             <img src="img/go-to.svg" alt="Go">
                         </a>
                     </div>
                     <img src="img/portfolio-img2.png" alt="Portfolio image">
                 </div>
                 <!--  -->
-                <div class="portfolio-item backg-blue wow zoomIn" data-wow-delay="0.6s">
+                <div class="portfolio-item backg-grey wow zoomIn" data-wow-delay="0.4s">
                     <div class="portfolio-item__link">
-                        <a href="https://daniaminakov.github.io/TST/" target="_blank" title="Перейти">
-                            <img src="img/go-to.svg" alt="Go">
-                        </a>
-                    </div>
-                    <img src="img/portfolio-img3.png" alt="Portfolio image">
-                </div>
-                <!--  -->
-                <div class="portfolio-item backg-darkblue wow zoomIn" data-wow-delay="0.4s">
-                    <div class="portfolio-item__link">
-                        <a href="https://daniaminakov.github.io/bot/index.html" target="_blank" title="Перейти">
-                            <img src="img/go-to.svg" alt="Go">
-                        </a>
-                    </div>
-                    <img src="img/portfolio-img4.png" alt="Portfolio image">
-                </div>
-                <!--  -->
-                <div class="portfolio-item backg-grey wow zoomIn" data-wow-delay="0.5s">
-                    <div class="portfolio-item__link">
-                        <a href="https://daniaminakov.github.io/Bazan/" target="_blank" title="Перейти">
+                        <a href="https://daniaminakov.github.io/Bazan/" target="_blank" title="Open website">
                             <img src="img/go-to.svg" alt="Go">
                         </a>
                     </div>
                     <img src="img/portfolio-img5.png" alt="Portfolio image">
                 </div>
                 <!--  -->
-                <div class="portfolio-item backg-orange wow zoomIn" data-wow-delay="0.6s">
-                    <div class="portfolio-item__link">
-                        <a href="https://daniaminakov.github.io/Bostik/" target="_blank" title="Перейти">
-                            <img src="img/go-to.svg" alt="Go">
-                        </a>
-                    </div>
-                    <img src="img/portfolio-img6.png" alt="Portfolio image">
+                <div class="portfolio-note wow fadeInUp">
+                    <svg class="portfolio-note__icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+                    <h3 class="portfolio-note__title">More work under NDA</h3>
+                    <p class="portfolio-note__text">
+                        These are just a few of my projects. Most of my work was done for clients under non-disclosure agreements, so I can't show it publicly. I'm happy to tell you more about relevant projects and my experience in a private conversation.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
     <!-- portfolio-END -->
+
+    <!--cta-START -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-box wow fadeInUp">
+                <h2 class="cta-title">Have a project in mind?</h2>
+                <p class="cta-text">
+                    Tell me about your idea or task, and I'll suggest the best solution, timeline and cost.
+                </p>
+                <a href="mailto:danylominakov@gmail.com" class="cta-button" data-modal-open="contact-modal">Let's work together</a>
+            </div>
+        </div>
+    </section>
+    <!--cta-END -->
+
+    <!--contact-modal-START -->
+    <div class="contact-modal" id="contact-modal" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title" aria-hidden="true">
+        <div class="contact-modal__overlay" data-modal-close></div>
+        <div class="contact-modal__box">
+            <button type="button" class="contact-modal__close" aria-label="Close" data-modal-close>&times;</button>
+            <h2 class="contact-modal__title" id="contact-modal-title">Let's work together</h2>
+            <p class="contact-modal__text">Choose the most convenient way to reach me.</p>
+            <div class="contact-modal__links">
+                <a href="https://t.me/Minakov99" class="contact-modal__link contact-modal__link--telegram" target="_blank" rel="noopener">
+                    <img src="img/telegram.svg" alt="">
+                    <span class="contact-modal__link-text">
+                        <span class="contact-modal__link-name">Telegram</span>
+                        <span class="contact-modal__link-value">@Minakov99</span>
+                    </span>
+                </a>
+                <a href="mailto:danylominakov@gmail.com" class="contact-modal__link contact-modal__link--email">
+                    <img src="img/email.svg" alt="">
+                    <span class="contact-modal__link-text">
+                        <span class="contact-modal__link-name">Email</span>
+                        <span class="contact-modal__link-value">danylominakov@gmail.com</span>
+                    </span>
+                </a>
+                <a href="https://freelancehunt.com/freelancer/danilminkov.html" class="contact-modal__link contact-modal__link--freelancehunt" target="_blank" rel="noopener">
+                    <img src="img/freelancehunt.svg" alt="">
+                    <span class="contact-modal__link-text">
+                        <span class="contact-modal__link-name">Freelancehunt</span>
+                        <span class="contact-modal__link-value">Hire me safely via the platform</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--contact-modal-END -->
 
     <!--footer-START -->
     <footer class="footer " id="footer ">
@@ -256,31 +229,7 @@
                     <svg viewBox="0 -31 512 512 " xmlns="http://www.w3.org/2000/svg "><path d="m123.195312 260.738281 63.679688 159.1875 82.902344-82.902343 142.140625 112.976562 100.082031-450-512 213.265625zm242.5-131.628906-156.714843 142.941406-19.519531
                         73.566407-36.058594-90.164063zm0 0 "/></svg>
                 </a>
-                <a href="https://www.instagram.com/minakov_____/ " class="footer-social__item instagram " target="_blank ">
-                    <svg height="511pt " viewBox="0 0 511 511.9 " width="511pt " xmlns="http://www.w3.org/2000/svg "><path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5
-                            1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562
-                            36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438
-                            10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343
-                            11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657
-                            1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5
-                            1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343
-                            0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5
-                            103.398438s-.300781 76.300781-1.5 103.300781zm0 0 "/><path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657
-                            0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0 "/><path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124
-                            30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0 "/></svg>
-                </a>
-                <a href="https://wa.me/380999379231 " class="footer-social__item whatsapp " target="_blank ">
-                    <svg height="512pt " viewBox="0 0 512 512 " width="512pt " xmlns="http://www.w3.org/2000/svg "><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm5.425781 405.050781c-.003906
-                                0 .003907 0 0 0h-.0625c-25.644531-.011719-50.84375-6.441406-73.222656-18.644531l-81.222656 21.300781 21.738281-79.375c-13.410156-23.226562-20.464844-49.578125-20.453125-76.574219.035156-84.453124 68.769531-153.160156 153.222656-153.160156 40.984375.015625
-                                79.457031 15.96875 108.382813 44.917969 28.929687 28.953125 44.851562 67.4375 44.835937 108.363281-.035156 84.457032-68.777343 153.171875-153.21875 153.171875zm0 0 "/><path d="m261.476562 124.46875c-70.246093 0-127.375 57.105469-127.40625 127.300781-.007812
-                                24.054688 6.726563 47.480469 19.472657 67.75l3.027343 4.816407-12.867187 46.980468 48.199219-12.640625 4.652344 2.757813c19.550781 11.601562 41.964843 17.738281 64.816406 17.746094h.050781c70.191406 0 127.320313-57.109376 127.351563-127.308594.011718-34.019532-13.222657-66.003906-37.265626-90.066406-24.042968-24.0625-56.019531-37.324219-90.03125-37.335938zm74.90625
-                                182.035156c-3.191406 8.9375-18.484374 17.097656-25.839843 18.199219-6.597657.984375-14.941407 1.394531-24.113281-1.515625-5.5625-1.765625-12.691407-4.121094-21.828126-8.0625-38.402343-16.578125-63.484374-55.234375-65.398437-57.789062-1.914063-2.554688-15.632813-20.753907-15.632813-39.59375
-                                0-18.835938 9.890626-28.097657 13.398438-31.925782 3.511719-3.832031 7.660156-4.789062 10.210938-4.789062 2.550781 0 5.105468.023437 7.335937.132812 2.351563.117188 5.507813-.894531 8.613281 6.570313 3.191406 7.664062 10.847656 26.5 11.804688
-                                28.414062.957031 1.917969 1.59375 4.152344.320312 6.707031-1.277344 2.554688-5.519531 8.066407-9.570312 13.089844-1.699219 2.105469-3.914063 3.980469-1.679688 7.8125 2.230469 3.828125 9.917969 16.363282 21.296875 26.511719 14.625 13.039063 26.960938
-                                17.078125 30.789063 18.996094 3.824218 1.914062 6.058594 1.59375 8.292968-.957031 2.230469-2.554688 9.570313-11.175782 12.121094-15.007813 2.550782-3.832031 5.105469-3.191406 8.613282-1.914063 3.511718 1.273438 22.332031 10.535157 26.160156 12.449219
-                                3.828125 1.917969 6.378906 2.875 7.335937 4.472657.960938 1.597656.960938 9.257812-2.230469 18.199218zm0 0 "/></svg>
-                </a>
-                <a href="mailto:danilminakov333@gmail.com " class="footer-social__item google " target="_blank ">
+                <a href="mailto:danylominakov@gmail.com " class="footer-social__item google " target="_blank ">
                     <?xml version="1.0 "?>
                     <svg xmlns="http://www.w3.org/2000/svg " id="Capa_1 " enable-background="new 0 0 512 512 " height="512px " viewBox="0 0 512 512 " width="512px "><g><g><path d="m147.682 173.862c24.86-32.704 64.162-53.862 108.318-53.862 36.326 0 70.479
                                     14.146 96.167 39.833l10.606 10.606 84.853-84.852-10.606-10.606c-48.352-48.352-112.639-74.981-181.02-74.981-68.38 0-132.667 26.629-181.02 74.98-4.389 4.39-8.594 8.914-12.622 13.557z " data-original="#000000 " class="active-path
@@ -291,11 +240,11 @@
                 </a>
             </div>
             <div class="footer-bottom ">
-                Copyright © 2020-2021 by
+                Copyright © 2020-2026 by
                 <div class="footer-headline cd-headline letters type ">
                     <span class="cd-words-wrapper ">
-                                        <b class="is-visible ">Danil Minakov</b>
-                                        <b>Данил Минаков</b>
+                                        <b class="is-visible ">Danylo Minakov</b>
+                                        <b>Danylo Minakov</b>
                                     </span>
                 </div>
             </div>

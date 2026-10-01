@@ -1,16 +1,3 @@
-// preloader-START
-document.body.onload = function() {
-    setTimeout(function() {
-        let preloader = document.querySelector('#preloader');
-        document.documentElement.style = ("overflow-y", "scroll");
-        if (!preloader.classList.contains('done')) {
-            preloader.classList.add('done');
-        }
-    }, 1000)
-};
-// preloader-END
-
-
 // scrollbar-START
 let scrollbar = document.querySelector('.scrollbar');
 let totalHeight = document.body.scrollHeight - window.innerHeight;
@@ -128,3 +115,41 @@ function Card(classCard) {
     }
 }
 // works-cards-END
+
+// contact-modal-START
+(function() {
+    const modal = document.getElementById('contact-modal');
+    if (!modal) return;
+    let lastFocus = null;
+
+    function openModal(event) {
+        event.preventDefault();
+        const burger = document.querySelector('.burger-menu.menu-opened');
+        if (burger) burger.click();
+        lastFocus = document.activeElement;
+        modal.classList.add('contact-modal--open');
+        modal.setAttribute('aria-hidden', 'false');
+        document.documentElement.classList.add('modal-opened');
+        modal.querySelector('.contact-modal__link').focus({ preventScroll: true });
+    }
+
+    function closeModal() {
+        modal.classList.remove('contact-modal--open');
+        modal.setAttribute('aria-hidden', 'true');
+        document.documentElement.classList.remove('modal-opened');
+        if (lastFocus) lastFocus.focus();
+    }
+
+    document.querySelectorAll('[data-modal-open="contact-modal"]').forEach(function(button) {
+        button.addEventListener('click', openModal);
+    });
+    modal.querySelectorAll('[data-modal-close]').forEach(function(el) {
+        el.addEventListener('click', closeModal);
+    });
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && modal.classList.contains('contact-modal--open')) {
+            closeModal();
+        }
+    });
+})();
+// contact-modal-END

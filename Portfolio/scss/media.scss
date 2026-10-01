@@ -1,11 +1,5 @@
 @media screen and (max-width: 1390px) {
-    .contacts-image {
-        padding-right: 40px;
-    }
     .container {
-        overflow: hidden;
-    }
-    .contacts {
         overflow: hidden;
     }
 }
@@ -19,6 +13,9 @@
     }
     .portfolio-item {
         width: 370px;
+    }
+    .portfolio-wrapper {
+        grid-template-columns: repeat(3, 370px);
     }
 }
 
@@ -48,17 +45,17 @@
         justify-content: space-between;
     }
     .portfolio-wrapper {
+        grid-template-columns: repeat(2, 420px);
         justify-content: space-around;
     }
     .portfolio-item {
         width: 420px;
         margin-bottom: 55px;
     }
-    .contacts-image {
-        padding-right: 50px;
-    }
-    .contacts-image img {
-        width: 360px;
+    .portfolio-note {
+        grid-column: span 1;
+        margin-bottom: 55px;
+        padding: 30px;
     }
 }
 
@@ -82,12 +79,6 @@
     }
     .works .works-link {
         margin: 0 auto;
-    }
-    .contacts-image {
-        padding-right: 40px;
-    }
-    .contacts-image img {
-        width: 320px;
     }
 }
 
@@ -154,29 +145,19 @@
         width: 335px;
         margin-bottom: 30px;
     }
-    .contacts-media .contacts-media__text {
-        font-size: 16px;
-        width: 445px;
+    .portfolio-wrapper {
+        grid-template-columns: repeat(2, 335px);
     }
-    .contacts-media .contacts-media__item {
-        font-size: 18px;
-    }
-    .contacts-media .contacts-media__item span {
-        font-size: 20px;
-    }
-    .contacts-image {
-        position: absolute;
-        top: 150px;
-        right: 0;
-        padding-right: 15px;
-    }
-    .contacts-image img {
-        width: 265px;
-        height: 370px;
-        transform: none;
-    }
-    .contacts-wrapper {
-        display: block;
+    .portfolio-note {
+        margin-bottom: 30px;
+        padding: 25px 20px;
+        .portfolio-note__title {
+            font-size: 20px;
+        }
+        .portfolio-note__text {
+            font-size: 14px;
+            line-height: 1.5;
+        }
     }
 }
 
@@ -205,21 +186,10 @@
             width: 30px;
         }
     }
-    .messenger .messenger-item img {
-        width: 25px;
-    }
-    .messenger-text {
-        font-size: 13px;
-    }
-    .messenger .messenger-item:last-child {
-        margin: 0px 55px 0px 10px;
-    }
-    .messenger-text {
-        margin-right: 30px;
-        img {
-            width: 20px;
-            margin-left: 20px;
-        }
+    .header-cta {
+        margin-right: 50px;
+        padding: 8px 20px;
+        font-size: 12px;
     }
     .menu-wrapper {
         padding: 33vh 0px;
@@ -293,17 +263,25 @@
         width: 255px;
         margin-bottom: 20px;
     }
-    .contacts {
-        padding: 50px 0px;
+    .portfolio-wrapper {
+        grid-template-columns: repeat(2, 255px);
     }
-    .contacts-wrapper {
-        flex-direction: column;
-    }
-    .contacts-image {
-        display: none;
-    }
-    .contacts-media .contacts-media__item {
+    .portfolio-note {
         margin-bottom: 20px;
+        padding: 18px 14px;
+        .portfolio-note__icon {
+            width: 26px;
+            height: 26px;
+            margin-bottom: 6px;
+        }
+        .portfolio-note__title {
+            font-size: 17px;
+            margin-bottom: 8px;
+        }
+        .portfolio-note__text {
+            font-size: 12.5px;
+            line-height: 1.45;
+        }
     }
 }
 
@@ -312,13 +290,13 @@
         width: 380px;
     }
     .header-up {
-        background: #F2F2F2;
+        background: rgba(18, 22, 31, 0.95);
     }
-    .header-up__box {
-        flex-direction: column;
-    }
-    .navigtion {
-        margin-top: 5px;
+    .header-cta {
+        margin-right: 44px;
+        padding: 7px 14px;
+        font-size: 11px;
+        letter-spacing: 0.5px;
     }
     .about-content {
         width: 100%;
@@ -336,7 +314,6 @@
         width: 275px;
     }
     .works .works-link {
-        width: 305px;
         font-size: 22px;
     }
     .scrollup {
@@ -349,8 +326,15 @@
     .portfolio-item {
         width: 330px;
     }
-    .contacts-media .contacts-media__text {
-        width: 100%;
+    .portfolio-wrapper {
+        grid-template-columns: 330px;
+        justify-content: center;
+    }
+    .portfolio-note {
+        padding: 28px 20px;
+        .portfolio-note__text {
+            font-size: 15px;
+        }
     }
 }
 
@@ -374,14 +358,7 @@
         font-size: 26px;
     }
     .footer-social {
-        width: 215px;
-    }
-    .messenger .messenger-item:last-child {
-        margin: 0;
-        margin-left: 10px;
-    }
-    .burger-menu {
-        top: 35%;
+        gap: 16px;
     }
     .scrollbar,
     .scrollpath {
@@ -390,24 +367,11 @@
     .portfolio-item {
         width: 85%;
     }
-    .contacts-wrapper {
-        display: block;
-        text-align: center;
+    .portfolio-wrapper {
+        grid-template-columns: 85%;
     }
     .second-title {
         text-align: center;
-    }
-    .contacts-media .contacts-media__item {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 30px;
-        &:last-child {
-            margin-bottom: 0;
-        }
-        span {
-            margin-bottom: 5px;
-        }
     }
     .about-content .about-content__text,
     .about-content .about-content__info {
@@ -416,26 +380,15 @@
     .second-title {
         font-size: 22px;
     }
-    .services-box .services-item .services-item__text,
-    .contacts-media .contacts-media__text,
-    .contacts-media .contacts-media__item {
+    .services-box .services-item .services-item__text {
         font-size: 14px;
     }
     .services-box .services-item {
         margin-bottom: 20px;
         width: 295px;
     }
-    .contacts-media .contacts-media__item span {
-        font-size: 16px;
-    }
-    .contacts-media .freelancehunt-link img {
-        width: 155px;
-    }
     .portfolio {
         padding: 85px 0px 35px;
-    }
-    .contacts {
-        padding: 85px 0px 50px;
     }
 }
 
@@ -447,10 +400,50 @@
         width: 98%;
     }
     .works .works-link {
-        width: 260px;
         font-size: 18px;
     }
     .works {
         padding: 40px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .parallax-subtext {
+        font-size: 14px;
+        letter-spacing: 3px;
+    }
+    .stats {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 60px;
+        padding-top: 40px;
+        .stats-item__number {
+            font-size: 60px;
+        }
+    }
+    .cta {
+        padding: 70px 0px;
+        .cta-title {
+            font-size: 28px;
+        }
+        .cta-text {
+            font-size: 16px;
+        }
+        .cta-button {
+            padding: 16px 32px;
+            font-size: 16px;
+        }
+    }
+    .contact-modal {
+        .contact-modal__box {
+            padding: 40px 20px 25px;
+        }
+        .contact-modal__title {
+            font-size: 24px;
+        }
+        .contact-modal__link {
+            padding: 14px 16px;
+            gap: 14px;
+        }
     }
 }

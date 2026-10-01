@@ -1,0 +1,12 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "description": "Danylo Minakov portfolio site",
+  "scripts": {
+    "build": "sass --no-source-map --style=compressed scss/style.scss:css/style.min.css scss/media.scss:css/media.min.css",
+    "watch": "sass --no-source-map --style=compressed --watch scss/style.scss:css/style.min.css scss/media.scss:css/media.min.css"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}

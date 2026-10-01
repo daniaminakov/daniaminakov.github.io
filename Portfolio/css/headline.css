@@ -314,13 +314,13 @@ xtype
   animation: cd-pulse 1s infinite;
 }
 .cd-headline.type .cd-words-wrapper.selected {
-  background-color: #aebcb9;
+  background-color: #e60755;
 }
 .cd-headline.type .cd-words-wrapper.selected::after {
   visibility: hidden;
 }
 .cd-headline.type .cd-words-wrapper.selected b {
-  color: #0d0d0d;
+  color: #fff;
 }
 .cd-headline.type b {
   visibility: hidden;
