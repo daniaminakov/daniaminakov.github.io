@@ -3,8 +3,10 @@
   "private": true,
   "description": "Danylo Minakov portfolio site",
   "scripts": {
-    "build": "sass --no-source-map --style=compressed scss/style.scss:css/style.min.css scss/media.scss:css/media.min.css",
-    "watch": "sass --no-source-map --style=compressed --watch scss/style.scss:css/style.min.css scss/media.scss:css/media.min.css"
+    "build": "npm run build:css && npm run stamp",
+    "build:css": "sass --no-source-map --style=compressed scss/style.scss:css/style.min.css scss/media.scss:css/media.min.css",
+    "watch": "sass --no-source-map --style=compressed --watch scss/style.scss:css/style.min.css scss/media.scss:css/media.min.css",
+    "stamp": "node tools/stamp-assets.js"
   },
   "devDependencies": {
     "sass": "^1.105.1"
